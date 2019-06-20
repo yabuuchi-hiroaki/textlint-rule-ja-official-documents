@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "diff": ">=3.5.0", 
     "textlint": "^11.2.5",
     "textlint-rule-preset-ja-technical-writing": "^3.1.2"
   }
