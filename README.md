@@ -1,4 +1,4 @@
-# textlint-rule-ja-no-abusage
+# textlint-rule-ja-official-documents
 
 公用文校正のためのtextlintルール
 
