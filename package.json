@@ -1,18 +1,43 @@
 {
-  "name": "demo2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-      "lint": "textlint ./*.md",
-      "lintfix": "textlint --fix ./*.md",
-      "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "textlint-rule-ja-official-documents",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yabuuchi-hiroaki/textlint-rule-ja-official-documents.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Hiroaki YABUUCHI",
+  "email": "yabu.pharm@gmail.com",
+  "homepage": "https://github.com/yabuuchi-hiroaki/textlint-rule-ja-official-documents/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yabuuchi-hiroaki/textlint-rule-ja-official-documents/issues"
+  },
+  "files": [
+    "src/",
+    "dict/",
+    "lib/"
+  ],
+  "version": "0.0.1",
+  "description": "公用文校正のためのtextlintルール",
+  "main": "lib/textlint-rule-ja-official-documents.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "textlint-scripts test",
+    "build": "textlint-scripts build",
+    "watch": "textlint-scripts build --watch",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "textlint",
+    "textlintrule"
+  ],
+  "devDependencies": {
+    "textlint-scripts": "^2.1.0"
+  },
   "dependencies": {
-    "textlint": "^11.2.5",
-    "textlint-rule-preset-ja-technical-writing": "^3.1.2"
+    "kuromojin": "^1.3.1",
+    "morpheme-match-textlint": "^2.0.0",
+    "textlint-rule-prh": "^5.2.1"
   }
 }

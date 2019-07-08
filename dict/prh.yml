@@ -1,0 +1,154 @@
+version: 1
+rules:
+
+ - expected: かなり
+   patterns: 可成り
+ - expected: ふと
+   patterns: 不図
+ - expected: やはり
+   patterns: 矢張り
+ - expected: よほど
+   patterns: 余程
+ - expected: 惜しげ
+   patterns: 惜し気
+ - expected: 偉ぶる
+   patterns: 偉振る
+ - expected: かつ
+   patterns: 且つ
+ - expected: ついては
+   patterns: 就いては
+ - expected: ところが、
+   patterns: 所が、
+ - expected: ところで、
+   patterns: 所で、
+ - expected: だけ
+   patterns: 已
+ - expected: のとおり
+   patterns: の通り
+ - expected: かもしれ
+   patterns: かも知れ
+ - expected: てあげ
+   patterns: て上げ
+ - expected: ていか
+   patterns: て行か
+ - expected: ていき
+   patterns: て行き
+ - expected: ていく
+   patterns: て行く
+ - expected: ていけ
+   patterns: て行け
+ - expected: ていこ
+   patterns: て行こ
+ - expected: ていただか
+   patterns: て頂か
+ - expected: ていただい
+   patterns: て頂い
+ - expected: ていただき
+   patterns: て頂き
+ - expected: ていただく
+   patterns: て頂く
+ - expected: ていただけ
+   patterns: て頂け
+ - expected: ていただこ
+   patterns: て頂こ
+ - expected: ておか
+   patterns: て置か
+ - expected: ておき
+   patterns: て置き
+ - expected: ておく
+   patterns: て置く
+ - expected: ておけ
+   patterns: て置け
+ - expected: ておこ
+   patterns: て置こ
+ - expected: てくださ
+   patterns: て下さ
+ - expected: てく
+   patterns: て来
+ - expected: てしま
+   patterns: て仕舞
+ - expected: てみる
+   patterns: て見る
+ - expected: てよい
+   patterns: て良い
+ - expected: にすぎない
+   patterns: に過ぎない
+ - expected: について
+   patterns: に就いて
+ - expected: について
+   patterns: に就て
+ - expected: 預り金
+   patterns: 預かり金
+ - expected: 魚釣用具
+   patterns: 魚釣り用具
+ - expected: 受皿
+   patterns: 受け皿
+ - expected: 受持ち
+   patterns: 受け持ち
+ - expected: 打合せ
+   patterns: 打ち合せ
+ - expected: 売払い
+   patterns: 売り払い
+ - expected: 置場
+   patterns: 置き場
+ - expected: 贈物
+   patterns: 贈り物
+ - expected: 帯留
+   patterns: 帯留め
+ - expected: 折詰
+   patterns: 折詰め
+ - expected: 買物
+   patterns: 買い物
+ - expected: 缶切
+   patterns: 缶切り
+ - expected: 期限付
+   patterns: 期限付き
+ - expected: 切土
+   patterns: 切り土
+ - expected: 靴下留
+   patterns: 靴下留め
+ - expected: くみ取便所
+   patterns: くみ取り便所
+ - expected: 繰戻し
+   patterns: 繰り戻し
+ - expected: 砂糖漬
+   patterns: 砂糖漬け
+ - expected: 下請
+   patterns: 下請け
+ - expected: 条件付
+   patterns: 条件付き
+ - expected: 捨場
+   patterns: 捨て場
+ - expected: 栓抜
+   patterns: 栓抜き
+ - expected: 備置き
+   patterns: 備え置き
+ - expected: 染物
+   patterns: 染め物
+ - expected: 田植
+   patterns: 田植え
+ - expected: 積卸し
+   patterns: 積み卸し
+ - expected: 釣鐘
+   patterns: 釣り鐘
+ - expected: 釣銭
+   patterns: 釣り銭
+ - expected: 釣針
+   patterns: 釣り針
+ - expected: 手続
+   patterns: 手続き
+ - expected: 取卸し
+   patterns: 取り卸し
+ - expected: 飲物
+   patterns: 飲み物
+ - expected: 払渡済み
+   patterns: 払い渡済み
+ - expected: 申合せ事項
+   patterns: 申し合せ事項
+ - expected: 戻入れ
+   patterns: 戻し入れ
+ - expected: 雇入れ
+   patterns: 雇い入れ
+ - expected: 雇主
+   patterns: 雇い主
+
