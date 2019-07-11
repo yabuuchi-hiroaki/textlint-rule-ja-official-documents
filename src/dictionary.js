@@ -666,25 +666,6 @@ module.exports = [
 },
 // Rule #38
 {
- "message": "wrong. むろん->無論",
- "expected": "無論",
- "tokens": [
- {
- "surface_form": "むろん",
- "pos": "副詞",
- "pos_detail_1": "一般",
- "pos_detail_2": "*",
- "pos_detail_3": "*",
- "conjugated_type": "*",
- "conjugated_form": "*",
- "basic_form": "むろん",
- "reading": "ムロン",
- "pronunciation": "ムロン"
-}
-]
-},
-// Rule #39
-{
  "message": "wrong. はじめて->初めて",
  "expected": "初めて",
  "tokens": [
@@ -702,7 +683,7 @@ module.exports = [
 }
 ]
 },
-// Rule #40
+// Rule #39
 {
  "message": "wrong. もっとも->最も",
  "expected": "最も",
@@ -721,7 +702,7 @@ module.exports = [
 }
 ]
 },
-// Rule #41
+// Rule #40
 {
  "message": "wrong. はたして->果たして",
  "expected": "果たして",
@@ -740,26 +721,7 @@ module.exports = [
 }
 ]
 },
-// Rule #42
-{
- "message": "wrong. もっぱら->専ら",
- "expected": "専ら",
- "tokens": [
- {
- "surface_form": "もっぱら",
- "pos": "副詞",
- "pos_detail_1": "一般",
- "pos_detail_2": "*",
- "pos_detail_3": "*",
- "conjugated_type": "*",
- "conjugated_form": "*",
- "basic_form": "もっぱら",
- "reading": "モッパラ",
- "pronunciation": "モッパラ"
-}
-]
-},
-// Rule #43
+// Rule #41
 {
  "message": "wrong. はなはだ->甚だ",
  "expected": "甚だ",
@@ -778,26 +740,7 @@ module.exports = [
 }
 ]
 },
-// Rule #44
-{
- "message": "wrong. わずか->僅か",
- "expected": "僅か",
- "tokens": [
- {
- "surface_form": "わずか",
- "pos": "副詞",
- "pos_detail_1": "助詞類接続",
- "pos_detail_2": "*",
- "pos_detail_3": "*",
- "conjugated_type": "*",
- "conjugated_form": "*",
- "basic_form": "わずか",
- "reading": "ワズカ",
- "pronunciation": "ワズカ"
-}
-]
-},
-// Rule #45
+// Rule #42
 {
  "message": "wrong. ふたたび->再び",
  "expected": "再び",
@@ -816,26 +759,7 @@ module.exports = [
 }
 ]
 },
-// Rule #46
-{
- "message": "wrong. わりに->割に",
- "expected": "割に",
- "tokens": [
- {
- "surface_form": "わりに",
- "pos": "副詞",
- "pos_detail_1": "一般",
- "pos_detail_2": "*",
- "pos_detail_3": "*",
- "conjugated_type": "*",
- "conjugated_form": "*",
- "basic_form": "わりに",
- "reading": "ワリニ",
- "pronunciation": "ワリニ"
-}
-]
-},
-// Rule #47
+// Rule #43
 {
  "message": "wrong. まったく->全く",
  "expected": "全く",
@@ -851,6 +775,82 @@ module.exports = [
  "basic_form": "まったく",
  "reading": "マッタク",
  "pronunciation": "マッタク"
+}
+]
+},
+// Rule #44
+{
+ "message": "wrong. むろん->無論",
+ "expected": "無論",
+ "tokens": [
+ {
+ "surface_form": "むろん",
+ "pos": "副詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "むろん",
+ "reading": "ムロン",
+ "pronunciation": "ムロン"
+}
+]
+},
+// Rule #45
+{
+ "message": "wrong. もっぱら->専ら",
+ "expected": "専ら",
+ "tokens": [
+ {
+ "surface_form": "もっぱら",
+ "pos": "副詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "もっぱら",
+ "reading": "モッパラ",
+ "pronunciation": "モッパラ"
+}
+]
+},
+// Rule #46
+{
+ "message": "wrong. わずか->僅か",
+ "expected": "僅か",
+ "tokens": [
+ {
+ "surface_form": "わずか",
+ "pos": "副詞",
+ "pos_detail_1": "助詞類接続",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "わずか",
+ "reading": "ワズカ",
+ "pronunciation": "ワズカ"
+}
+]
+},
+// Rule #47
+{
+ "message": "wrong. わりに->割に",
+ "expected": "割に",
+ "tokens": [
+ {
+ "surface_form": "わりに",
+ "pos": "副詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "わりに",
+ "reading": "ワリニ",
+ "pronunciation": "ワリニ"
 }
 ]
 },
@@ -968,7 +968,7 @@ module.exports = [
 }
 ]
 },
-// Rule #58
+// Rule #61
 {
  "message": "wrong. ご->御",
  "expected": "御",
@@ -987,7 +987,7 @@ module.exports = [
 }
 ]
 },
-// Rule #60
+// Rule #63
 {
  "message": "wrong. 共->ども",
  "expected": "ども",
@@ -1006,7 +1006,7 @@ module.exports = [
 }
 ]
 },
-// Rule #62
+// Rule #65
 {
  "message": "wrong. 味->み",
  "expected": "み",
@@ -1025,7 +1025,7 @@ module.exports = [
 }
 ]
 },
-// Rule #62.1
+// Rule #66.1
 {
  "message": "wrong. 弱味->弱み",
  "expected": "弱み",
@@ -1044,7 +1044,7 @@ module.exports = [
 }
 ]
 },
-// Rule #62.2
+// Rule #66.2
 {
  "message": "wrong. 強味->強み",
  "expected": "強み",
@@ -1063,7 +1063,7 @@ module.exports = [
 }
 ]
 },
-// Rule #63
+// Rule #66.1
 {
  "message": "wrong. 少な目->少なめ",
  "expected": "少なめ",
@@ -1082,7 +1082,7 @@ module.exports = [
 }
 ]
 },
-// Rule #64
+// Rule #66.2
 {
  "message": "wrong. 多目->多め",
  "expected": "多め",
@@ -1101,7 +1101,7 @@ module.exports = [
 }
 ]
 },
-// Rule #65
+// Rule #71
 {
  "message": "wrong. 追って->おって",
  "expected": "おって",
@@ -1120,7 +1120,7 @@ module.exports = [
 }
 ]
 },
-// Rule #67
+// Rule #73
 {
  "message": "wrong. 従って->したがって",
  "expected": "したがって",
@@ -1139,7 +1139,7 @@ module.exports = [
 }
 ]
 },
-// Rule #68
+// Rule #74
 {
  "message": "wrong. 但し->ただし",
  "expected": "ただし",
@@ -1158,7 +1158,7 @@ module.exports = [
 }
 ]
 },
-// Rule #72
+// Rule #78
 {
  "message": "wrong. 又->また",
  "expected": "また",
@@ -1177,7 +1177,7 @@ module.exports = [
 }
 ]
 },
-// Rule #73
+// Rule #79
 {
  "message": "wrong. 故に->ゆえに",
  "expected": "ゆえに",
@@ -1196,7 +1196,7 @@ module.exports = [
 }
 ]
 },
-// Rule #74
+// Rule #80
 {
  "message": "wrong. および->及び",
  "expected": "及び",
@@ -1215,7 +1215,7 @@ module.exports = [
 }
 ]
 },
-// Rule #76
+// Rule #81
 {
  "message": "wrong. ならびに->並びに",
  "expected": "並びに",
@@ -1234,7 +1234,7 @@ module.exports = [
 }
 ]
 },
-// Rule #77
+// Rule #82
 {
  "message": "wrong. または->又は",
  "expected": "又は",
@@ -1253,7 +1253,7 @@ module.exports = [
 }
 ]
 },
-// Rule #78
+// Rule #83
 {
  "message": "wrong. もしくは->若しくは",
  "expected": "若しくは",
@@ -1272,7 +1272,7 @@ module.exports = [
 }
 ]
 },
-// Rule #79
+// Rule #91
 {
  "message": "wrong. 無い->ない",
  "expected": "ない",
@@ -1291,7 +1291,7 @@ module.exports = [
 }
 ]
 },
-// Rule #80
+// Rule #92
 {
  "message": "wrong. 様->よう",
  "expected": "よう",
@@ -1310,7 +1310,7 @@ module.exports = [
 }
 ]
 },
-// Rule #82
+// Rule #93
 {
  "message": "wrong. 位->くらい",
  "expected": "くらい",
@@ -1329,7 +1329,7 @@ module.exports = [
 }
 ]
 },
-// Rule #84
+// Rule #95
 {
  "message": "wrong. 程->ほど",
  "expected": "ほど",
@@ -1348,7 +1348,7 @@ module.exports = [
 }
 ]
 },
-// Rule #101
+// Rule #101.2
 {
  "message": "wrong. 有っ->あっ",
  "expected": "あっ",
@@ -1367,7 +1367,7 @@ module.exports = [
 }
 ]
 },
-// Rule #102
+// Rule #101.3
 {
  "message": "wrong. 有り->あり",
  "expected": "あり",
@@ -1386,7 +1386,7 @@ module.exports = [
 }
 ]
 },
-// Rule #103
+// Rule #101.1
 {
  "message": "wrong. 有る->ある",
  "expected": "ある",
@@ -1405,7 +1405,7 @@ module.exports = [
 }
 ]
 },
-// Rule #104
+// Rule #101.4
 {
  "message": "wrong. 有れ->あれ",
  "expected": "あれ",
@@ -1424,7 +1424,7 @@ module.exports = [
 }
 ]
 },
-// Rule #105
+// Rule #101.5
 {
  "message": "wrong. 有ろ->あろ",
  "expected": "あろ",
@@ -1443,7 +1443,7 @@ module.exports = [
 }
 ]
 },
-// Rule #107
+// Rule #102.2
 {
  "message": "wrong. 居->い",
  "expected": "い",
@@ -1462,7 +1462,7 @@ module.exports = [
 }
 ]
 },
-// Rule #108
+// Rule #102.1
 {
  "message": "wrong. 居る->いる",
  "expected": "いる",
@@ -1481,7 +1481,7 @@ module.exports = [
 }
 ]
 },
-// Rule #109
+// Rule #102.3
 {
  "message": "wrong. 居れ->いれ",
  "expected": "いれ",
@@ -1500,7 +1500,7 @@ module.exports = [
 }
 ]
 },
-// Rule #110
+// Rule #102.4
 {
  "message": "wrong. 居よ->いよ",
  "expected": "いよ",
@@ -1519,7 +1519,7 @@ module.exports = [
 }
 ]
 },
-// Rule #111
+// Rule #103
 {
  "message": "wrong. 事->こと",
  "expected": "こと",
@@ -1538,7 +1538,7 @@ module.exports = [
 }
 ]
 },
-// Rule #112
+// Rule #104.2
 {
  "message": "wrong. 出来->でき",
  "expected": "でき",
@@ -1557,7 +1557,7 @@ module.exports = [
 }
 ]
 },
-// Rule #113
+// Rule #104.1
 {
  "message": "wrong. 出来る->できる",
  "expected": "できる",
@@ -1576,7 +1576,7 @@ module.exports = [
 }
 ]
 },
-// Rule #114
+// Rule #104.3
 {
  "message": "wrong. 出来れ->できれ",
  "expected": "できれ",
@@ -1595,7 +1595,7 @@ module.exports = [
 }
 ]
 },
-// Rule #116
+// Rule #106
 {
  "message": "wrong. 時->とき",
  "expected": "とき",
@@ -1614,7 +1614,7 @@ module.exports = [
 }
 ]
 },
-// Rule #117
+// Rule #107
 {
  "message": "wrong. 所->ところ",
  "expected": "ところ",
@@ -1633,7 +1633,7 @@ module.exports = [
 }
 ]
 },
-// Rule #118
+// Rule #108
 {
  "message": "wrong. と共に->とともに",
  "expected": "とともに",
@@ -1652,7 +1652,7 @@ module.exports = [
 }
 ]
 },
-// Rule #119
+// Rule #109.2
 {
  "message": "wrong. 無かっ->なかっ",
  "expected": "なかっ",
@@ -1671,7 +1671,7 @@ module.exports = [
 }
 ]
 },
-// Rule #120
+// Rule #109.1
 {
  "message": "wrong. 無い->ない",
  "expected": "ない",
@@ -1690,7 +1690,7 @@ module.exports = [
 }
 ]
 },
-// Rule #121
+// Rule #109.3
 {
  "message": "wrong. 無く->なく",
  "expected": "なく",
@@ -1709,7 +1709,7 @@ module.exports = [
 }
 ]
 },
-// Rule #122
+// Rule #109.4
 {
  "message": "wrong. 無けれ->なけれ",
  "expected": "なけれ",
@@ -1728,7 +1728,7 @@ module.exports = [
 }
 ]
 },
-// Rule #123
+// Rule #110.2
 {
  "message": "wrong. 成ら->なら",
  "expected": "なら",
@@ -1747,7 +1747,7 @@ module.exports = [
 }
 ]
 },
-// Rule #124
+// Rule #110.3
 {
  "message": "wrong. 成り->なり",
  "expected": "なり",
@@ -1766,7 +1766,26 @@ module.exports = [
 }
 ]
 },
-// Rule #125
+// Rule #110.4
+{
+ "message": "wrong. 成っ->なっ",
+ "expected": "なっ",
+ "tokens": [
+ {
+ "surface_form": "成っ",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "連用タ接続",
+ "basic_form": "成る",
+ "reading": "ナッ",
+ "pronunciation": "ナッ"
+}
+]
+},
+// Rule #110.1
 {
  "message": "wrong. 成る->なる",
  "expected": "なる",
@@ -1785,7 +1804,7 @@ module.exports = [
 }
 ]
 },
-// Rule #126
+// Rule #110.5
 {
  "message": "wrong. 成れ->なれ",
  "expected": "なれ",
@@ -1804,7 +1823,7 @@ module.exports = [
 }
 ]
 },
-// Rule #127
+// Rule #110.6
 {
  "message": "wrong. 成ろ->なろ",
  "expected": "なろ",
@@ -1823,7 +1842,45 @@ module.exports = [
 }
 ]
 },
-// Rule #128
+// Rule #111
+{
+ "message": "wrong. 他->ほか",
+ "expected": "ほか",
+ "tokens": [
+ {
+ "surface_form": "他",
+ "pos": "名詞",
+ "pos_detail_1": "非自立",
+ "pos_detail_2": "副詞可能",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "他",
+ "reading": "ホカ",
+ "pronunciation": "ホカ"
+}
+]
+},
+// Rule #112
+{
+ "message": "wrong. 物->もの",
+ "expected": "もの",
+ "tokens": [
+ {
+ "surface_form": "物",
+ "pos": "名詞",
+ "pos_detail_1": "非自立",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "物",
+ "reading": "モノ",
+ "pronunciation": "モノ"
+}
+]
+},
+// Rule #113
 {
  "message": "wrong. 故->ゆえ",
  "expected": "ゆえ",
@@ -1842,7 +1899,7 @@ module.exports = [
 }
 ]
 },
-// Rule #129
+// Rule #114
 {
  "message": "wrong. 訳->わけ",
  "expected": "わけ",
@@ -1861,7 +1918,7 @@ module.exports = [
 }
 ]
 },
-// Rule #201
+// Rule #131
 {
  "message": "wrong. 明け渡し->明渡し",
  "expected": "明渡し",
@@ -1880,7 +1937,7 @@ module.exports = [
 }
 ]
 },
-// Rule #203
+// Rule #133
 {
  "message": "wrong. 言い渡し->言渡し",
  "expected": "言渡し",
@@ -1899,7 +1956,7 @@ module.exports = [
 }
 ]
 },
-// Rule #204
+// Rule #134
 {
  "message": "wrong. 入れ替え->入替え",
  "expected": "入替え",
@@ -1918,7 +1975,7 @@ module.exports = [
 }
 ]
 },
-// Rule #205
+// Rule #135
 {
  "message": "wrong. 植え付け->植付け",
  "expected": "植付け",
@@ -1937,7 +1994,7 @@ module.exports = [
 }
 ]
 },
-// Rule #207
+// Rule #137
 {
  "message": "wrong. 受け入れ->受入れ",
  "expected": "受入れ",
@@ -1956,7 +2013,7 @@ module.exports = [
 }
 ]
 },
-// Rule #210
+// Rule #140
 {
  "message": "wrong. 受け渡し->受渡し",
  "expected": "受渡し",
@@ -1975,7 +2032,7 @@ module.exports = [
 }
 ]
 },
-// Rule #211
+// Rule #141
 {
  "message": "wrong. 渦巻き->渦巻",
  "expected": "渦巻",
@@ -1994,7 +2051,7 @@ module.exports = [
 }
 ]
 },
-// Rule #213
+// Rule #142.2
 {
  "message": "wrong. 打ち合わせ->打合せ",
  "expected": "打合せ",
@@ -2013,7 +2070,7 @@ module.exports = [
 }
 ]
 },
-// Rule #214
+// Rule #144
 {
  "message": "wrong. 打ち切り->打切り",
  "expected": "打切り",
@@ -2032,7 +2089,7 @@ module.exports = [
 }
 ]
 },
-// Rule #215
+// Rule #145
 {
  "message": "wrong. 内払い->内払",
  "expected": "内払",
@@ -2051,7 +2108,7 @@ module.exports = [
 }
 ]
 },
-// Rule #216
+// Rule #146
 {
  "message": "wrong. 移し替え->移替え",
  "expected": "移替え",
@@ -2070,7 +2127,7 @@ module.exports = [
 }
 ]
 },
-// Rule #217
+// Rule #147
 {
  "message": "wrong. 埋め立て->埋立て",
  "expected": "埋立て",
@@ -2089,7 +2146,7 @@ module.exports = [
 }
 ]
 },
-// Rule #218
+// Rule #148
 {
  "message": "wrong. 売り上げ->売上げ",
  "expected": "売上げ",
@@ -2108,7 +2165,7 @@ module.exports = [
 }
 ]
 },
-// Rule #219
+// Rule #149
 {
  "message": "wrong. 売り惜しみ->売惜しみ",
  "expected": "売惜しみ",
@@ -2127,7 +2184,7 @@ module.exports = [
 }
 ]
 },
-// Rule #220
+// Rule #150
 {
  "message": "wrong. 売り出し->売出し",
  "expected": "売出し",
@@ -2146,7 +2203,7 @@ module.exports = [
 }
 ]
 },
-// Rule #221
+// Rule #151
 {
  "message": "wrong. 売り場->売場",
  "expected": "売場",
@@ -2165,7 +2222,7 @@ module.exports = [
 }
 ]
 },
-// Rule #223
+// Rule #153
 {
  "message": "wrong. 売り渡し->売渡し",
  "expected": "売渡し",
@@ -2184,7 +2241,7 @@ module.exports = [
 }
 ]
 },
-// Rule #224
+// Rule #154
 {
  "message": "wrong. 売れ行き->売行き",
  "expected": "売行き",
@@ -2203,7 +2260,7 @@ module.exports = [
 }
 ]
 },
-// Rule #225
+// Rule #155
 {
  "message": "wrong. 縁組み->縁組",
  "expected": "縁組",
@@ -2222,7 +2279,7 @@ module.exports = [
 }
 ]
 },
-// Rule #226
+// Rule #156
 {
  "message": "wrong. 追い越し->追越し",
  "expected": "追越し",
@@ -2241,7 +2298,7 @@ module.exports = [
 }
 ]
 },
-// Rule #231
+// Rule #161
 {
  "message": "wrong. 買い上げ->買上げ",
  "expected": "買上げ",
@@ -2260,7 +2317,7 @@ module.exports = [
 }
 ]
 },
-// Rule #232
+// Rule #162
 {
  "message": "wrong. 買い入れ->買入れ",
  "expected": "買入れ",
@@ -2279,7 +2336,7 @@ module.exports = [
 }
 ]
 },
-// Rule #233
+// Rule #163
 {
  "message": "wrong. 買い受け->買受け",
  "expected": "買受け",
@@ -2298,7 +2355,7 @@ module.exports = [
 }
 ]
 },
-// Rule #234
+// Rule #164
 {
  "message": "wrong. 買い換え->買換え",
  "expected": "買換え",
@@ -2317,7 +2374,7 @@ module.exports = [
 }
 ]
 },
-// Rule #235
+// Rule #165
 {
  "message": "wrong. 買い占め->買占め",
  "expected": "買占め",
@@ -2336,7 +2393,7 @@ module.exports = [
 }
 ]
 },
-// Rule #236
+// Rule #166
 {
  "message": "wrong. 買い取り->買取り",
  "expected": "買取り",
@@ -2355,7 +2412,7 @@ module.exports = [
 }
 ]
 },
-// Rule #237
+// Rule #167
 {
  "message": "wrong. 買い戻し->買戻し",
  "expected": "買戻し",
@@ -2374,7 +2431,7 @@ module.exports = [
 }
 ]
 },
-// Rule #239
+// Rule #169
 {
  "message": "wrong. 書き換え->書換え",
  "expected": "書換え",
@@ -2393,7 +2450,7 @@ module.exports = [
 }
 ]
 },
-// Rule #240
+// Rule #170
 {
  "message": "wrong. 格付け->格付",
  "expected": "格付",
@@ -2412,7 +2469,7 @@ module.exports = [
 }
 ]
 },
-// Rule #241
+// Rule #171
 {
  "message": "wrong. 掛け金->掛金",
  "expected": "掛金",
@@ -2431,7 +2488,7 @@ module.exports = [
 }
 ]
 },
-// Rule #242
+// Rule #172
 {
  "message": "wrong. 貸し切り->貸切り",
  "expected": "貸切り",
@@ -2450,7 +2507,7 @@ module.exports = [
 }
 ]
 },
-// Rule #243
+// Rule #173
 {
  "message": "wrong. 貸し金->貸金",
  "expected": "貸金",
@@ -2469,7 +2526,7 @@ module.exports = [
 }
 ]
 },
-// Rule #244
+// Rule #174
 {
  "message": "wrong. 貸し越し->貸越し",
  "expected": "貸越し",
@@ -2488,7 +2545,7 @@ module.exports = [
 }
 ]
 },
-// Rule #245
+// Rule #175
 {
  "message": "wrong. 貸し倒れ->貸倒れ",
  "expected": "貸倒れ",
@@ -2507,7 +2564,7 @@ module.exports = [
 }
 ]
 },
-// Rule #246
+// Rule #176
 {
  "message": "wrong. 貸し出し->貸出し",
  "expected": "貸出し",
@@ -2526,7 +2583,7 @@ module.exports = [
 }
 ]
 },
-// Rule #247
+// Rule #177
 {
  "message": "wrong. 貸し付け->貸付け",
  "expected": "貸付け",
@@ -2545,7 +2602,7 @@ module.exports = [
 }
 ]
 },
-// Rule #248
+// Rule #178
 {
  "message": "wrong. 借り入れ->借入れ",
  "expected": "借入れ",
@@ -2564,7 +2621,7 @@ module.exports = [
 }
 ]
 },
-// Rule #249
+// Rule #179
 {
  "message": "wrong. 借り受け->借受け",
  "expected": "借受け",
@@ -2583,7 +2640,7 @@ module.exports = [
 }
 ]
 },
-// Rule #250
+// Rule #180
 {
  "message": "wrong. 借り換え->借換え",
  "expected": "借換え",
@@ -2602,7 +2659,7 @@ module.exports = [
 }
 ]
 },
-// Rule #251
+// Rule #181
 {
  "message": "wrong. 刈り取り->刈取り",
  "expected": "刈取り",
@@ -2621,7 +2678,7 @@ module.exports = [
 }
 ]
 },
-// Rule #254
+// Rule #184
 {
  "message": "wrong. 切り上げ->切上げ",
  "expected": "切上げ",
@@ -2640,7 +2697,7 @@ module.exports = [
 }
 ]
 },
-// Rule #255
+// Rule #185
 {
  "message": "wrong. 切り替え->切替え",
  "expected": "切替え",
@@ -2659,7 +2716,7 @@ module.exports = [
 }
 ]
 },
-// Rule #256
+// Rule #186
 {
  "message": "wrong. 切り下げ->切下げ",
  "expected": "切下げ",
@@ -2678,7 +2735,7 @@ module.exports = [
 }
 ]
 },
-// Rule #257
+// Rule #187
 {
  "message": "wrong. 切り捨て->切捨て",
  "expected": "切捨て",
@@ -2697,7 +2754,7 @@ module.exports = [
 }
 ]
 },
-// Rule #259
+// Rule #189
 {
  "message": "wrong. 切り取り->切取り",
  "expected": "切取り",
@@ -2716,7 +2773,7 @@ module.exports = [
 }
 ]
 },
-// Rule #260
+// Rule #190
 {
  "message": "wrong. 切り離し->切離し",
  "expected": "切離し",
@@ -2735,7 +2792,7 @@ module.exports = [
 }
 ]
 },
-// Rule #262
+// Rule #192
 {
  "message": "wrong. 組み合わせ->組合せ",
  "expected": "組合せ",
@@ -2754,7 +2811,7 @@ module.exports = [
 }
 ]
 },
-// Rule #263
+// Rule #193
 {
  "message": "wrong. 組み入れ->組入れ",
  "expected": "組入れ",
@@ -2773,7 +2830,7 @@ module.exports = [
 }
 ]
 },
-// Rule #264
+// Rule #194
 {
  "message": "wrong. 組み替え->組替え",
  "expected": "組替え",
@@ -2792,7 +2849,7 @@ module.exports = [
 }
 ]
 },
-// Rule #265
+// Rule #195
 {
  "message": "wrong. 組み立て->組立て",
  "expected": "組立て",
@@ -2811,7 +2868,7 @@ module.exports = [
 }
 ]
 },
-// Rule #267
+// Rule #197
 {
  "message": "wrong. 繰り上げ->繰上げ",
  "expected": "繰上げ",
@@ -2830,7 +2887,7 @@ module.exports = [
 }
 ]
 },
-// Rule #268
+// Rule #198
 {
  "message": "wrong. 繰り入れ->繰入れ",
  "expected": "繰入れ",
@@ -2849,7 +2906,7 @@ module.exports = [
 }
 ]
 },
-// Rule #269
+// Rule #199
 {
  "message": "wrong. 繰り替え->繰替え",
  "expected": "繰替え",
@@ -2868,7 +2925,7 @@ module.exports = [
 }
 ]
 },
-// Rule #270
+// Rule #200
 {
  "message": "wrong. 繰り越し->繰越し",
  "expected": "繰越し",
@@ -2887,7 +2944,7 @@ module.exports = [
 }
 ]
 },
-// Rule #271
+// Rule #201
 {
  "message": "wrong. 繰り下げ->繰下げ",
  "expected": "繰下げ",
@@ -2906,7 +2963,7 @@ module.exports = [
 }
 ]
 },
-// Rule #272
+// Rule #202
 {
  "message": "wrong. 繰り延べ->繰延べ",
  "expected": "繰延べ",
@@ -2925,7 +2982,7 @@ module.exports = [
 }
 ]
 },
-// Rule #274
+// Rule #204
 {
  "message": "wrong. 差し押え->差押え",
  "expected": "差押え",
@@ -2944,7 +3001,7 @@ module.exports = [
 }
 ]
 },
-// Rule #275
+// Rule #205
 {
  "message": "wrong. 差し止め->差止め",
  "expected": "差止め",
@@ -2963,7 +3020,7 @@ module.exports = [
 }
 ]
 },
-// Rule #276
+// Rule #206
 {
  "message": "wrong. 差し引き->差引き",
  "expected": "差引き",
@@ -2982,7 +3039,7 @@ module.exports = [
 }
 ]
 },
-// Rule #277
+// Rule #207
 {
  "message": "wrong. 差し戻し->差戻し",
  "expected": "差戻し",
@@ -3001,7 +3058,7 @@ module.exports = [
 }
 ]
 },
-// Rule #280
+// Rule #210
 {
  "message": "wrong. 締め切り->締切り",
  "expected": "締切り",
@@ -3020,7 +3077,7 @@ module.exports = [
 }
 ]
 },
-// Rule #282
+// Rule #212
 {
  "message": "wrong. 仕分け->仕分",
  "expected": "仕分",
@@ -3039,7 +3096,7 @@ module.exports = [
 }
 ]
 },
-// Rule #283
+// Rule #213
 {
  "message": "wrong. 据え置き->据置き",
  "expected": "据置き",
@@ -3058,7 +3115,7 @@ module.exports = [
 }
 ]
 },
-// Rule #284
+// Rule #214
 {
  "message": "wrong. 据え付け->据付け",
  "expected": "据付け",
@@ -3077,7 +3134,7 @@ module.exports = [
 }
 ]
 },
-// Rule #286
+// Rule #216
 {
  "message": "wrong. 座り込み->座込み",
  "expected": "座込み",
@@ -3096,7 +3153,7 @@ module.exports = [
 }
 ]
 },
-// Rule #289
+// Rule #219
 {
  "message": "wrong. 備え付け->備付け",
  "expected": "備付け",
@@ -3115,7 +3172,7 @@ module.exports = [
 }
 ]
 },
-// Rule #292
+// Rule #222
 {
  "message": "wrong. 立ち会い->立会い",
  "expected": "立会い",
@@ -3134,7 +3191,7 @@ module.exports = [
 }
 ]
 },
-// Rule #293
+// Rule #223
 {
  "message": "wrong. 立ち入り->立入り",
  "expected": "立入り",
@@ -3153,7 +3210,7 @@ module.exports = [
 }
 ]
 },
-// Rule #294
+// Rule #224
 {
  "message": "wrong. 立て替え->立替え",
  "expected": "立替え",
@@ -3172,7 +3229,7 @@ module.exports = [
 }
 ]
 },
-// Rule #295
+// Rule #225
 {
  "message": "wrong. 立て札->立札",
  "expected": "立札",
@@ -3191,7 +3248,7 @@ module.exports = [
 }
 ]
 },
-// Rule #296
+// Rule #226
 {
  "message": "wrong. 月掛け->月掛",
  "expected": "月掛",
@@ -3210,7 +3267,7 @@ module.exports = [
 }
 ]
 },
-// Rule #297
+// Rule #227
 {
  "message": "wrong. 付き添い->付添い",
  "expected": "付添い",
@@ -3229,7 +3286,7 @@ module.exports = [
 }
 ]
 },
-// Rule #298
+// Rule #228
 {
  "message": "wrong. 月払い->月払",
  "expected": "月払",
@@ -3248,7 +3305,7 @@ module.exports = [
 }
 ]
 },
-// Rule #300
+// Rule #230
 {
  "message": "wrong. 積み替え->積替え",
  "expected": "積替え",
@@ -3267,7 +3324,7 @@ module.exports = [
 }
 ]
 },
-// Rule #301
+// Rule #231
 {
  "message": "wrong. 積み込み->積込み",
  "expected": "積込み",
@@ -3286,7 +3343,7 @@ module.exports = [
 }
 ]
 },
-// Rule #302
+// Rule #232
 {
  "message": "wrong. 積み出し->積出し",
  "expected": "積出し",
@@ -3305,7 +3362,7 @@ module.exports = [
 }
 ]
 },
-// Rule #303
+// Rule #233
 {
  "message": "wrong. 積み立て->積立て",
  "expected": "積立て",
@@ -3324,7 +3381,7 @@ module.exports = [
 }
 ]
 },
-// Rule #304
+// Rule #234
 {
  "message": "wrong. 積み付け->積付け",
  "expected": "積付け",
@@ -3343,7 +3400,7 @@ module.exports = [
 }
 ]
 },
-// Rule #305
+// Rule #235
 {
  "message": "wrong. 釣り合い->釣合い",
  "expected": "釣合い",
@@ -3362,7 +3419,7 @@ module.exports = [
 }
 ]
 },
-// Rule #310
+// Rule #240
 {
  "message": "wrong. 届け出->届出",
  "expected": "届出",
@@ -3381,7 +3438,7 @@ module.exports = [
 }
 ]
 },
-// Rule #311
+// Rule #241
 {
  "message": "wrong. 取り上げ->取上げ",
  "expected": "取上げ",
@@ -3400,7 +3457,7 @@ module.exports = [
 }
 ]
 },
-// Rule #312
+// Rule #242
 {
  "message": "wrong. 取り扱い->取扱い",
  "expected": "取扱い",
@@ -3419,7 +3476,7 @@ module.exports = [
 }
 ]
 },
-// Rule #314
+// Rule #244
 {
  "message": "wrong. 取り替え->取替え",
  "expected": "取替え",
@@ -3438,7 +3495,7 @@ module.exports = [
 }
 ]
 },
-// Rule #315
+// Rule #245
 {
  "message": "wrong. 取り決め->取決め",
  "expected": "取決め",
@@ -3457,7 +3514,7 @@ module.exports = [
 }
 ]
 },
-// Rule #316
+// Rule #246
 {
  "message": "wrong. 取り崩し->取崩し",
  "expected": "取崩し",
@@ -3476,7 +3533,7 @@ module.exports = [
 }
 ]
 },
-// Rule #317
+// Rule #247
 {
  "message": "wrong. 取り消し->取消し",
  "expected": "取消し",
@@ -3495,7 +3552,7 @@ module.exports = [
 }
 ]
 },
-// Rule #318
+// Rule #248
 {
  "message": "wrong. 取り壊し->取壊し",
  "expected": "取壊し",
@@ -3514,7 +3571,7 @@ module.exports = [
 }
 ]
 },
-// Rule #319
+// Rule #249
 {
  "message": "wrong. 取り下げ->取下げ",
  "expected": "取下げ",
@@ -3533,7 +3590,7 @@ module.exports = [
 }
 ]
 },
-// Rule #320
+// Rule #250
 {
  "message": "wrong. 取り締り->取締り",
  "expected": "取締り",
@@ -3552,7 +3609,7 @@ module.exports = [
 }
 ]
 },
-// Rule #321
+// Rule #251
 {
  "message": "wrong. 取り調べ->取調べ",
  "expected": "取調べ",
@@ -3571,7 +3628,7 @@ module.exports = [
 }
 ]
 },
-// Rule #322
+// Rule #252
 {
  "message": "wrong. 取り立て->取立て",
  "expected": "取立て",
@@ -3590,7 +3647,7 @@ module.exports = [
 }
 ]
 },
-// Rule #323
+// Rule #253
 {
  "message": "wrong. 取り次ぎ->取次ぎ",
  "expected": "取次ぎ",
@@ -3609,7 +3666,7 @@ module.exports = [
 }
 ]
 },
-// Rule #324
+// Rule #254
 {
  "message": "wrong. 取り付け->取付け",
  "expected": "取付け",
@@ -3628,7 +3685,7 @@ module.exports = [
 }
 ]
 },
-// Rule #325
+// Rule #255
 {
  "message": "wrong. 取り戻し->取戻し",
  "expected": "取戻し",
@@ -3647,7 +3704,7 @@ module.exports = [
 }
 ]
 },
-// Rule #326
+// Rule #256
 {
  "message": "wrong. 投げ売り->投売り",
  "expected": "投売り",
@@ -3666,7 +3723,7 @@ module.exports = [
 }
 ]
 },
-// Rule #327
+// Rule #257
 {
  "message": "wrong. 抜き取り->抜取り",
  "expected": "抜取り",
@@ -3685,7 +3742,7 @@ module.exports = [
 }
 ]
 },
-// Rule #329
+// Rule #259
 {
  "message": "wrong. 乗り換え->乗換え",
  "expected": "乗換え",
@@ -3704,7 +3761,7 @@ module.exports = [
 }
 ]
 },
-// Rule #330
+// Rule #260
 {
  "message": "wrong. 乗り組み->乗組み",
  "expected": "乗組み",
@@ -3723,7 +3780,7 @@ module.exports = [
 }
 ]
 },
-// Rule #331
+// Rule #261
 {
  "message": "wrong. 話し合い->話合い",
  "expected": "話合い",
@@ -3742,7 +3799,7 @@ module.exports = [
 }
 ]
 },
-// Rule #332
+// Rule #262
 {
  "message": "wrong. 払い込み->払込み",
  "expected": "払込み",
@@ -3761,7 +3818,7 @@ module.exports = [
 }
 ]
 },
-// Rule #333
+// Rule #263
 {
  "message": "wrong. 払い下げ->払下げ",
  "expected": "払下げ",
@@ -3780,7 +3837,7 @@ module.exports = [
 }
 ]
 },
-// Rule #334
+// Rule #264
 {
  "message": "wrong. 払い出し->払出し",
  "expected": "払出し",
@@ -3799,7 +3856,7 @@ module.exports = [
 }
 ]
 },
-// Rule #335
+// Rule #265
 {
  "message": "wrong. 払い戻し->払戻し",
  "expected": "払戻し",
@@ -3818,7 +3875,7 @@ module.exports = [
 }
 ]
 },
-// Rule #336
+// Rule #266
 {
  "message": "wrong. 払い渡し->払渡し",
  "expected": "払渡し",
@@ -3837,7 +3894,7 @@ module.exports = [
 }
 ]
 },
-// Rule #338
+// Rule #268
 {
  "message": "wrong. 引き上げ->引上げ",
  "expected": "引上げ",
@@ -3856,7 +3913,7 @@ module.exports = [
 }
 ]
 },
-// Rule #339
+// Rule #269
 {
  "message": "wrong. 引き揚げ->引揚げ",
  "expected": "引揚げ",
@@ -3875,7 +3932,7 @@ module.exports = [
 }
 ]
 },
-// Rule #340
+// Rule #270
 {
  "message": "wrong. 引き受け->引受け",
  "expected": "引受け",
@@ -3894,7 +3951,7 @@ module.exports = [
 }
 ]
 },
-// Rule #341
+// Rule #271
 {
  "message": "wrong. 引き起し->引起し",
  "expected": "引起し",
@@ -3913,7 +3970,7 @@ module.exports = [
 }
 ]
 },
-// Rule #342
+// Rule #272
 {
  "message": "wrong. 引き換え->引換え",
  "expected": "引換え",
@@ -3932,7 +3989,7 @@ module.exports = [
 }
 ]
 },
-// Rule #343
+// Rule #273
 {
  "message": "wrong. 引き込み->引込み",
  "expected": "引込み",
@@ -3951,7 +4008,7 @@ module.exports = [
 }
 ]
 },
-// Rule #344
+// Rule #274
 {
  "message": "wrong. 引き下げ->引下げ",
  "expected": "引下げ",
@@ -3970,7 +4027,7 @@ module.exports = [
 }
 ]
 },
-// Rule #345
+// Rule #275
 {
  "message": "wrong. 引き締め->引締め",
  "expected": "引締め",
@@ -3989,7 +4046,7 @@ module.exports = [
 }
 ]
 },
-// Rule #346
+// Rule #276
 {
  "message": "wrong. 引き継ぎ->引継ぎ",
  "expected": "引継ぎ",
@@ -4008,7 +4065,7 @@ module.exports = [
 }
 ]
 },
-// Rule #347
+// Rule #277
 {
  "message": "wrong. 引き取り->引取り",
  "expected": "引取り",
@@ -4027,7 +4084,7 @@ module.exports = [
 }
 ]
 },
-// Rule #348
+// Rule #278
 {
  "message": "wrong. 引き渡し->引渡し",
  "expected": "引渡し",
@@ -4046,7 +4103,7 @@ module.exports = [
 }
 ]
 },
-// Rule #349
+// Rule #279
 {
  "message": "wrong. 日雇い->日雇",
  "expected": "日雇",
@@ -4065,7 +4122,7 @@ module.exports = [
 }
 ]
 },
-// Rule #350
+// Rule #280
 {
  "message": "wrong. 歩留まり->歩留り",
  "expected": "歩留り",
@@ -4084,7 +4141,7 @@ module.exports = [
 }
 ]
 },
-// Rule #351
+// Rule #281
 {
  "message": "wrong. 船着き場->船着場",
  "expected": "船着場",
@@ -4103,7 +4160,7 @@ module.exports = [
 }
 ]
 },
-// Rule #352
+// Rule #282
 {
  "message": "wrong. 不払い->不払",
  "expected": "不払",
@@ -4122,7 +4179,7 @@ module.exports = [
 }
 ]
 },
-// Rule #353
+// Rule #283
 {
  "message": "wrong. 賦払い->賦払",
  "expected": "賦払",
@@ -4141,7 +4198,7 @@ module.exports = [
 }
 ]
 },
-// Rule #354
+// Rule #284
 {
  "message": "wrong. 振り出し->振出し",
  "expected": "振出し",
@@ -4160,7 +4217,7 @@ module.exports = [
 }
 ]
 },
-// Rule #355
+// Rule #285
 {
  "message": "wrong. 前払い->前払",
  "expected": "前払",
@@ -4179,7 +4236,7 @@ module.exports = [
 }
 ]
 },
-// Rule #356
+// Rule #286
 {
  "message": "wrong. 巻き付け->巻付け",
  "expected": "巻付け",
@@ -4198,7 +4255,7 @@ module.exports = [
 }
 ]
 },
-// Rule #357
+// Rule #287
 {
  "message": "wrong. 巻き取り->巻取り",
  "expected": "巻取り",
@@ -4217,7 +4274,7 @@ module.exports = [
 }
 ]
 },
-// Rule #358
+// Rule #288
 {
  "message": "wrong. 見合わせ->見合せ",
  "expected": "見合せ",
@@ -4236,7 +4293,7 @@ module.exports = [
 }
 ]
 },
-// Rule #359
+// Rule #289
 {
  "message": "wrong. 見積もり->見積り",
  "expected": "見積り",
@@ -4255,7 +4312,7 @@ module.exports = [
 }
 ]
 },
-// Rule #360
+// Rule #290
 {
  "message": "wrong. 見習い->見習",
  "expected": "見習",
@@ -4274,7 +4331,7 @@ module.exports = [
 }
 ]
 },
-// Rule #361
+// Rule #291
 {
  "message": "wrong. 未払い->未払",
  "expected": "未払",
@@ -4293,7 +4350,7 @@ module.exports = [
 }
 ]
 },
-// Rule #362
+// Rule #292
 {
  "message": "wrong. 申し合わせ->申合せ",
  "expected": "申合せ",
@@ -4312,7 +4369,7 @@ module.exports = [
 }
 ]
 },
-// Rule #364
+// Rule #294
 {
  "message": "wrong. 申し入れ->申入れ",
  "expected": "申入れ",
@@ -4331,7 +4388,7 @@ module.exports = [
 }
 ]
 },
-// Rule #365
+// Rule #295
 {
  "message": "wrong. 申し込み->申込み",
  "expected": "申込み",
@@ -4350,7 +4407,7 @@ module.exports = [
 }
 ]
 },
-// Rule #366
+// Rule #296
 {
  "message": "wrong. 申し立て->申立て",
  "expected": "申立て",
@@ -4369,7 +4426,7 @@ module.exports = [
 }
 ]
 },
-// Rule #367
+// Rule #297
 {
  "message": "wrong. 申し出->申出",
  "expected": "申出",
@@ -4388,7 +4445,7 @@ module.exports = [
 }
 ]
 },
-// Rule #368
+// Rule #298
 {
  "message": "wrong. 持ち家->持家",
  "expected": "持家",
@@ -4407,7 +4464,7 @@ module.exports = [
 }
 ]
 },
-// Rule #369
+// Rule #299
 {
  "message": "wrong. 持ち込み->持込み",
  "expected": "持込み",
@@ -4426,7 +4483,7 @@ module.exports = [
 }
 ]
 },
-// Rule #370
+// Rule #300
 {
  "message": "wrong. 持ち分->持分",
  "expected": "持分",
@@ -4445,7 +4502,7 @@ module.exports = [
 }
 ]
 },
-// Rule #371
+// Rule #301
 {
  "message": "wrong. 元請け->元請",
  "expected": "元請",
@@ -4464,7 +4521,7 @@ module.exports = [
 }
 ]
 },
-// Rule #373
+// Rule #303
 {
  "message": "wrong. 催し物->催物",
  "expected": "催物",
@@ -4483,7 +4540,7 @@ module.exports = [
 }
 ]
 },
-// Rule #374
+// Rule #304
 {
  "message": "wrong. 盛り土->盛土",
  "expected": "盛土",
@@ -4502,7 +4559,7 @@ module.exports = [
 }
 ]
 },
-// Rule #375
+// Rule #305
 {
  "message": "wrong. 焼き付け->焼付け",
  "expected": "焼付け",
@@ -4521,7 +4578,7 @@ module.exports = [
 }
 ]
 },
-// Rule #378
+// Rule #308
 {
  "message": "wrong. 譲り受け->譲受け",
  "expected": "譲受け",
@@ -4540,7 +4597,7 @@ module.exports = [
 }
 ]
 },
-// Rule #379
+// Rule #309
 {
  "message": "wrong. 譲り渡し->譲渡し",
  "expected": "譲渡し",
@@ -4559,7 +4616,7 @@ module.exports = [
 }
 ]
 },
-// Rule #380
+// Rule #310
 {
  "message": "wrong. 呼び出し->呼出し",
  "expected": "呼出し",
@@ -4578,7 +4635,7 @@ module.exports = [
 }
 ]
 },
-// Rule #381
+// Rule #311
 {
  "message": "wrong. 読み替え->読替え",
  "expected": "読替え",
@@ -4597,7 +4654,7 @@ module.exports = [
 }
 ]
 },
-// Rule #382
+// Rule #312
 {
  "message": "wrong. 割り当て->割当て",
  "expected": "割当て",
@@ -4616,7 +4673,7 @@ module.exports = [
 }
 ]
 },
-// Rule #383
+// Rule #313
 {
  "message": "wrong. 割り増し->割増し",
  "expected": "割増し",
@@ -4635,7 +4692,7 @@ module.exports = [
 }
 ]
 },
-// Rule #384
+// Rule #314
 {
  "message": "wrong. 割り戻し->割戻し",
  "expected": "割戻し",
@@ -4654,10 +4711,447 @@ module.exports = [
 }
 ]
 },
-// Rule #1001
+// Rule #503
 {
- "message": "wrong. 遡ら->さかのぼら",
- "expected": "さかのぼら",
+ "message": "wrong. いす->椅子",
+ "expected": "椅子",
+ "tokens": [
+ {
+ "surface_form": "いす",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "いす",
+ "reading": "イス",
+ "pronunciation": "イス"
+}
+]
+},
+// Rule #506
+{
+ "message": "wrong. かぎ->鍵",
+ "expected": "鍵",
+ "tokens": [
+ {
+ "surface_form": "かぎ",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "かぎ",
+ "reading": "カギ",
+ "pronunciation": "カギ"
+}
+]
+},
+// Rule #508
+{
+ "message": "wrong. がけ->崖",
+ "expected": "崖",
+ "tokens": [
+ {
+ "surface_form": "がけ",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "がけ",
+ "reading": "ガケ",
+ "pronunciation": "ガ"
+}
+]
+},
+// Rule #516
+{
+ "message": "wrong. さく->柵",
+ "expected": "柵",
+ "tokens": [
+ {
+ "surface_form": "さく",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "さく",
+ "reading": "サク",
+ "pronunciation": "サク"
+}
+]
+},
+// Rule #544
+{
+ "message": "wrong. かかわる->関わる",
+ "expected": "関わる",
+ "tokens": [
+ {
+ "surface_form": "かかわる",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "基本形",
+ "basic_form": "かかわる",
+ "reading": "カカワル",
+ "pronunciation": "カカワル"
+}
+]
+},
+// Rule #545
+{
+ "message": "wrong. かかわら->関わら",
+ "expected": "関わら",
+ "tokens": [
+ {
+ "surface_form": "かかわら",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "未然形",
+ "basic_form": "かかわる",
+ "reading": "カカワラ",
+ "pronunciation": "カカワラ"
+}
+]
+},
+// Rule #546
+{
+ "message": "wrong. かかわっ->関わっ",
+ "expected": "関わっ",
+ "tokens": [
+ {
+ "surface_form": "かかわっ",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "連用タ接続",
+ "basic_form": "かかわる",
+ "reading": "カカワッ",
+ "pronunciation": "カカワッ"
+}
+]
+},
+// Rule #547
+{
+ "message": "wrong. かかわり->関わり",
+ "expected": "関わり",
+ "tokens": [
+ {
+ "surface_form": "かかわり",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "連用形",
+ "basic_form": "かかわる",
+ "reading": "カカワリ",
+ "pronunciation": "カカワリ"
+}
+]
+},
+// Rule #548
+{
+ "message": "wrong. かかわれ->関われ",
+ "expected": "関われ",
+ "tokens": [
+ {
+ "surface_form": "かかわれ",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "仮定形",
+ "basic_form": "かかわる",
+ "reading": "カカワレ",
+ "pronunciation": "カカワレ"
+}
+]
+},
+// Rule #549
+{
+ "message": "wrong. かかわろ->関わろ",
+ "expected": "関わろ",
+ "tokens": [
+ {
+ "surface_form": "かかわろ",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "未然ウ接続",
+ "basic_form": "かかわる",
+ "reading": "カカワロ",
+ "pronunciation": "カカワロ"
+}
+]
+},
+// Rule #564
+{
+ "message": "wrong. 虞->おそれ",
+ "expected": "おそれ",
+ "tokens": [
+ {
+ "surface_form": "虞",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "虞",
+ "reading": "オソレ",
+ "pronunciation": "オソ"
+}
+]
+},
+// Rule #565
+{
+ "message": "wrong. 恐れ->おそれ",
+ "expected": "おそれ",
+ "tokens": [
+ {
+ "surface_form": "恐れ",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "恐れ",
+ "reading": "オソレ",
+ "pronunciation": "オソレ"
+}
+]
+},
+// Rule #567
+{
+ "message": "wrong. 因る->よる",
+ "expected": "よる",
+ "tokens": [
+ {
+ "surface_form": "因る",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "基本形",
+ "basic_form": "因る",
+ "reading": "ヨル",
+ "pronunciation": "ヨル"
+}
+]
+},
+// Rule #568
+{
+ "message": "wrong. 因ら->よら",
+ "expected": "よら",
+ "tokens": [
+ {
+ "surface_form": "因ら",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "未然形",
+ "basic_form": "因る",
+ "reading": "ヨラ",
+ "pronunciation": "ヨラ"
+}
+]
+},
+// Rule #569
+{
+ "message": "wrong. 因っ->よっ",
+ "expected": "よっ",
+ "tokens": [
+ {
+ "surface_form": "因っ",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "連用タ接続",
+ "basic_form": "因る",
+ "reading": "ヨッ",
+ "pronunciation": "ヨッ"
+}
+]
+},
+// Rule #570
+{
+ "message": "wrong. 因り->より",
+ "expected": "より",
+ "tokens": [
+ {
+ "surface_form": "因り",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "連用形",
+ "basic_form": "因る",
+ "reading": "ヨリ",
+ "pronunciation": "ヨリ"
+}
+]
+},
+// Rule #571
+{
+ "message": "wrong. 因れ->よれ",
+ "expected": "よれ",
+ "tokens": [
+ {
+ "surface_form": "因れ",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "仮定形",
+ "basic_form": "因る",
+ "reading": "ヨレ",
+ "pronunciation": "ヨレ"
+}
+]
+},
+// Rule #572
+{
+ "message": "wrong. 因ろ->よろ",
+ "expected": "よろ",
+ "tokens": [
+ {
+ "surface_form": "因ろ",
+ "pos": "動詞",
+ "pos_detail_1": "自立",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "五段・ラ行",
+ "conjugated_form": "未然ウ接続",
+ "basic_form": "因る",
+ "reading": "ヨロ",
+ "pronunciation": "ヨロ"
+}
+]
+},
+// Rule #583
+{
+ "message": "wrong. 此->この",
+ "expected": "この",
+ "tokens": [
+ {
+ "surface_form": "此",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "*",
+ "reading": "",
+ "pronunciation": ""
+}
+]
+},
+// Rule #584
+{
+ "message": "wrong. 之->これ",
+ "expected": "これ",
+ "tokens": [
+ {
+ "surface_form": "之",
+ "pos": "名詞",
+ "pos_detail_1": "代名詞",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "之",
+ "reading": "コレ",
+ "pronunciation": "コレ"
+}
+]
+},
+// Rule #585
+{
+ "message": "wrong. 其の->その",
+ "expected": "その",
+ "tokens": [
+ {
+ "surface_form": "其の",
+ "pos": "連体詞",
+ "pos_detail_1": "*",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "其の",
+ "reading": "ソノ",
+ "pronunciation": "ソノ"
+}
+]
+},
+// Rule #587
+{
+ "message": "wrong. 為->ため",
+ "expected": "ため",
+ "tokens": [
+ {
+ "surface_form": "為",
+ "pos": "名詞",
+ "pos_detail_1": "非自立",
+ "pos_detail_2": "副詞可能",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "為",
+ "reading": "タメ",
+ "pronunciation": "タメ"
+}
+]
+},
+// Rule #589
+{
+ "message": "wrong. 彼等->彼ら",
+ "expected": "彼ら",
+ "tokens": [
+ {
+ "surface_form": "彼等",
+ "pos": "名詞",
+ "pos_detail_1": "代名詞",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "彼等",
+ "reading": "カレラ",
+ "pronunciation": "カレラ"
+}
+]
+},
+// Rule #1007
+{
+ "message": "wrong. 名宛->名あて",
+ "expected": "名あて",
  "tokens": [
  {
  "surface_form": "",
