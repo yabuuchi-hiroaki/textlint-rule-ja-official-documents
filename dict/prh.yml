@@ -151,4 +151,346 @@ rules:
    patterns: 雇い入れ
  - expected: 雇主
    patterns: 雇い主
+ - expected: 挨拶
+   patterns: あいさつ
+ - expected: 宛先
+   patterns: あて先
+ - expected: 咽喉
+   patterns: いんこう
+ - expected: 隠蔽
+   patterns: 隠ぺい
+ - expected: 覚醒
+   patterns: 覚せい
+ - expected: 玩具
+   patterns: がん具
+ - expected: 毀損
+   patterns: き損
+ - expected: 亀裂
+   patterns: きれつ
+ - expected: 禁錮
+   patterns: 禁こ
+ - expected: 拳銃
+   patterns: けん銃
+ - expected: 勾留
+   patterns: こう留
+ - expected: 失踪
+   patterns: 失そう
+ - expected: 焼酎
+   patterns: 焼ちゅう
+ - expected: 処方箋
+   patterns: 処方せん
+ - expected: 腎臓
+   patterns: じん臓
+ - expected: 進捗
+   patterns: 進ちょく
+ - expected: 整頓
+   patterns: 整とん
+ - expected: 脊柱
+   patterns: せき柱
+ - expected: 遡及
+   patterns: そ及
+ - expected: 堆積
+   patterns: たい積
+ - expected: 貼付
+   patterns: ちょう付
+ - expected: 賭博
+   patterns: とばく
+ - expected: 剥奪
+   patterns: はく奪
+ - expected: 破綻
+   patterns: 破たん
+ - expected: 汎用
+   patterns: はん用
+ - expected: 氾濫
+   patterns: はん濫
+ - expected: 膝
+   patterns: ひざ
+ - expected: 肘
+   patterns: ひじ
+ - expected: 払拭
+   patterns: 払しょく
+ - expected: 閉塞
+   patterns: 閉そく
+ - expected: 捕捉
+   patterns: 捕そく
+ - expected: 補填
+   patterns: 補てん
+ - expected: 哺乳類
+   patterns: ほ乳類
+ - expected: 蜜蜂
+   patterns: 蜜蜂
+ - expected: 明瞭
+   patterns: 明りょう
+ - expected: 湧出
+   patterns: ゆう出
+ - expected: 拉致
+   patterns: ら致
+ - expected: 賄賂
+   patterns: 賄ろ
+ - expected: 鑑み
+   patterns: かんがみ
+ - expected: 遡
+   patterns: さかのぼ
+ - expected: 壊滅
+   patterns: 潰滅
+ - expected: 壊乱
+   patterns: 潰乱
+ - expected: 決壊
+   patterns: 決潰
+ - expected: 広範
+   patterns: 広汎
+ - expected: 全壊
+   patterns: 全潰
+ - expected: 倒壊
+   patterns: 倒潰
+ - expected: 破棄
+   patterns: 破毀
+ - expected: 崩壊
+   patterns: 崩潰
+ - expected: 理屈
+   patterns: 理窟
+ - expected: 臆説
+   patterns: 憶説
+ - expected: 臆測
+   patterns: 憶測
+ - expected: 肝腎
+   patterns: 肝心
+ - expected: ただし書
+   patterns: 但書
+ - expected: 暗渠（きょ）
+   patterns: 暗渠
+ - expected: 按（あん）分
+   patterns: 按分
+ - expected: 蛾（が）
+   patterns: 蛾
+ - expected: 瑕疵（かし）
+   patterns: 瑕疵
+ - expected: 管渠（きょ）
+   patterns: 管渠
+ - expected: 涵（かん）養
+   patterns: 涵養
+ - expected: 強姦（かん）
+   patterns: 強姦
+ - expected: 砒（ひ）素
+   patterns: 砒素
+ - expected: 埠（ふ）頭
+   patterns: 埠頭
+ - expected: かかわら
+   patterns: 拘わら
+ - expected: たばこ
+   patterns: 煙草
+ - expected: もって
+   patterns: 以て
+ - expected: わいせつ
+   patterns: 猥褻
+ - expected: あっせん
+   patterns: あっ旋
+ - expected: れんが
+   patterns: れん瓦
+ - expected: あいくち
+   patterns: 匕首
+ - expected: ××
+   patterns: 委棄
+ - expected: 慰謝料
+   patterns: 慰藉料
+ - expected: ××
+   patterns: 溢水
+ - expected: 違反
+   patterns: 違背
+ - expected: 園地
+   patterns: 苑地
+ - expected: ××
+   patterns: 汚穢
+ - expected: ××
+   patterns: 解止
+ - expected: ××
+   patterns: 戒示
+ - expected: ××
+   patterns: 灰燼
+ - expected: ××
+   patterns: 開披
+ - expected: ××
+   patterns: 牙保
+ - expected: ××
+   patterns: 勧解
+ - expected: ××
+   patterns: 監守
+ - expected: 保管
+   patterns: 管守
+ - expected: ××
+   patterns: 陥穽
+ - expected: 関与
+   patterns: 干与
+ - expected: 関与
+   patterns: 干預
+ - expected: ××
+   patterns: 義捐
+ - expected: ボイラー
+   patterns: 汽鑵
+ - expected: ××
+   patterns: 技監
+ - expected: ××
+   patterns: 覊束
+ - expected: 喫水
+   patterns: 吃水
+ - expected: ××
+   patterns: 欺瞞
+ - expected: ××
+   patterns: 欺罔
+ - expected: ××
+   patterns: 狭隘
+ - expected: 供応
+   patterns: 饗応
+ - expected: ××
+   patterns: 驚愕
+ - expected: 魚倉
+   patterns: 魚艙
+ - expected: 規律
+   patterns: 紀律
+ - expected: 空気タンク
+   patterns: 空気槽
+ - expected: ××
+   patterns: 具有
+ - expected: 係船
+   patterns: ?船
+ - expected: 係属
+   patterns: ?属
+ - expected: 経理
+   patterns: 計理
+ - expected: 係留
+   patterns: ?留
+ - expected: ××
+   patterns: 懈怠
+ - expected: 関連
+   patterns: 牽連
+ - expected: ××
+   patterns: 溝渠
+ - expected: 交差点
+   patterns: 交叉点
+ - expected: 交代
+   patterns: 更代
+ - expected: 広報
+   patterns: 弘報
+ - expected: かるた類
+   patterns: 骨牌
+ - expected: ××
+   patterns: 戸扉
+ - expected: ××
+   patterns: 誤謬
+ - expected: 偽り
+   patterns: 詐偽
+ - expected: ××
+   patterns: 鑿井
+ - expected: ××
+   patterns: 鎖鑰
+ - expected: 散水管
+   patterns: 撒水管
+ - expected: 趣旨
+   patterns: 旨趣
+ - expected: ××
+   patterns: 枝条
+ - expected: 首謀者
+   patterns: 首魁
+ - expected: アルコール
+   patterns: 酒精
+ - expected: ××
+   patterns: 鬚髯
+ - expected: 純化
+   patterns: 醇化
+ - expected: 完成
+   patterns: 竣功
+ - expected: ××
+   patterns: 傷痍
+ - expected: ××
+   patterns: 焼燬
+ - expected: 消却
+   patterns: 銷却
+ - expected: 状況
+   patterns: 情況
+ - expected: マストトップ
+   patterns: 檣頭
+ - expected: ××
+   patterns: 証標
+ - expected: 証拠
+   patterns: 証憑
+ - expected: 証拠
+   patterns: 憑拠
+ - expected: ××
+   patterns: 牆壁
+ - expected: ××
+   patterns: 塵埃
+ - expected: ××
+   patterns: 塵芥
+ - expected: 侵食
+   patterns: 侵蝕
+ - expected: ××
+   patterns: 成規
+ - expected: 盗用
+   patterns: 窃用
+ - expected: ドック
+   patterns: 船渠
+ - expected: 洗浄
+   patterns: 洗滌
+ - expected: ××
+   patterns: 僣窃
+ - expected: 総括
+   patterns: 総轄
+ - expected: ××
+   patterns: 齟齬
+ - expected: 疎明
+   patterns: 疏明
+ - expected: ××
+   patterns: 稠密
+ - expected: 通訳人
+   patterns: 通事
+ - expected: 定係港
+   patterns: 定?港
+ - expected: 提示
+   patterns: 呈示
+ - expected: 定年
+   patterns: 停年
+ - expected: 押印
+   patterns: 捺印
+ - expected: 売春
+   patterns: 売淫
+ - expected: 繁殖
+   patterns: 蕃殖
+ - expected: ××
+   patterns: 版図
+ - expected: ××
+   patterns: 誹毀
+ - expected: ××
+   patterns: 彼此
+ - expected: 表示
+   patterns: 標示
+ - expected: ××
+   patterns: 紊乱
+ - expected: ××
+   patterns: 編綴
+ - expected: ××
+   patterns: 房室
+ - expected: 膨張
+   patterns: 膨脹
+ - expected: ××
+   patterns: 法例
+ - expected: 補助
+   patterns: 輔助
+ - expected: 満了する
+   patterns: 満限に達する
+ - expected: ××
+   patterns: 宥恕
+ - expected: ××
+   patterns: 輸贏
+ - expected: ××
+   patterns: 踰越
+ - expected: 油タンク
+   patterns: 油槽
+ - expected: 落盤
+   patterns: 落磐
+ - expected: ××
+   patterns: 鄰佑
+ - expected: ××
+   patterns: 狼狽
+ - expected: 和解
+   patterns: 和諧
 
