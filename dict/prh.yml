@@ -1,6 +1,15 @@
 version: 1
 rules:
 
+ - expected: 至って
+   patterns: いたって
+   prh: 副詞は漢字。
+ - expected: 概して
+   patterns: がいして
+   prh: 副詞は漢字。
+ - expected: 辛うじて
+   patterns: かろうじて
+   prh: 副詞は漢字。
  - expected: かなり
    patterns: 可成り
  - expected: ふと
@@ -11,68 +20,103 @@ rules:
    patterns: 余程
  - expected: 惜しげ
    patterns: 惜し気
+   prh: 接尾語は仮名。
  - expected: 偉ぶる
    patterns: 偉振る
+   prh: 接尾語は仮名。
  - expected: かつ
    patterns: 且つ
+   prh: 接続詞は仮名。
  - expected: ついては
    patterns: 就いては
+   prh: 接続詞は仮名。
  - expected: ところが、
    patterns: 所が、
+   prh: 接続詞は仮名。
  - expected: ところで、
    patterns: 所で、
+   prh: 接続詞は仮名。
  - expected: だけ
    patterns: 已
+   prh: 助詞は仮名。
  - expected: のとおり
    patterns: の通り
+   prh: （仮名）次のとおり。（漢字）一通り。
  - expected: かもしれ
    patterns: かも知れ
  - expected: てあげ
    patterns: て上げ
- - expected: ていか
-   patterns: て行か
- - expected: ていき
-   patterns: て行き
+   prh: ただし、「～（物）を上げる」は漢字。
  - expected: ていく
    patterns: て行く
+   prh: ただし、「～（場所）へ行く」は漢字。
+ - expected: ていか
+   patterns: て行か
+   prh: ただし、「～（場所）へ行く」は漢字。
+ - expected: ていき
+   patterns: て行き
+   prh: ただし、「～（場所）へ行く」は漢字。
  - expected: ていけ
    patterns: て行け
+   prh: ただし、「～（場所）へ行く」は漢字。
  - expected: ていこ
    patterns: て行こ
- - expected: ていただか
-   patterns: て頂か
- - expected: ていただい
-   patterns: て頂い
- - expected: ていただき
-   patterns: て頂き
+   prh: ただし、「～（場所）へ行く」は漢字。
  - expected: ていただく
    patterns: て頂く
+   prh: ただし、「～（物）を頂く」は漢字。
+ - expected: ていただか
+   patterns: て頂か
+   prh: ただし、「～（物）を頂く」は漢字。
+ - expected: ていただい
+   patterns: て頂い
+   prh: ただし、「～（物）を頂く」は漢字。
+ - expected: ていただき
+   patterns: て頂き
+   prh: ただし、「～（物）を頂く」は漢字。
  - expected: ていただけ
    patterns: て頂け
+   prh: ただし、「～（物）を頂く」は漢字。
  - expected: ていただこ
    patterns: て頂こ
- - expected: ておか
-   patterns: て置か
- - expected: ておき
-   patterns: て置き
+   prh: ただし、「～（物）を頂く」は漢字。
  - expected: ておく
    patterns: て置く
+   prh: ただし、「～（物）を置く」は漢字。
+ - expected: ておか
+   patterns: て置か
+   prh: ただし、「～（物）を置く」は漢字。
+ - expected: ておき
+   patterns: て置き
+   prh: ただし、「～（物）を置く」は漢字。
  - expected: ておけ
    patterns: て置け
+   prh: ただし、「～（物）を置く」は漢字。
  - expected: ておこ
    patterns: て置こ
+   prh: ただし、「～（物）を置く」は漢字。
  - expected: てくださ
    patterns: て下さ
+   prh: ただし、「～（物）を下さい」は漢字。
  - expected: てく
    patterns: て来
+   prh: ただし、「～（人）が来る」は漢字。
  - expected: てしま
    patterns: て仕舞
+ - expected: てしまう
+   patterns: て終う
  - expected: てみる
    patterns: て見る
+   prh: ただし、「～（物）を(見/診)る」は漢字。
  - expected: てよい
    patterns: て良い
+   prh: ただし、「～（物）が良い」は漢字。
  - expected: にすぎない
    patterns: に過ぎない
+   prh: ただし、「～が過ぎる」等は漢字。
+ - expected: にすぎず
+   patterns: に過ぎず
+   prh: ただし、「～が過ぎる」等は漢字。
  - expected: について
    patterns: に就いて
  - expected: について
@@ -127,6 +171,12 @@ rules:
    patterns: 染め物
  - expected: 田植
    patterns: 田植え
+ - expected: 立札
+   patterns: 立て札
+ - expected: 月掛
+   patterns: 月掛け
+ - expected: 月払
+   patterns: 月払い
  - expected: 積卸し
    patterns: 積み卸し
  - expected: 釣鐘
@@ -143,94 +193,157 @@ rules:
    patterns: 飲み物
  - expected: 払渡済み
    patterns: 払い渡済み
+ - expected: 日雇
+   patterns: 日雇い
+ - expected: 歩留り
+   patterns: 歩留まり
+ - expected: 船着場
+   patterns: 船着き場
+ - expected: 不払
+   patterns: 不払い
+ - expected: 賦払
+   patterns: 賦払い
+ - expected: 前払
+   patterns: 前払い
+ - expected: 未払
+   patterns: 未払い
  - expected: 申合せ事項
    patterns: 申し合せ事項
- - expected: 戻入れ
-   patterns: 戻し入れ
- - expected: 雇入れ
-   patterns: 雇い入れ
+ - expected: 持家
+   patterns: 持ち家
+ - expected: 持分
+   patterns: 持ち分
+ - expected: 元請
+   patterns: 元請け
+ - expected: 催物
+   patterns: 催し物
+ - expected: 盛土
+   patterns: 盛り土
  - expected: 雇主
    patterns: 雇い主
  - expected: 挨拶
    patterns: あいさつ
+   prh: 「挨」「拶」は常用漢字（H22年～）
  - expected: 宛先
    patterns: あて先
+   prh: 「宛」は常用漢字（H22年～）
  - expected: 咽喉
    patterns: いんこう
+   prh: 「咽」「喉」は常用漢字（H22年～）
  - expected: 隠蔽
    patterns: 隠ぺい
+   prh: 「蔽」は常用漢字（H22年～）
  - expected: 覚醒
    patterns: 覚せい
+   prh: 「醒」は常用漢字（H22年～）
  - expected: 玩具
    patterns: がん具
+   prh: 「玩」は常用漢字（H22年～）
  - expected: 毀損
    patterns: き損
+   prh: 「毀」は常用漢字（H22年～）
  - expected: 亀裂
    patterns: きれつ
+   prh: 「亀」は常用漢字（H22年～）
+ - expected: 亀裂
+   patterns: き裂
+   prh: 「亀」は常用漢字（H22年～）
  - expected: 禁錮
    patterns: 禁こ
+   prh: 「錮」は常用漢字（H22年～）
  - expected: 拳銃
    patterns: けん銃
+   prh: 「拳」は常用漢字（H22年～）
  - expected: 勾留
    patterns: こう留
+   prh: 「勾」は常用漢字（H22年～）
  - expected: 失踪
    patterns: 失そう
+   prh: 「踪」は常用漢字（H22年～）
  - expected: 焼酎
    patterns: 焼ちゅう
+   prh: 「酎」は常用漢字（H22年～）
  - expected: 処方箋
    patterns: 処方せん
+   prh: 「箋」は常用漢字（H22年～）
  - expected: 腎臓
    patterns: じん臓
+   prh: 「腎」は常用漢字（H22年～）
  - expected: 進捗
    patterns: 進ちょく
+   prh: 「捗」は常用漢字（H22年～）
  - expected: 整頓
    patterns: 整とん
+   prh: 「頓」は常用漢字（H22年～）
  - expected: 脊柱
    patterns: せき柱
+   prh: 「脊」は常用漢字（H22年～）
  - expected: 遡及
    patterns: そ及
+   prh: 「遡」は常用漢字（H22年～）
  - expected: 堆積
    patterns: たい積
+   prh: 「堆」は常用漢字（H22年～）
  - expected: 貼付
    patterns: ちょう付
+   prh: 「貼」は常用漢字（H22年～）
  - expected: 賭博
    patterns: とばく
+   prh: 「賭」は常用漢字（H22年～）
  - expected: 剥奪
    patterns: はく奪
+   prh: 「剥」は常用漢字（H22年～）
  - expected: 破綻
    patterns: 破たん
+   prh: 「綻」は常用漢字（H22年～）
  - expected: 汎用
    patterns: はん用
+   prh: 「汎」は常用漢字（H22年～）
  - expected: 氾濫
    patterns: はん濫
+   prh: 「氾」は常用漢字（H22年～）
  - expected: 膝
    patterns: ひざ
+   prh: 「膝」は常用漢字（H22年～）
  - expected: 肘
    patterns: ひじ
+   prh: 「肘」は常用漢字（H22年～）
  - expected: 払拭
    patterns: 払しょく
+   prh: 「拭」は常用漢字（H22年～）
  - expected: 閉塞
    patterns: 閉そく
+   prh: 「塞」は常用漢字（H22年～）
  - expected: 捕捉
    patterns: 捕そく
+   prh: 「捉」は常用漢字（H22年～）
  - expected: 補填
    patterns: 補てん
+   prh: 「填」は常用漢字（H22年～）
  - expected: 哺乳類
    patterns: ほ乳類
+   prh: 「哺」は常用漢字（H22年～）
  - expected: 蜜蜂
    patterns: 蜜蜂
+   prh: 「蜜」「蜂」は常用漢字（H22年～）
  - expected: 明瞭
    patterns: 明りょう
+   prh: 「瞭」は常用漢字（H22年～）
  - expected: 湧出
    patterns: ゆう出
+   prh: 「湧」は常用漢字（H22年～）
  - expected: 拉致
    patterns: ら致
+   prh: 「拉」は常用漢字（H22年～）
  - expected: 賄賂
    patterns: 賄ろ
+   prh: 「賂」は常用漢字（H22年～）
  - expected: 鑑み
    patterns: かんがみ
+   prh: 常用漢字表の読み（H22年～）
  - expected: 遡
    patterns: さかのぼ
+   prh: 「遡」は常用漢字（H22年～）
  - expected: 壊滅
    patterns: 潰滅
  - expected: 壊乱
@@ -249,12 +362,6 @@ rules:
    patterns: 崩潰
  - expected: 理屈
    patterns: 理窟
- - expected: 臆説
-   patterns: 憶説
- - expected: 臆測
-   patterns: 憶測
- - expected: 肝腎
-   patterns: 肝心
  - expected: ただし書
    patterns: 但書
  - expected: 暗渠（きょ）
@@ -287,17 +394,15 @@ rules:
    patterns: あっ旋
  - expected: れんが
    patterns: れん瓦
- - expected: あいくち
+ - expected: 〔あいくち〕
    patterns: 匕首
  - expected: ××
    patterns: 委棄
- - expected: 慰謝料
+ - expected: 〔慰謝料〕
    patterns: 慰藉料
- - expected: ××
-   patterns: 溢水
- - expected: 違反
+ - expected: 〔違反〕
    patterns: 違背
- - expected: 園地
+ - expected: 〔園地〕
    patterns: 苑地
  - expected: ××
    patterns: 汚穢
@@ -315,23 +420,23 @@ rules:
    patterns: 勧解
  - expected: ××
    patterns: 監守
- - expected: 保管
+ - expected: 〔保管〕
    patterns: 管守
  - expected: ××
    patterns: 陥穽
- - expected: 関与
+ - expected: 〔関与〕
    patterns: 干与
- - expected: 関与
+ - expected: 〔関与〕
    patterns: 干預
  - expected: ××
    patterns: 義捐
- - expected: ボイラー
+ - expected: 〔ボイラー〕
    patterns: 汽鑵
  - expected: ××
    patterns: 技監
  - expected: ××
    patterns: 覊束
- - expected: 喫水
+ - expected: 〔喫水〕
    patterns: 吃水
  - expected: ××
    patterns: 欺瞞
@@ -339,121 +444,119 @@ rules:
    patterns: 欺罔
  - expected: ××
    patterns: 狭隘
- - expected: 供応
+ - expected: 〔供応〕
    patterns: 饗応
  - expected: ××
    patterns: 驚愕
- - expected: 魚倉
+ - expected: 〔魚倉〕
    patterns: 魚艙
- - expected: 規律
+ - expected: 〔規律〕
    patterns: 紀律
- - expected: 空気タンク
+ - expected: 〔空気タンク〕
    patterns: 空気槽
  - expected: ××
    patterns: 具有
- - expected: 係船
+ - expected: 〔係船〕
    patterns: ?船
- - expected: 係属
+ - expected: 〔係属〕
    patterns: ?属
- - expected: 経理
+ - expected: 〔経理〕
    patterns: 計理
- - expected: 係留
+ - expected: 〔係留〕
    patterns: ?留
  - expected: ××
    patterns: 懈怠
- - expected: 関連
+ - expected: 〔関連〕
    patterns: 牽連
  - expected: ××
    patterns: 溝渠
- - expected: 交差点
+ - expected: 〔交差点〕
    patterns: 交叉点
- - expected: 交代
+ - expected: 〔交代〕
    patterns: 更代
- - expected: 広報
+ - expected: 〔広報〕
    patterns: 弘報
- - expected: かるた類
+ - expected: 〔かるた類〕
    patterns: 骨牌
  - expected: ××
    patterns: 戸扉
  - expected: ××
    patterns: 誤謬
- - expected: 偽り
+ - expected: 〔偽り〕
    patterns: 詐偽
  - expected: ××
    patterns: 鑿井
  - expected: ××
    patterns: 鎖鑰
- - expected: 散水管
+ - expected: 〔散水管〕
    patterns: 撒水管
- - expected: 趣旨
+ - expected: 〔趣旨〕
    patterns: 旨趣
  - expected: ××
    patterns: 枝条
- - expected: 首謀者
+ - expected: 〔首謀者〕
    patterns: 首魁
- - expected: アルコール
+ - expected: 〔アルコール〕
    patterns: 酒精
  - expected: ××
    patterns: 鬚髯
- - expected: 純化
+ - expected: 〔純化〕
    patterns: 醇化
- - expected: 完成
+ - expected: 〔完成〕
    patterns: 竣功
  - expected: ××
    patterns: 傷痍
  - expected: ××
    patterns: 焼燬
- - expected: 消却
+ - expected: 〔消却〕
    patterns: 銷却
- - expected: 状況
+ - expected: 〔状況〕
    patterns: 情況
- - expected: マストトップ
+ - expected: 〔マストトップ〕
    patterns: 檣頭
  - expected: ××
    patterns: 証標
- - expected: 証拠
+ - expected: 〔証拠〕
    patterns: 証憑
- - expected: 証拠
+ - expected: 〔証拠〕
    patterns: 憑拠
  - expected: ××
    patterns: 牆壁
  - expected: ××
-   patterns: 塵埃
- - expected: ××
    patterns: 塵芥
- - expected: 侵食
+ - expected: 〔侵食〕
    patterns: 侵蝕
  - expected: ××
    patterns: 成規
- - expected: 盗用
+ - expected: 〔盗用
    patterns: 窃用
- - expected: ドック
+ - expected: 〔ドック〕
    patterns: 船渠
- - expected: 洗浄
+ - expected: 〔洗浄〕
    patterns: 洗滌
  - expected: ××
    patterns: 僣窃
- - expected: 総括
+ - expected: 〔総括〕
    patterns: 総轄
  - expected: ××
    patterns: 齟齬
- - expected: 疎明
+ - expected: 〔疎明〕
    patterns: 疏明
  - expected: ××
    patterns: 稠密
- - expected: 通訳人
+ - expected: 〔通訳人〕
    patterns: 通事
- - expected: 定係港
+ - expected: 〔定係港〕
    patterns: 定?港
- - expected: 提示
+ - expected: 〔提示〕
    patterns: 呈示
- - expected: 定年
+ - expected: 〔定年〕
    patterns: 停年
- - expected: 押印
+ - expected: 〔押印〕
    patterns: 捺印
- - expected: 売春
+ - expected: 〔売春〕
    patterns: 売淫
- - expected: 繁殖
+ - expected: 〔繁殖〕
    patterns: 蕃殖
  - expected: ××
    patterns: 版図
@@ -461,7 +564,7 @@ rules:
    patterns: 誹毀
  - expected: ××
    patterns: 彼此
- - expected: 表示
+ - expected: 〔表示〕
    patterns: 標示
  - expected: ××
    patterns: 紊乱
@@ -471,11 +574,12 @@ rules:
    patterns: 房室
  - expected: 膨張
    patterns: 膨脹
+   prh: 「脹」は常用外
  - expected: ××
    patterns: 法例
- - expected: 補助
+ - expected: 〔補助〕
    patterns: 輔助
- - expected: 満了する
+ - expected: 〔満了する〕
    patterns: 満限に達する
  - expected: ××
    patterns: 宥恕
@@ -483,14 +587,1750 @@ rules:
    patterns: 輸贏
  - expected: ××
    patterns: 踰越
- - expected: 油タンク
+ - expected: 〔油タンク〕
    patterns: 油槽
- - expected: 落盤
+ - expected: 〔落盤〕
    patterns: 落磐
  - expected: ××
    patterns: 鄰佑
  - expected: ××
    patterns: 狼狽
- - expected: 和解
+ - expected: 〔和解〕
    patterns: 和諧
+ - expected: 合図
+   patterns: 合い図
+ - expected: 合服
+   patterns: 合い服
+ - expected: 合間
+   patterns: 合い間
+ - expected: 預入金
+   patterns: 預入れ金
+ - expected: 編上靴
+   patterns: 編上げ靴
+ - expected: 植木
+   patterns: 植え木
+ - expected: 進退伺
+   patterns: 進退伺い
+ - expected: 浮袋
+   patterns: 浮き袋
+ - expected: 浮世絵
+   patterns: 浮き世絵
+ - expected: 受入額
+   patterns: 受入れ額
+ - expected: 受入先
+   patterns: 受入れ先
+ - expected: 受入年月日
+   patterns: 受入れ年月日
+ - expected: 請負
+   patterns: 請負い
+ - expected: 受付
+   patterns: 受付け
+ - expected: 受付
+   patterns: 受け付け
+ - expected: 受付係
+   patterns: 受付け係
+ - expected: 受取
+   patterns: 受取り
+ - expected: 受取人
+   patterns: 受取り人
+ - expected: 受払金
+   patterns: 受払い金
+ - expected: 打切補償
+   patterns: 打切り補償
+ - expected: 埋立区域
+   patterns: 埋立て区域
+ - expected: 埋立事業
+   patterns: 埋立て事業
+ - expected: 埋立地
+   patterns: 埋立て地
+ - expected: 裏書
+   patterns: 裏書き
+ - expected: 売上高
+   patterns: 売上げ高
+ - expected: 売掛金
+   patterns: 売掛け金
+ - expected: 売出発行
+   patterns: 売出し発行
+ - expected: 売手
+   patterns: 売り手
+ - expected: 売主
+   patterns: 売り主
+ - expected: 売値
+   patterns: 売り値
+ - expected: 売渡価格
+   patterns: 売渡し価格
+ - expected: 売渡先
+   patterns: 売渡し先
+ - expected: 絵巻物
+   patterns: 絵巻き物
+ - expected: 襟巻
+   patterns: 襟巻き
+ - expected: 沖合
+   patterns: 沖合い
+ - expected: 置物
+   patterns: 置き物
+ - expected: 奥書
+   patterns: 奥書き
+ - expected: 奥付
+   patterns: 奥付け
+ - expected: 押売
+   patterns: 押売り
+ - expected: 押出機
+   patterns: 押出し機
+ - expected: 覚書
+   patterns: 覚え書
+ - expected: 博多織
+   patterns: 博多織り
+ - expected: 折返線
+   patterns: 折返し線
+ - expected: 織元
+   patterns: 織り元
+ - expected: 織物
+   patterns: 織り物
+ - expected: 卸売
+   patterns: 卸売り
+ - expected: 買上品
+   patterns: 買上げ品
+ - expected: 買受人
+   patterns: 買受け人
+ - expected: 買掛金
+   patterns: 買掛け金
+ - expected: 外貨建債権
+   patterns: 外貨建て債権
+ - expected: 概算払
+   patterns: 概算払い
+ - expected: 買手
+   patterns: 買い手
+ - expected: 買主
+   patterns: 買い主
+ - expected: 買値
+   patterns: 買い値
+ - expected: 書付
+   patterns: 書付け
+ - expected: 書留
+   patterns: 書留め
+ - expected: 過誤払
+   patterns: 過誤払い
+ - expected: 貸方
+   patterns: 貸し方
+ - expected: 貸越金
+   patterns: 貸越し金
+ - expected: 貸室
+   patterns: 貸し室
+ - expected: 貸席
+   patterns: 貸し席
+ - expected: 貸倒引当金
+   patterns: 貸倒引当金
+ - expected: 貸出金
+   patterns: 貸出し金
+ - expected: 貸出票
+   patterns: 貸出し票
+ - expected: 貸付金
+   patterns: 貸付け金
+ - expected: 貸主
+   patterns: 貸し主
+ - expected: 貸船
+   patterns: 貸し船
+ - expected: 貸本
+   patterns: 貸し本
+ - expected: 貸間
+   patterns: 貸し間
+ - expected: 貸家
+   patterns: 貸し家
+ - expected: 箇条書
+   patterns: 箇条書き
+ - expected: 貸渡業
+   patterns: 貸渡し業
+ - expected: 肩書
+   patterns: 肩書き
+ - expected: 借入金
+   patterns: 借入れ金
+ - expected: 借受人
+   patterns: 借受け人
+ - expected: 借方
+   patterns: 借し方
+ - expected: 借越金
+   patterns: 借越し金
+ - expected: 刈取機
+   patterns: 刈取り機
+ - expected: 借主
+   patterns: 借し主
+ - expected: 仮渡金
+   patterns: 仮渡し金
+ - expected: 缶詰
+   patterns: 缶詰め
+ - expected: 気付
+   patterns: 気付け
+ - expected: 切手
+   patterns: 切っ手
+ - expected: 切符
+   patterns: 切っ符
+ - expected: 切替組合員
+   patterns: 切替え組合員
+ - expected: 切替日
+   patterns: 切替え日
+ - expected: くじ引
+   patterns: くじ引き
+ - expected: 組合せ
+   patterns: 組み合せ
+ - expected: 組入金
+   patterns: 組入れ金
+ - expected: 組立工
+   patterns: 組立て工
+ - expected: 倉敷料
+   patterns: 倉敷き料
+ - expected: 繰上償還
+   patterns: 繰上げ償還
+ - expected: 繰入金
+   patterns: 繰入れ金
+ - expected: 繰入限度額
+   patterns: 繰入れ限度額
+ - expected: 繰入率
+   patterns: 繰入れ率
+ - expected: 繰替金
+   patterns: 繰替し金
+ - expected: 繰越金
+   patterns: 繰越し金
+ - expected: 繰延資産
+   patterns: 繰延べ資産
+ - expected: 消印
+   patterns: 消し印
+ - expected: 月賦払
+   patterns: 月賦払い
+ - expected: 現金払
+   patterns: 現金払い
+ - expected: 小売
+   patterns: 小売り
+ - expected: 小売商
+   patterns: 小売り商
+ - expected: 小切手
+   patterns: 小切っ手
+ - expected: 木立
+   patterns: 木立ち
+ - expected: 小包
+   patterns: 小包み
+ - expected: 子守
+   patterns: 子守り
+ - expected: 献立
+   patterns: 献立て
+ - expected: 先取特権
+   patterns: 先取り特権
+ - expected: 作付面積
+   patterns: 作付け面積
+ - expected: 挿絵
+   patterns: 挿し絵
+ - expected: 差押命令
+   patterns: 差押え命令
+ - expected: 座敷
+   patterns: 座敷き
+ - expected: 指図
+   patterns: 指し図
+ - expected: 差出人
+   patterns: 差出し人
+ - expected: 差引勘定
+   patterns: 差引き勘定
+ - expected: 差引簿
+   patterns: 差引き簿
+ - expected: 刺身
+   patterns: 刺し身
+ - expected: 試合
+   patterns: 試合い
+ - expected: 仕上機械
+   patterns: 仕上げ機械
+ - expected: 仕上工
+   patterns: 仕上げ工
+ - expected: 仕入価格
+   patterns: 仕入れ価格
+ - expected: 仕掛花火
+   patterns: 仕掛け花火
+ - expected: 仕掛品
+   patterns: 仕掛り品
+ - expected: 敷網
+   patterns: 敷き網
+ - expected: 敷居
+   patterns: 敷き居
+ - expected: 敷石
+   patterns: 敷き石
+ - expected: 敷金
+   patterns: 敷き金
+ - expected: 敷地
+   patterns: 敷き地
+ - expected: 敷布
+   patterns: 敷き布
+ - expected: 敷物
+   patterns: 敷き物
+ - expected: 軸受
+   patterns: 軸受け
+ - expected: 下請工事
+   patterns: 下請け工事
+ - expected: 仕出屋
+   patterns: 仕出し屋
+ - expected: 仕立券
+   patterns: 仕立て券
+ - expected: 仕立物
+   patterns: 仕立て物
+ - expected: 仕立屋
+   patterns: 仕立て屋
+ - expected: 質入証券
+   patterns: 質入れ証券
+ - expected: 支払
+   patterns: 支払い
+ - expected: 支払元受高
+   patterns: 支払い元受高
+ - expected: 字引
+   patterns: 字引き
+ - expected: 仕向地
+   patterns: 仕向け地
+ - expected: 事務取扱
+   patterns: 事務取扱い
+ - expected: 事務引継
+   patterns: 事務引継ぎ
+ - expected: 締切日
+   patterns: 締切り日
+ - expected: 所得割
+   patterns: 所得割り
+ - expected: 新株買付契約書
+   patterns: 新株買付け契約書
+ - expected: 据置期間
+   patterns: 据置き期間
+ - expected: 支払済額
+   patterns: 支払い済額
+ - expected: 関取
+   patterns: 関取り
+ - expected: 備付品
+   patterns: 備付け品
+ - expected: 型絵染
+   patterns: 型絵染め
+ - expected: ただし書
+   patterns: ただし書き
+ - expected: 但書
+   patterns: ただし書き
+ - expected: 立会演説
+   patterns: 立会い演説
+ - expected: 立会人
+   patterns: 立会い人
+ - expected: 立入検査
+   patterns: 立入り検査
+ - expected: 立場
+   patterns: 立ち場
+ - expected: 竜巻
+   patterns: 竜巻き
+ - expected: 立替金
+   patterns: 立替え金
+ - expected: 立替払
+   patterns: 立替え払
+ - expected: 建具
+   patterns: 建て具
+ - expected: 建坪
+   patterns: 建て坪
+ - expected: 建値
+   patterns: 建て値
+ - expected: 建前
+   patterns: 建て前
+ - expected: 建物
+   patterns: 建て物
+ - expected: 棚卸資産
+   patterns: 棚卸し資産
+ - expected: 条件付採用
+   patterns: 条件付き採用
+ - expected: 月掛貯金
+   patterns: 月掛け貯金
+ - expected: 付添人
+   patterns: 付添い人
+ - expected: 漬物
+   patterns: 漬け物
+ - expected: 積卸施設
+   patterns: 積卸し施設
+ - expected: 積出地
+   patterns: 積出し地
+ - expected: 積立金
+   patterns: 積立て金
+ - expected: 積荷
+   patterns: 積み荷
+ - expected: 詰所
+   patterns: 詰め所
+ - expected: 釣堀
+   patterns: 釣り堀
+ - expected: 手当
+   patterns: 手当て
+ - expected: 出入口
+   patterns: 出入り口
+ - expected: 出来高払
+   patterns: 出来高払い
+ - expected: 手付金
+   patterns: 手付け金
+ - expected: 手引
+   patterns: 手引き
+ - expected: 手引書
+   patterns: 手引き書
+ - expected: 手回品
+   patterns: 手回り品
+ - expected: 手持品
+   patterns: 手持ち品
+ - expected: 灯台守
+   patterns: 灯台守り
+ - expected: 頭取
+   patterns: 頭取り
+ - expected: 欠席届
+   patterns: 欠席届け
+ - expected: 留置電報
+   patterns: 留置き電報
+ - expected: 取扱所
+   patterns: 取扱い所
+ - expected: 取扱注意
+   patterns: 取扱い注意
+ - expected: 取入口
+   patterns: 取入れ口
+ - expected: 取替品
+   patterns: 取替え品
+ - expected: 取組
+   patterns: 取組み
+ - expected: 取消処分
+   patterns: 取消し処分
+ - expected: 取締法
+   patterns: 取締り法
+ - expected: 取締役
+   patterns: 取締り役
+ - expected: 取立金
+   patterns: 取立て金
+ - expected: 取立訴訟
+   patterns: 取立て訴訟
+ - expected: 取次店
+   patterns: 取次ぎ店
+ - expected: 取付工事
+   patterns: 取付け工事
+ - expected: 取引
+   patterns: 取引き
+ - expected: 取引所
+   patterns: 取引き所
+ - expected: 取戻請求権
+   patterns: 取戻し請求権
+ - expected: 問屋
+   patterns: 問い屋
+ - expected: 仲買
+   patterns: 仲買い
+ - expected: 仲立業
+   patterns: 仲立ち業
+ - expected: 投売品
+   patterns: 投売り品
+ - expected: 並木
+   patterns: 並み木
+ - expected: 縄張
+   patterns: 縄張り
+ - expected: 荷扱場
+   patterns: 荷扱い場
+ - expected: 荷受人
+   patterns: 荷受け人
+ - expected: 荷造機
+   patterns: 荷造り機
+ - expected: 荷造費
+   patterns: 荷造り費
+ - expected: 春慶塗
+   patterns: 春慶塗り
+ - expected: 休暇願
+   patterns: 休暇願い
+ - expected: 乗合船
+   patterns: 乗合い船
+ - expected: 乗合旅客
+   patterns: 乗合い旅客
+ - expected: 乗換駅
+   patterns: 乗換え駅
+ - expected: 乗組員
+   patterns: 乗組み員
+ - expected: 場合
+   patterns: 場合い
+ - expected: 羽織
+   patterns: 羽織り
+ - expected: 履物
+   patterns: 履き物
+ - expected: 葉巻
+   patterns: 葉巻き
+ - expected: 払込金
+   patterns: 払込み金
+ - expected: 払下品
+   patterns: 払下げ品
+ - expected: 払出金
+   patterns: 払出し金
+ - expected: 払戻金
+   patterns: 払戻し金
+ - expected: 払戻証書
+   patterns: 払戻し証書
+ - expected: 払渡金
+   patterns: 払渡し金
+ - expected: 払渡郵便局
+   patterns: 払渡し郵便局
+ - expected: 番組
+   patterns: 番組み
+ - expected: 番付
+   patterns: 番付け
+ - expected: 控室
+   patterns: 控え室
+ - expected: 引当金
+   patterns: 引当て金
+ - expected: 引受時間
+   patterns: 引受け時間
+ - expected: 引受人
+   patterns: 引受け人
+ - expected: 引換券
+   patterns: 引換え券
+ - expected: 代金引換
+   patterns: 代金引換え
+ - expected: 引継事業
+   patterns: 引継ぎ事業
+ - expected: 引継調書
+   patterns: 引継ぎ調書
+ - expected: 引取経費
+   patterns: 引取り経費
+ - expected: 引取税
+   patterns: 引取り税
+ - expected: 引渡人
+   patterns: 引渡し人
+ - expected: 日付
+   patterns: 日付け
+ - expected: 引込線
+   patterns: 引込み線
+ - expected: 瓶詰
+   patterns: 瓶詰め
+ - expected: 歩合
+   patterns: 歩合い
+ - expected: 封切館
+   patterns: 封切り館
+ - expected: 福引券
+   patterns: 福引き券
+ - expected: 船積貨物
+   patterns: 船積み貨物
+ - expected: 踏切
+   patterns: 踏切り
+ - expected: 振替
+   patterns: 振替え
+ - expected: 振込金
+   patterns: 振込み金
+ - expected: 振出人
+   patterns: 振出し人
+ - expected: 不渡手形
+   patterns: 不渡り手形
+ - expected: 分割払
+   patterns: 分割払い
+ - expected: 鎌倉彫
+   patterns: 鎌倉彫り
+ - expected: 掘抜井戸
+   patterns: 掘抜き井戸
+ - expected: 前受人
+   patterns: 前受け人
+ - expected: 前貸金
+   patterns: 前貸金
+ - expected: 巻上機
+   patterns: 巻上げ機
+ - expected: 巻紙
+   patterns: 巻き紙
+ - expected: 巻尺
+   patterns: 巻き尺
+ - expected: 巻物
+   patterns: 巻き物
+ - expected: 待合室
+   patterns: 待合い室
+ - expected: 見返物資
+   patterns: 見返り物資
+ - expected: 見込額
+   patterns: 見込み額
+ - expected: 見込数量
+   patterns: 見込み数量
+ - expected: 見込納付
+   patterns: 見込み納付
+ - expected: 水張検査
+   patterns: 水張り検査
+ - expected: 水引
+   patterns: 水引き
+ - expected: 見積書
+   patterns: 見積り書
+ - expected: 見取図
+   patterns: 見取り図
+ - expected: 見習工
+   patterns: 見習い工
+ - expected: 未払勘定
+   patterns: 未払い勘定
+ - expected: 未払年金
+   patterns: 未払い年金
+ - expected: 見舞品
+   patterns: 見舞い品
+ - expected: 名義書換
+   patterns: 名義書換え
+ - expected: 申込書
+   patterns: 申込み書
+ - expected: 申立人
+   patterns: 申立て人
+ - expected: 持込禁止
+   patterns: 持込み禁止
+ - expected: 元売業者
+   patterns: 元売り業者
+ - expected: 物置
+   patterns: 物置き
+ - expected: 物語
+   patterns: 物語り
+ - expected: 物干場
+   patterns: 物干し場
+ - expected: 備前焼
+   patterns: 備前焼き
+ - expected: 役割
+   patterns: 役割り
+ - expected: 屋敷
+   patterns: 屋敷き
+ - expected: 雇入契約
+   patterns: 雇入れ契約
+ - expected: 雇止手当
+   patterns: 雇止め手当
+ - expected: 夕立
+   patterns: 夕立ち
+ - expected: 譲受人
+   patterns: 譲受け人
+ - expected: 譲受人
+   patterns: 譲り受け人
+ - expected: 湯沸器
+   patterns: 湯沸し器
+ - expected: 呼出符号
+   patterns: 呼出し符号
+ - expected: 読替規定
+   patterns: 読替え規定
+ - expected: 読替規定
+   patterns: 読み替え規定
+ - expected: 陸揚地
+   patterns: 陸揚げ地
+ - expected: 陸揚量
+   patterns: 陸揚げ量
+ - expected: 両替
+   patterns: 両替え
+ - expected: 割合
+   patterns: 割合い
+ - expected: 割合
+   patterns: 割り合い
+ - expected: 割当額
+   patterns: 割当て額
+ - expected: 割当額
+   patterns: 割り当て額
+ - expected: 割高
+   patterns: 割り高
+ - expected: 割引
+   patterns: 割引き
+ - expected: 割引
+   patterns: 割り引き
+ - expected: 割増金
+   patterns: 割増し金
+ - expected: 割増金
+   patterns: 割り増し金
+ - expected: 割戻金
+   patterns: 割戻し金
+ - expected: 割戻金
+   patterns: 割り戻し金
+ - expected: 割安
+   patterns: 割り安
+ - expected: 〔申請〕
+   patterns: 稟請
+ - expected: 〔お願い〕
+   patterns: 懇請
+ - expected: 〔周旋、あっせん〕
+   patterns: 牙保
+ - expected: 〔模様、色模様〕
+   patterns: 彩紋
+ - expected: 〔橋〕
+   patterns: 橋梁
+ - expected: 〔ほこり〕
+   patterns: 塵埃
+ - expected: 〔まぶた〕
+   patterns: 眼瞼
+ - expected: 佃煮
+   patterns: つくだ煮
+ - expected: 艀
+   patterns: はしけ
+ - expected: でんぷん
+   patterns: 澱粉
+ - expected: あっせん
+   patterns: 斡旋
+ - expected: 右舷
+   patterns: 右げん
+   prh: 「舷」は常用漢字（H22年～）
+ - expected: 改ざん
+   patterns: 改竄
+ - expected: 口こう
+   patterns: 口腔
+ - expected: 車両
+   patterns: 車輌
+ - expected: 扇動
+   patterns: 煽動
+ - expected: 停泊
+   patterns: 碇泊
+ - expected: 編集
+   patterns: 編輯
+ - expected: 保育
+   patterns: 哺育
+ - expected: 放棄
+   patterns: 抛棄
+ - expected: 用人
+   patterns: 傭人
+ - expected: 連
+   patterns: 聯
+ - expected: 練乳
+   patterns: 煉乳
+ - expected: 〔雑報〕
+   patterns: 彙報
+ - expected: 〔印形〕
+   patterns: 印顆
+ - expected: 〔改心〕
+   patterns: 改悛
+ - expected: 〔切除〕
+   patterns: 剪除
+ - expected: 〔騒乱〕
+   patterns: 擾乱
+ - expected: 〔出水〕
+   patterns: 溢水
+ - expected: 〔戒告〕
+   patterns: 譴責
+ - expected: 〔汚職〕
+   patterns: ?職
+ - expected: 〔かばう〕
+   patterns: 庇護
+ - expected: 〔破る〕
+   patterns: 破毀
+ - expected: 〔酔う〕
+   patterns: 酩酊
+ - expected: である。
+   patterns: だ。
+ - expected: であろう
+   patterns: だろう
+ - expected: であった
+   patterns: だった
+ - expected: ますが
+   patterns: まするが
+ - expected: ますけれども
+   patterns: まするけれども
+ - expected: ××
+   patterns: ますれば
+ - expected: ××
+   patterns: くださいませ
+ - expected: しなければ
+   patterns: せねば
+ - expected: すべき
+   patterns: するべき
+ - expected: される
+   patterns: せられる
+ - expected: させる
+   patterns: せさせる
+ - expected: しない
+   patterns: せぬ
+ - expected: しない
+   patterns: せない
+ - expected: しなければ
+   patterns: せなければ
+ - expected: 時から
+   patterns: 時より
+   prh: 「より」は比較を示す場合にだけ用いる。
+ - expected: 分から
+   patterns: 分より
+   prh: 「より」は比較を示す場合にだけ用いる。
+ - expected: 日から
+   patterns: 日より
+   prh: 「より」は比較を示す場合にだけ用いる。
+ - expected: あいにく
+   patterns: 生憎
+ - expected: 曖昧
+   patterns: あいまい
+   prh: 「曖」「昧」は常用漢字（H22年～）
+ - expected: あいまって
+   patterns: 相まって
+ - expected: あいまって
+   patterns: 相俟って
+ - expected: 〔支障、困難、障害〕
+   patterns: 隘路
+ - expected: あえて
+   patterns: 敢えて
+ - expected: あえて
+   patterns: 敢て
+ - expected: 飽くまで
+   patterns: 飽く迄
+ - expected: 挙げ句
+   patterns: あげく
+ - expected: あずかる
+   patterns: 与る
+ - expected: あずかり
+   patterns: 与り
+ - expected: あたかも
+   patterns: 恰も
+ - expected: 当たり前
+   patterns: あたりまえ
+ - expected: あつらえ
+   patterns: 誂え
+ - expected: 宛名
+   patterns: あて名
+   prh: 「宛」は常用漢字（H22年～）
+ - expected: あながち
+   patterns: 強ち
+ - expected: あなた
+   patterns: 貴方
+ - expected: あまつさえ
+   patterns: 剰え
+ - expected: あまねく
+   patterns: 普く
+ - expected: あまねく
+   patterns: 遍く
+ - expected: 余りに
+   patterns: あまりに
+ - expected: あらかじめ
+   patterns: 予め
+ - expected: あらず
+   patterns: 非ず
+ - expected: 改めて
+   patterns: あらためて
+ - expected: あらゆる
+   patterns: 凡ゆる
+ - expected: 在りか
+   patterns: ありか
+ - expected: 在りか
+   patterns: 在り処
+ - expected: 在り方
+   patterns: ありかた
+ - expected: 在り方
+   patterns: あり方
+ - expected: 有り難み
+   patterns: ありがたみ
+ - expected: 有り難が
+   patterns: ありがたが
+ - expected: 有り難い
+   patterns: ありがたい
+ - expected: ありがとう
+   patterns: 有難う
+ - expected: ありがとう
+   patterns: 有り難う
+ - expected: あるいは
+   patterns: 或いは
+ - expected: 言う
+   patterns: 云う
+ - expected: いえども
+   patterns: 雖も
+ - expected: いかなる
+   patterns: 如何なる
+ - expected: いかん
+   patterns: 如何
+ - expected: いささか
+   patterns: 些か
+ - expected: いささか
+   patterns: 聊か
+ - expected: いずれ
+   patterns: 何れ
+ - expected: 抱く
+   patterns: 懐く
+ - expected: 致し方
+   patterns: いたし方
+ - expected: いだす
+   patterns: 出だす
+ - expected: いたずらに
+   patterns: 徒に
+ - expected: 至って
+   patterns: いたって
+ - expected: 至る
+   patterns: 到る
+ - expected: を頂
+   patterns: をいただ
+ - expected: いちず
+   patterns: 一途
+ - expected: 〔移達〕
+   patterns: 移牒
+ - expected: 一向
+   patterns: いっこう
+ - expected: 一切
+   patterns: いっさい
+ - expected: 一緒
+   patterns: いっしょ
+ - expected: 一斉
+   patterns: いっせい
+ - expected: 一層
+   patterns: いっそう
+ - expected: 一旦
+   patterns: いったん
+   prh: 「旦」は常用漢字（H22年～）
+ - expected: 一遍に
+   patterns: いっぺんに
+ - expected: 今更
+   patterns: 今さら
+ - expected: いまだ
+   patterns: 未だ
+ - expected: いよいよ
+   patterns: 愈々
+ - expected: 意欲
+   patterns: 意慾
+ - expected: いろいろ
+   patterns: 色々
+ - expected: 言わば
+   patterns: いわば
+ - expected: 言わば
+   patterns: 謂わば
+ - expected: いわゆる
+   patterns: 所謂
+ - expected: いわんや
+   patterns: 況や
+ - expected: うたう
+   patterns: 謳う
+ - expected: のうち、
+   patterns: の内、
+ - expected: 恭し
+   patterns: うやうやし
+ - expected: 得るところ
+   patterns: うるところ
+ - expected: し得る
+   patterns: しうる
+ - expected: やむを得
+   patterns: やむをえ
+ - expected: うんぬん
+   patterns: 云々
+ - expected: おいて
+   patterns: 於いて
+ - expected: おいて
+   patterns: 於て
+ - expected: おおむね
+   patterns: 概ね
+ - expected: おおよそ
+   patterns: 大凡
+ - expected: おかげ
+   patterns: お蔭
+ - expected: 押す
+   patterns: 捺す
+ - expected: 遅い
+   patterns: 晩い
+ - expected: おそれ
+   patterns: 虞
+ - expected: 音沙汰
+   patterns: 音さた
+   prh: 「沙」「汰」は常用漢字（H22年～）
+ - expected: 大人
+   patterns: おとな
+ - expected: 各々
+   patterns: おのおの
+ - expected: おのずから
+   patterns: 自ずから
+ - expected: おびただし
+   patterns: 夥し
+ - expected: おぼしめし
+   patterns: 思召し
+ - expected: おぼしめし
+   patterns: 思し召し
+ - expected: おぼつかな
+   patterns: 覚束な
+ - expected: 面白
+   patterns: おもしろ
+ - expected: おもむろに
+   patterns: 徐に
+ - expected: 主に
+   patterns: おもに
+ - expected: 思わく
+   patterns: 思惑
+ - expected: 趣
+   patterns: おもむき
+ - expected: その折
+   patterns: そのおり
+ - expected: およそ
+   patterns: 凡そ
+ - expected: 赴く
+   patterns: おもむく
+ - expected: 折から
+   patterns: おりから
+ - expected: 折から
+   patterns: 折柄
+ - expected: はおろか
+   patterns: は疎か
+ - expected: おろそか
+   patterns: 疎か
+ - expected: か（箇）
+   patterns: ヶ
+ - expected: かい
+   patterns: 甲斐
+ - expected: 回送
+   patterns: 廻送
+ - expected: 回送
+   patterns: 回漕
+ - expected: かえって
+   patterns: 却って
+ - expected: かかる
+   patterns: 懸かる
+ - expected: かかる
+   patterns: 罹る
+ - expected: に係る
+   patterns: に関る
+ - expected: に係る
+   patterns: にかかる
+ - expected: かかわ
+   patterns: 拘わ
+ - expected: かき
+   patterns: ?き
+ - expected: かたがた
+   patterns: 旁々
+ - expected: かたじけない
+   patterns: 忝い
+ - expected: 片付け
+   patterns: 片附け
+ - expected: 傍ら
+   patterns: かたわら
+ - expected: 画期的
+   patterns: 劃期的
+ - expected: かつて
+   patterns: 嘗て
+ - expected: 活発
+   patterns: 活撥
+ - expected: 片仮名
+   patterns: カタカナ
+ - expected: 仮名遣い
+   patterns: かな遣い
+ - expected: 平仮名
+   patterns: ひらがな
+ - expected: かなう
+   patterns: 敵う
+ - expected: かなう
+   patterns: 適う
+ - expected: かなう
+   patterns: 叶う
+ - expected: かなた
+   patterns: 彼方
+ - expected: かねて
+   patterns: 予ねて
+ - expected: かねて
+   patterns: 予て
+ - expected: 絡む
+   patterns: からむ
+ - expected: かんがみ
+   patterns: 鑑み
+ - expected: 気掛かり
+   patterns: 気がかり
+ - expected: 希薄
+   patterns: 稀薄
+ - expected: 寄附
+   patterns: 寄付
+ - expected: 〔昨年末〕
+   patterns: 旧臘
+ - expected: を下さ
+   patterns: をくださ
+ - expected: 比べ
+   patterns: 較べ
+ - expected: 繰り返
+   patterns: くりかえ
+ - expected: くれぐれも
+   patterns: 呉々も
+ - expected: くれ
+   patterns: 呉れ
+ - expected: 係属
+   patterns: 繋属
+ - expected: 啓もう
+   patterns: 啓蒙
+ - expected: けた
+   patterns: 桁
+ - expected: けだし
+   patterns: 蓋し
+ - expected: 結構
+   patterns: けっこう
+ - expected: こうして
+   patterns: 斯うして
+ - expected: 被る
+   patterns: 蒙る
+ - expected: 高揚
+   patterns: 昂揚
+ - expected: ここ
+   patterns: 此処
+ - expected: 心掛け
+   patterns: 心がけ
+ - expected: こしらえ
+   patterns: 拵え
+ - expected: こぞって
+   patterns: 挙って
+ - expected: 御存じ
+   patterns: 御存知
+ - expected: (応or答)え
+   patterns: こたえ
+   prh: 「応える」は常用漢字表の読み（H22年～）
+ - expected: ごとに
+   patterns: 毎に
+ - expected: 事柄
+   patterns: ことがら
+ - expected: ごとく
+   patterns: 如く
+ - expected: ことごとく
+   patterns: 悉く
+ - expected: 殊更
+   patterns: ことさら
+ - expected: 殊の外
+   patterns: ことのほか
+ - expected: 子供
+   patterns: 子ども
+ - expected: 〔誤り〕
+   patterns: 誤謬
+ - expected: 御無沙汰
+   patterns: ごぶさた
+   prh: 「沙」「汰」は常用漢字（H22年～）
+ - expected: 根底
+   patterns: 根柢
+ - expected: 先ほど
+   patterns: 先程
+ - expected: ささいな
+   patterns: 些細な
+ - expected: ささげ
+   patterns: 捧げ
+ - expected: 差し上げ
+   patterns: さしあげ
+ - expected: 差し当たり
+   patterns: さしあたり
+ - expected: 差し障り
+   patterns: 差しさわり
+ - expected: さしずめ
+   patterns: 差し詰め
+ - expected: 差し出す
+   patterns: さしだす
+ - expected: 差し支え
+   patterns: さしつかえ
+ - expected: 差し遣わ
+   patterns: さしつかわ
+ - expected: 差し向き
+   patterns: さしむき
+ - expected: さすがに
+   patterns: 流石に
+ - expected: 沙汰
+   patterns: さた
+   prh: 「沙」「汰」は常用漢字（H22年～）
+ - expected: さばく
+   patterns: 捌く
+ - expected: さほど
+   patterns: 左程
+ - expected: 様々
+   patterns: さまざま
+ - expected: 強いて
+   patterns: しいて
+ - expected: 〔この方面、この社会〕
+   patterns: 斯界
+ - expected: 〔そうでない〕
+   patterns: 然らざる
+ - expected: しかるに
+   patterns: 然るに
+ - expected: しきりに
+   patterns: 頻りに
+ - expected: 仕組み
+   patterns: しくみ
+ - expected: 刺激
+   patterns: 刺戟
+ - expected: 子細
+   patterns: 仔細
+ - expected: 〔この道〕
+   patterns: 斯道
+ - expected: しばしば
+   patterns: 屡々
+ - expected: しばらく
+   patterns: 暫く
+ - expected: てしまう
+   patterns: て終う
+ - expected: 締切り
+   patterns: 〆切
+ - expected: 車両
+   patterns: 車輌
+ - expected: 〔器物〕
+   patterns: 什器
+ - expected: 十分
+   patterns: 充分
+ - expected: しゅん工
+   patterns: 竣工
+ - expected: 〔その他、そのほか〕
+   patterns: 自余
+ - expected: 〔証拠〕
+   patterns: 証憑
+ - expected: 〔以後、その後〕
+   patterns: 爾来
+ - expected: 退ける
+   patterns: 斥ける
+ - expected: 記す
+   patterns: 印す
+ - expected: 〔真剣、熱心、まじめ〕
+   patterns: 真摯
+ - expected: 〔手加減、手心、取捨選択、遠慮〕
+   patterns: 斟酌
+ - expected: 浸食
+   patterns: 浸蝕
+ - expected: 尋問
+   patterns: 訊問
+ - expected: 随分
+   patterns: ずいぶん
+ - expected: 〔成り行き、大勢、形勢、傾向〕
+   patterns: 趨勢
+ - expected: すぐに
+   patterns: 直ぐに
+ - expected: 優れる
+   patterns: 勝れる
+ - expected: すこぶる
+   patterns: 頗る
+ - expected: 既に
+   patterns: すでに
+ - expected: すなわち
+   patterns: 乃ち
+ - expected: すなわち
+   patterns: 則ち
+ - expected: すなわち
+   patterns: 即ち
+ - expected: すべて
+   patterns: 凡て
+ - expected: すべて
+   patterns: 総て
+ - expected: 制御
+   patterns: 制禦
+ - expected: せっかく
+   patterns: 折角
+ - expected: 是非
+   patterns: ぜひ
+ - expected: 〔配慮、選考、審議〕
+   patterns: 詮議
+ - expected: 選考
+   patterns: 詮衡
+ - expected: 扇動
+   patterns: 煽動
+ - expected: 〔全容、全体〕
+   patterns: 全貌
+ - expected: 総合
+   patterns: 綜合
+ - expected: 装丁
+   patterns: 装幀
+ - expected: 〔賢明、賢い〕
+   patterns: 聡明
+ - expected: そもそも
+   patterns: 抑々
+ - expected: そろお
+   patterns: 揃お
+ - expected: そろえ
+   patterns: 揃え
+ - expected: そろう
+   patterns: 揃う
+ - expected: そろっ
+   patterns: 揃っ
+ - expected: そろい
+   patterns: 揃い
+ - expected: そろわ
+   patterns: 揃わ
+ - expected: 大概
+   patterns: たいがい
+ - expected: 大した
+   patterns: たいした
+ - expected: 大層
+   patterns: たいそう
+ - expected: 大体
+   patterns: だいたい
+ - expected: 大抵
+   patterns: たいてい
+ - expected: たくさん
+   patterns: 沢山
+ - expected: 立ち退く
+   patterns: 立ちのく
+ - expected: たちまち
+   patterns: 忽ち
+ - expected: 盾
+   patterns: 楯
+ - expected: 頼もし
+   patterns: たのもし
+ - expected: 多分
+   patterns: たぶん
+ - expected: 暖房
+   patterns: 煖房
+ - expected: 近頃
+   patterns: 近ごろ
+   prh: 「頃」は常用漢字（H22年～）
+ - expected: 〔よく知る〕
+   patterns: 知悉
+ - expected: ちなも
+   patterns: 因も
+ - expected: ちなめ
+   patterns: 因め
+ - expected: ちなみ
+   patterns: 因み
+ - expected: ちなん
+   patterns: 因ん
+ - expected: ちなま
+   patterns: 因ま
+ - expected: ちなむ
+   patterns: 因む
+ - expected: 〔周密、密集〕
+   patterns: 稠密
+ - expected: 注
+   patterns: 註
+ - expected: 帳じり
+   patterns: 帳尻
+ - expected: ちょうど
+   patterns: 丁度
+ - expected: 〔はる、はり付ける〕
+   patterns: 貼付
+ - expected: 沈殿
+   patterns: 沈澱
+ - expected: ついでに
+   patterns: 序でに
+ - expected: ついに
+   patterns: 遂に
+ - expected: 〔通達〕
+   patterns: 通牒
+ - expected: 付け
+   patterns: 附け
+ - expected: つづっ
+   patterns: 綴っ
+ - expected: つづろ
+   patterns: 綴ろ
+ - expected: つづれ
+   patterns: 綴れ
+ - expected: つづり
+   patterns: 綴り
+ - expected: つづら
+   patterns: 綴ら
+ - expected: つづる
+   patterns: 綴る
+ - expected: つながろ
+   patterns: 繋がろ
+ - expected: つながれ
+   patterns: 繋がれ
+ - expected: つながる
+   patterns: 繋がる
+ - expected: つながり
+   patterns: 繋がり
+ - expected: つながっ
+   patterns: 繋がっ
+ - expected: つながら
+   patterns: 繋がら
+ - expected: つまびらか
+   patterns: 詳らか
+ - expected: つもり
+   patterns: 心算
+ - expected: 抵触
+   patterns: 牴触
+ - expected: 手後れ
+   patterns: 手おくれ
+ - expected: 手掛かり
+   patterns: 手がかり
+ - expected: 手際
+   patterns: 手ぎわ
+ - expected: 手頃
+   patterns: 手ごろ
+   prh: 「頃」は常用漢字（H22年～）
+ - expected: 手はず
+   patterns: 手筈
+ - expected: 手元
+   patterns: 手許
+ - expected: とうとう
+   patterns: 到頭
+ - expected: とかく
+   patterns: 兎角
+ - expected: どこ
+   patterns: 何処
+ - expected: とはいうものの
+   patterns: とは言うものの
+ - expected: という場合
+   patterns: と言う場合
+ - expected: とはいえ
+   patterns: とは言え
+ - expected: 取りあえず
+   patterns: 取り敢えず
+ - expected: 取りあえず
+   patterns: とりあえず
+ - expected: 取りまとめ
+   patterns: 取り纏め
+ - expected: 取りやめ
+   patterns: 取り止め
+ - expected: ないし
+   patterns: 乃至
+ - expected: なかなか
+   patterns: 中々
+ - expected: 半ば
+   patterns: なかば
+ - expected: ながら
+   patterns: 乍ら
+ - expected: なかんずく
+   patterns: 就中
+ - expected: なぜ
+   patterns: 何故
+ - expected: 何とぞ
+   patterns: 何卒
+ - expected: 並々
+   patterns: なみなみ
+ - expected: 成り立つ
+   patterns: なりたつ
+ - expected: 成り行き
+   patterns: なりゆき
+ - expected: なるほど
+   patterns: 成程
+ - expected: にぎわう
+   patterns: 賑わう
+ - expected: 担う
+   patterns: 荷う
+ - expected: にらむ
+   patterns: 睨む
+ - expected: にわかに
+   patterns: 俄かに
+ - expected: 懇ろ
+   patterns: ねんごろ
+ - expected: 脳裏
+   patterns: 脳裡
+ - expected: 後ほど
+   patterns: のちほど
+ - expected: のっとっ
+   patterns: 則っ
+ - expected: のっとろ
+   patterns: 則ろ
+ - expected: のっとれ
+   patterns: 則れ
+ - expected: のっとる
+   patterns: 則る
+ - expected: のっとり
+   patterns: 則り
+ - expected: のっとら
+   patterns: 則ら
+ - expected: 飲む
+   patterns: 呑む
+ - expected: はがき
+   patterns: 葉書
+ - expected: はかどる
+   patterns: 捗る
+ - expected: 図らずも
+   patterns: はからずも
+ - expected: 〔多大〕
+   patterns: 莫大
+ - expected: はず
+   patterns: 筈
+ - expected: 外れ
+   patterns: はずれ
+ - expected: 果たして
+   patterns: はたして
+ - expected: はつらつ
+   patterns: 溌剌
+ - expected: 甚だ
+   patterns: はなはだ
+ - expected: はばかる
+   patterns: 憚る
+ - expected: 〔煩わしい〕
+   patterns: 煩瑣な
+ - expected: 〔反論〕
+   patterns: 反駁
+ - expected: ひいては
+   patterns: 延いては
+ - expected: 引き起こす
+   patterns: 惹き起こす
+ - expected: 日ごと
+   patterns: 日毎
+ - expected: 日ごろ
+   patterns: 日頃
+   prh: 「頃」は常用漢字（H22年～）
+ - expected: ひたすら
+   patterns: 只管
+ - expected: 〔つまり、つまるところ〕
+   patterns: 畢竟
+ - expected: 〔必要〕
+   patterns: 必須
+ - expected: 一方ならぬ
+   patterns: ひとかたならぬ
+ - expected: ひとしお
+   patterns: 一入
+ - expected: 一そろい
+   patterns: 一揃い
+ - expected: 一そろい
+   patterns: ひとそろい
+ - expected: 一たび
+   patterns: ひとたび
+ - expected: 一通り
+   patterns: ひととおり
+ - expected: ひとまず
+   patterns: 一先ず
+ - expected: ひとわたり
+   patterns: 一渡り
+ - expected: 〔よりどころ〕
+   patterns: 憑拠
+ - expected: 広がる
+   patterns: 拡がる
+ - expected: いうふう
+   patterns: いう風
+ - expected: ふさわし
+   patterns: 相応し
+ - expected: 不十分
+   patterns: 不充分
+ - expected: 再び
+   patterns: ふたたび
+ - expected: ふだん
+   patterns: 普段
+ - expected: 符丁
+   patterns: 符牒
+ - expected: 〔一掃、除去、取り去る〕
+   patterns: 払拭
+ - expected: 振り仮名
+   patterns: ふりがな
+ - expected: 奮って
+   patterns: ふるって
+ - expected: ページ
+   patterns: 頁
+ - expected: すべき
+   patterns: す可き
+ - expected: へき地
+   patterns: 僻地
+ - expected: 〔激励、励ます〕
+   patterns: 鞭撻
+ - expected: 〔つづる〕
+   patterns: 編綴
+ - expected: 膨大
+   patterns: 厖大
+ - expected: てほし
+   patterns: て欲し
+ - expected: ほとんど
+   patterns: 殆ど
+ - expected: 誉れ
+   patterns: ほまれ
+ - expected: 本当
+   patterns: ほんとう
+ - expected: 〔突進、突き進む〕
+   patterns: 邁進
+ - expected: 間際
+   patterns: まぎわ
+ - expected: 誠に
+   patterns: まことに
+ - expected: 誠に
+   patterns: 真に
+ - expected: 正に
+   patterns: まさに
+ - expected: 正に
+   patterns: 将に
+ - expected: 勝る
+   patterns: 優る
+ - expected: まして
+   patterns: 況して
+ - expected: まじめ
+   patterns: 真面目
+ - expected: まず
+   patterns: 先ず
+ - expected: ますます
+   patterns: 益々
+ - expected: 間違お
+   patterns: まちがお
+ - expected: 間違え
+   patterns: まちがえ
+ - expected: 間違っ
+   patterns: まちがっ
+ - expected: 間違わ
+   patterns: まちがわ
+ - expected: 間違う
+   patterns: まちがう
+ - expected: 真っ先
+   patterns: まっさき
+ - expected: 全う
+   patterns: まっとう
+ - expected: まで
+   patterns: 迄
+ - expected: まとめ
+   patterns: 纏め
+ - expected: まね
+   patterns: 真似
+ - expected: まま
+   patterns: 儘
+ - expected: 間もなく
+   patterns: まもなく
+ - expected: まれ
+   patterns: 稀
+ - expected: 真ん中
+   patterns: まんなか
+ - expected: 見いだそ
+   patterns: 見出そ
+ - expected: 見いだせ
+   patterns: 見出せ
+ - expected: 見いだす
+   patterns: 見出す
+ - expected: 見いだし
+   patterns: 見出し
+ - expected: 見いださ
+   patterns: 見出さ
+ - expected: 見事
+   patterns: みごと
+ - expected: 自ら
+   patterns: みずから
+ - expected: 満たす
+   patterns: 充たす
+ - expected: みだりに
+   patterns: 濫りに
+ - expected: みだりに
+   patterns: 妄りに
+ - expected: みなす
+   patterns: 見なす
+ - expected: みなす
+   patterns: 見做す
+ - expected: むしろ
+   patterns: 寧ろ
+ - expected: 無駄
+   patterns: むだ
+ - expected: むなしい
+   patterns: 虚しい
+ - expected: むなしい
+   patterns: 空しい
+ - expected: むやみ
+   patterns: 無闇
+ - expected: 無論
+   patterns: むろん
+ - expected: 目当て
+   patterns: めあて
+ - expected: 銘々
+   patterns: めいめい
+ - expected: 眼鏡
+   patterns: めがね
+ - expected: 目指そ
+   patterns: めざそ
+ - expected: 目指せ
+   patterns: めざせ
+ - expected: 目指す
+   patterns: めざす
+ - expected: 目指し
+   patterns: めざし
+ - expected: 目指さ
+   patterns: めざさ
+ - expected: めった
+   patterns: 滅多
+ - expected: めでたい
+   patterns: 目出度い
+ - expected: 面倒
+   patterns: めんどう
+ - expected: 申し訳
+   patterns: もうしわけ
+ - expected: 目途
+   patterns: もくと
+ - expected: もくろみ
+   patterns: 目論見
+ - expected: もたらす
+   patterns: 齎す
+ - expected: もちろん
+   patterns: 勿論
+ - expected: もって
+   patterns: 以って
+ - expected: の下
+   patterns: のもと
+ - expected: もっとも
+   patterns: 尤も
+ - expected: 専ら
+   patterns: もっぱら
+ - expected: もとより
+   patterns: 素より
+ - expected: もとより
+   patterns: 固より
+ - expected: 最寄りの
+   patterns: もよりの
+ - expected: てもら
+   patterns: て貰
+ - expected: 漏ら
+   patterns: 洩ら
+ - expected: もろもろ
+   patterns: 諸々
+ - expected: やがて
+   patterns: 軈て
+ - expected: やかましい
+   patterns: 喧しい
+ - expected: 安い
+   patterns: 廉い
+ - expected: やすい
+   patterns: 易い
+ - expected: 厄介
+   patterns: やっかい
+ - expected: やはり
+   patterns: 矢張り
+ - expected: やむをえず
+   patterns: 已むを得ず
+ - expected: やや
+   patterns: 稍
+ - expected: ややもすれば
+   patterns: 動もすれば
+ - expected: 和らい
+   patterns: やわらい
+ - expected: 和らが
+   patterns: やわらが
+ - expected: 和らぎ
+   patterns: やわらぎ
+ - expected: 和らぐ
+   patterns: やわらぐ
+ - expected: 和らげ
+   patterns: やわらげ
+ - expected: 和らご
+   patterns: やわらご
+ - expected: ゆえん
+   patterns: 所以
+ - expected: ゆがま
+   patterns: 歪ま
+ - expected: ゆがん
+   patterns: 歪ん
+ - expected: ゆがみ
+   patterns: 歪み
+ - expected: ゆがむ
+   patterns: 歪む
+ - expected: ゆがめ
+   patterns: 歪め
+ - expected: ゆがも
+   patterns: 歪も
+ - expected: 委ね
+   patterns: ゆだね
+   prh: 常用漢字表の読み（H22年～）
+ - expected: ゆるがせ
+   patterns: 忽せ
+ - expected: 〔要点〕
+   patterns: 要訣
+ - expected: よう人〔雇人、使用人〕
+   patterns: 傭人
+ - expected: ようやく
+   patterns: 漸く
+ - expected: 由もない
+   patterns: よしもない
+ - expected: よって
+   patterns: 仍って
+ - expected: よりどころ
+   patterns: 拠所
+ - expected: よろしく
+   patterns: 宜しく
+ - expected: 世論
+   patterns: 輿論
+ - expected: 〔はじまり〕
+   patterns: 濫觴
+ - expected: りゅうちょう〔すらすらと、よどみなく〕
+   patterns: 流暢
+ - expected: 了解
+   patterns: 諒解
+ - expected: 了承
+   patterns: 諒承
+ - expected: 連係
+   patterns: 連繋
+ - expected: 我が
+   patterns: 吾が
+ - expected: 分かろ
+   patterns: わかろ
+ - expected: 分かれ
+   patterns: わかれ
+ - expected: 分かる
+   patterns: わかる
+ - expected: 分かり
+   patterns: わかり
+ - expected: 分かっ
+   patterns: わかっ
+ - expected: 分から
+   patterns: わから
+ - expected: 分かる
+   patterns: 判る
+ - expected: 分かる
+   patterns: 解る
+ - expected: わきまえ
+   patterns: 弁え
+ - expected: わざと
+   patterns: 態と
+ - expected: わたって
+   patterns: 亘って
+ - expected: わびる
+   patterns: 詫る
+ - expected: 、
+   patterns: ，
+ - expected: 。
+   patterns: ．
+ - expected: 生かさ
+   patterns: 活かさ
+ - expected: 生かし
+   patterns: 活かし
+ - expected: 生かす
+   patterns: 活かす
+ - expected: 生かせ
+   patterns: 活かせ
+ - expected: 生かそ
+   patterns: 活かそ
+ - expected: 県内
+   patterns: 県下
+ - expected: 御多用
+   patterns: 御多忙
+   prh: 「忙」は心を亡くすイメージ
 
