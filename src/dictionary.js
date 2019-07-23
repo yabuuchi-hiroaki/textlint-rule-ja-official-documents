@@ -15,7 +15,7 @@ module.exports = [
  "basic_form": "おれ",
  "reading": "オレ",
  "pronunciation": "オレ"
-}
+ }
 ]
 },
 // Rule #2
@@ -34,7 +34,7 @@ module.exports = [
  "basic_form": "かれ",
  "reading": "カレ",
  "pronunciation": "カレ"
-}
+ }
 ]
 },
 // Rule #3
@@ -53,7 +53,7 @@ module.exports = [
  "basic_form": "だれ",
  "reading": "ダレ",
  "pronunciation": "ダレ"
-}
+ }
 ]
 },
 // Rule #4
@@ -72,7 +72,7 @@ module.exports = [
  "basic_form": "なに",
  "reading": "ナニ",
  "pronunciation": "ナニ"
-}
+ }
 ]
 },
 // Rule #5
@@ -91,7 +91,7 @@ module.exports = [
  "basic_form": "ぼく",
  "reading": "ボク",
  "pronunciation": "ボク"
-}
+ }
 ]
 },
 // Rule #6
@@ -110,7 +110,7 @@ module.exports = [
  "basic_form": "わたし",
  "reading": "ワタシ",
  "pronunciation": "ワタシ"
-}
+ }
 ]
 },
 // Rule #7
@@ -129,7 +129,7 @@ module.exports = [
  "basic_form": "わたくし",
  "reading": "ワタクシ",
  "pronunciation": "ワタクシ"
-}
+ }
 ]
 },
 // Rule #8
@@ -148,7 +148,7 @@ module.exports = [
  "basic_form": "われわれ",
  "reading": "ワレワレ",
  "pronunciation": "ワレワレ"
-}
+ }
 ]
 },
 // Rule #11
@@ -167,7 +167,7 @@ module.exports = [
  "basic_form": "あまり",
  "reading": "アマリ",
  "pronunciation": "アマリ"
-}
+ }
 ]
 },
 // Rule #13
@@ -186,7 +186,7 @@ module.exports = [
  "basic_form": "おおいに",
  "reading": "オオイニ",
  "pronunciation": "オーイニ"
-}
+ }
 ]
 },
 // Rule #14
@@ -205,7 +205,7 @@ module.exports = [
  "basic_form": "おそらく",
  "reading": "オソラク",
  "pronunciation": "オソラク"
-}
+ }
 ]
 },
 // Rule #16
@@ -224,7 +224,7 @@ module.exports = [
  "basic_form": "かならず",
  "reading": "カナラズ",
  "pronunciation": "カナラズ"
-}
+ }
 ]
 },
 // Rule #17
@@ -243,7 +243,7 @@ module.exports = [
  "basic_form": "かならずしも",
  "reading": "カナラズシモ",
  "pronunciation": "カナラズシモ"
-}
+ }
 ]
 },
 // Rule #19
@@ -262,7 +262,7 @@ module.exports = [
  "basic_form": "きわめて",
  "reading": "キワメテ",
  "pronunciation": "キワメテ"
-}
+ }
 ]
 },
 // Rule #20
@@ -281,7 +281,7 @@ module.exports = [
  "basic_form": "ことに",
  "reading": "コトニ",
  "pronunciation": "コトニ"
-}
+ }
 ]
 },
 // Rule #21
@@ -300,7 +300,7 @@ module.exports = [
  "basic_form": "さらに",
  "reading": "サラニ",
  "pronunciation": "サラニ"
-}
+ }
 ]
 },
 // Rule #22
@@ -319,7 +319,7 @@ module.exports = [
  "basic_form": "じつに",
  "reading": "ジツニ",
  "pronunciation": "ジツニ"
-}
+ }
 ]
 },
 // Rule #23
@@ -338,7 +338,7 @@ module.exports = [
  "basic_form": "すくなくとも",
  "reading": "スクナクトモ",
  "pronunciation": "スクナクトモ"
-}
+ }
 ]
 },
 // Rule #24
@@ -357,7 +357,7 @@ module.exports = [
  "basic_form": "すこし",
  "reading": "スコシ",
  "pronunciation": "スコシ"
-}
+ }
 ]
 },
 // Rule #25
@@ -376,7 +376,7 @@ module.exports = [
  "basic_form": "すでに",
  "reading": "スデニ",
  "pronunciation": "スデニ"
-}
+ }
 ]
 },
 // Rule #26
@@ -395,7 +395,7 @@ module.exports = [
  "basic_form": "すべて",
  "reading": "スベテ",
  "pronunciation": "スベテ"
-}
+ }
 ]
 },
 // Rule #27
@@ -414,7 +414,7 @@ module.exports = [
  "basic_form": "せつに",
  "reading": "セツニ",
  "pronunciation": "セツニ"
-}
+ }
 ]
 },
 // Rule #28
@@ -433,7 +433,7 @@ module.exports = [
  "basic_form": "たいして",
  "reading": "タイシテ",
  "pronunciation": "タイシテ"
-}
+ }
 ]
 },
 // Rule #29
@@ -452,7 +452,7 @@ module.exports = [
  "basic_form": "たえず",
  "reading": "タエズ",
  "pronunciation": "タエズ"
-}
+ }
 ]
 },
 // Rule #30
@@ -471,7 +471,19 @@ module.exports = [
  "basic_form": "たがう",
  "reading": "タガイ",
  "pronunciation": "タガイ"
-}
+ },
+ {
+ "surface_form": "に",
+ "pos": "助詞",
+ "pos_detail_1": "格助詞",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "に",
+ "reading": "ニ",
+ "pronunciation": "ニ"
+ }
 ]
 },
 // Rule #31
@@ -490,7 +502,7 @@ module.exports = [
  "basic_form": "ただちに",
  "reading": "タダチニ",
  "pronunciation": "タダチニ"
-}
+ }
 ]
 },
 // Rule #32
@@ -509,7 +521,7 @@ module.exports = [
  "basic_form": "たとえば",
  "reading": "タトエバ",
  "pronunciation": "タトエバ"
-}
+ }
 ]
 },
 // Rule #33
@@ -528,7 +540,7 @@ module.exports = [
  "basic_form": "ついで",
  "reading": "ツイデ",
  "pronunciation": "ツイデ"
-}
+ }
 ]
 },
 // Rule #34
@@ -547,7 +559,7 @@ module.exports = [
  "basic_form": "つとめて",
  "reading": "ツトメテ",
  "pronunciation": "ツトメテ"
-}
+ }
 ]
 },
 // Rule #35
@@ -566,7 +578,7 @@ module.exports = [
  "basic_form": "つねに",
  "reading": "ツネニ",
  "pronunciation": "ツネニ"
-}
+ }
 ]
 },
 // Rule #36
@@ -585,7 +597,7 @@ module.exports = [
  "basic_form": "とくに",
  "reading": "トクニ",
  "pronunciation": "トクニ"
-}
+ }
 ]
 },
 // Rule #37
@@ -604,7 +616,7 @@ module.exports = [
  "basic_form": "とつぜん",
  "reading": "トツゼン",
  "pronunciation": "トツゼン"
-}
+ }
 ]
 },
 // Rule #38
@@ -623,7 +635,7 @@ module.exports = [
  "basic_form": "はじめて",
  "reading": "ハジメテ",
  "pronunciation": "ハジメテ"
-}
+ }
 ]
 },
 // Rule #39
@@ -642,7 +654,7 @@ module.exports = [
  "basic_form": "もっとも",
  "reading": "モットモ",
  "pronunciation": "モットモ"
-}
+ }
 ]
 },
 // Rule #40
@@ -661,7 +673,7 @@ module.exports = [
  "basic_form": "はたして",
  "reading": "ハタシテ",
  "pronunciation": "ハタシテ"
-}
+ }
 ]
 },
 // Rule #41
@@ -680,7 +692,7 @@ module.exports = [
  "basic_form": "はなはだ",
  "reading": "ハナハダ",
  "pronunciation": "ハナハダ"
-}
+ }
 ]
 },
 // Rule #42
@@ -699,7 +711,7 @@ module.exports = [
  "basic_form": "ふたたび",
  "reading": "フタタビ",
  "pronunciation": "フタタビ"
-}
+ }
 ]
 },
 // Rule #43
@@ -718,7 +730,7 @@ module.exports = [
  "basic_form": "まったく",
  "reading": "マッタク",
  "pronunciation": "マッタク"
-}
+ }
 ]
 },
 // Rule #44
@@ -737,7 +749,7 @@ module.exports = [
  "basic_form": "むろん",
  "reading": "ムロン",
  "pronunciation": "ムロン"
-}
+ }
 ]
 },
 // Rule #45
@@ -756,7 +768,7 @@ module.exports = [
  "basic_form": "もっぱら",
  "reading": "モッパラ",
  "pronunciation": "モッパラ"
-}
+ }
 ]
 },
 // Rule #46
@@ -775,7 +787,7 @@ module.exports = [
  "basic_form": "わずか",
  "reading": "ワズカ",
  "pronunciation": "ワズカ"
-}
+ }
 ]
 },
 // Rule #47
@@ -794,7 +806,7 @@ module.exports = [
  "basic_form": "わりに",
  "reading": "ワリニ",
  "pronunciation": "ワリニ"
-}
+ }
 ]
 },
 // Rule #48
@@ -813,7 +825,7 @@ module.exports = [
  "basic_form": "あくる",
  "reading": "アクル",
  "pronunciation": "アクル"
-}
+ }
 ]
 },
 // Rule #49
@@ -832,7 +844,7 @@ module.exports = [
  "basic_form": "おおきな",
  "reading": "オオキナ",
  "pronunciation": "オーキナ"
-}
+ }
 ]
 },
 // Rule #50
@@ -851,7 +863,7 @@ module.exports = [
  "basic_form": "きたる",
  "reading": "キタル",
  "pronunciation": "キタル"
-}
+ }
 ]
 },
 // Rule #51
@@ -870,7 +882,7 @@ module.exports = [
  "basic_form": "さる",
  "reading": "サル",
  "pronunciation": "サル"
-}
+ }
 ]
 },
 // Rule #52
@@ -889,7 +901,7 @@ module.exports = [
  "basic_form": "ちいさな",
  "reading": "チイサナ",
  "pronunciation": "チーサナ"
-}
+ }
 ]
 },
 // Rule #53
@@ -908,7 +920,7 @@ module.exports = [
  "basic_form": "わが",
  "reading": "ワガ",
  "pronunciation": "ワガ"
-}
+ }
 ]
 },
 // Rule #61
@@ -927,7 +939,7 @@ module.exports = [
  "basic_form": "ご",
  "reading": "ゴ",
  "pronunciation": "ゴ"
-}
+ }
 ]
 },
 // Rule #63
@@ -946,7 +958,7 @@ module.exports = [
  "basic_form": "共",
  "reading": "ドモ",
  "pronunciation": "ドモ"
-}
+ }
 ]
 },
 // Rule #65
@@ -965,7 +977,7 @@ module.exports = [
  "basic_form": "味",
  "reading": "ミ",
  "pronunciation": "ミ"
-}
+ }
 ]
 },
 // Rule #65.1
@@ -984,7 +996,7 @@ module.exports = [
  "basic_form": "弱味",
  "reading": "ヨワミ",
  "pronunciation": "ヨワミ"
-}
+ }
 ]
 },
 // Rule #66.1
@@ -1003,7 +1015,7 @@ module.exports = [
  "basic_form": "少な目",
  "reading": "スクナメ",
  "pronunciation": "スクナメ"
-}
+ }
 ]
 },
 // Rule #65.2
@@ -1022,7 +1034,7 @@ module.exports = [
  "basic_form": "強味",
  "reading": "ツヨミ",
  "pronunciation": "ツヨミ"
-}
+ }
 ]
 },
 // Rule #66.2
@@ -1041,7 +1053,7 @@ module.exports = [
  "basic_form": "多目",
  "reading": "オオメ",
  "pronunciation": "オーメ"
-}
+ }
 ]
 },
 // Rule #71
@@ -1060,7 +1072,7 @@ module.exports = [
  "basic_form": "追って",
  "reading": "オッテ",
  "pronunciation": "オッテ"
-}
+ }
 ]
 },
 // Rule #73
@@ -1079,7 +1091,7 @@ module.exports = [
  "basic_form": "従って",
  "reading": "シタガッテ",
  "pronunciation": "シタガッテ"
-}
+ }
 ]
 },
 // Rule #74
@@ -1098,7 +1110,7 @@ module.exports = [
  "basic_form": "但し",
  "reading": "タダシ",
  "pronunciation": "タダシ"
-}
+ }
 ]
 },
 // Rule #78
@@ -1117,7 +1129,7 @@ module.exports = [
  "basic_form": "又",
  "reading": "マタ",
  "pronunciation": "マタ"
-}
+ }
 ]
 },
 // Rule #79
@@ -1136,7 +1148,7 @@ module.exports = [
  "basic_form": "故に",
  "reading": "ユエニ",
  "pronunciation": "ユエニ"
-}
+ }
 ]
 },
 // Rule #80
@@ -1155,7 +1167,7 @@ module.exports = [
  "basic_form": "および",
  "reading": "オヨビ",
  "pronunciation": "オヨビ"
-}
+ }
 ]
 },
 // Rule #81
@@ -1174,7 +1186,7 @@ module.exports = [
  "basic_form": "ならびに",
  "reading": "ナラビニ",
  "pronunciation": "ナラビニ"
-}
+ }
 ]
 },
 // Rule #82
@@ -1193,7 +1205,7 @@ module.exports = [
  "basic_form": "または",
  "reading": "マタハ",
  "pronunciation": "マタワ"
-}
+ }
 ]
 },
 // Rule #83
@@ -1212,7 +1224,7 @@ module.exports = [
  "basic_form": "もしくは",
  "reading": "モシクハ",
  "pronunciation": "モシクワ"
-}
+ }
 ]
 },
 // Rule #91
@@ -1231,7 +1243,7 @@ module.exports = [
  "basic_form": "無い",
  "reading": "ナイ",
  "pronunciation": "ナイ"
-}
+ }
 ]
 },
 // Rule #92
@@ -1250,7 +1262,7 @@ module.exports = [
  "basic_form": "様",
  "reading": "ヨウ",
  "pronunciation": "ヨー"
-}
+ }
 ]
 },
 // Rule #93
@@ -1269,7 +1281,7 @@ module.exports = [
  "basic_form": "位",
  "reading": "クライ",
  "pronunciation": "クライ"
-}
+ }
 ]
 },
 // Rule #95
@@ -1288,7 +1300,7 @@ module.exports = [
  "basic_form": "程",
  "reading": "ホド",
  "pronunciation": "ホド"
-}
+ }
 ]
 },
 // Rule #101.1
@@ -1307,7 +1319,7 @@ module.exports = [
  "basic_form": "有る",
  "reading": "アル",
  "pronunciation": "アル"
-}
+ }
 ]
 },
 // Rule #101.2
@@ -1326,7 +1338,7 @@ module.exports = [
  "basic_form": "有る",
  "reading": "アッ",
  "pronunciation": "アッ"
-}
+ }
 ]
 },
 // Rule #101.3
@@ -1345,7 +1357,7 @@ module.exports = [
  "basic_form": "有る",
  "reading": "アリ",
  "pronunciation": "アリ"
-}
+ }
 ]
 },
 // Rule #101.4
@@ -1364,7 +1376,7 @@ module.exports = [
  "basic_form": "有る",
  "reading": "アレ",
  "pronunciation": "アレ"
-}
+ }
 ]
 },
 // Rule #101.5
@@ -1383,7 +1395,7 @@ module.exports = [
  "basic_form": "有る",
  "reading": "アロ",
  "pronunciation": "アロ"
-}
+ }
 ]
 },
 // Rule #102.1
@@ -1402,7 +1414,7 @@ module.exports = [
  "basic_form": "居る",
  "reading": "イル",
  "pronunciation": "イル"
-}
+ }
 ]
 },
 // Rule #102.2
@@ -1421,7 +1433,7 @@ module.exports = [
  "basic_form": "居る",
  "reading": "イ",
  "pronunciation": "イ"
-}
+ }
 ]
 },
 // Rule #102.3
@@ -1440,7 +1452,7 @@ module.exports = [
  "basic_form": "居る",
  "reading": "イレ",
  "pronunciation": "イレ"
-}
+ }
 ]
 },
 // Rule #102.4
@@ -1459,7 +1471,7 @@ module.exports = [
  "basic_form": "居る",
  "reading": "イヨ",
  "pronunciation": "イヨ"
-}
+ }
 ]
 },
 // Rule #103
@@ -1478,7 +1490,7 @@ module.exports = [
  "basic_form": "事",
  "reading": "コト",
  "pronunciation": "コト"
-}
+ }
 ]
 },
 // Rule #104.1
@@ -1497,7 +1509,7 @@ module.exports = [
  "basic_form": "出来る",
  "reading": "デキル",
  "pronunciation": "デキル"
-}
+ }
 ]
 },
 // Rule #104.2
@@ -1516,7 +1528,7 @@ module.exports = [
  "basic_form": "出来る",
  "reading": "デキ",
  "pronunciation": "デキ"
-}
+ }
 ]
 },
 // Rule #104.3
@@ -1535,7 +1547,7 @@ module.exports = [
  "basic_form": "出来る",
  "reading": "デキレ",
  "pronunciation": "デキレ"
-}
+ }
 ]
 },
 // Rule #105.2
@@ -1554,7 +1566,7 @@ module.exports = [
  "basic_form": "通り",
  "reading": "ドオリ",
  "pronunciation": "ドーリ"
-}
+ }
 ]
 },
 // Rule #106
@@ -1573,7 +1585,7 @@ module.exports = [
  "basic_form": "とき",
  "reading": "トキ",
  "pronunciation": "トキ"
-}
+ }
 ]
 },
 // Rule #107
@@ -1592,7 +1604,7 @@ module.exports = [
  "basic_form": "ところ",
  "reading": "トコロ",
  "pronunciation": "トコロ"
-}
+ }
 ]
 },
 // Rule #108
@@ -1611,7 +1623,7 @@ module.exports = [
  "basic_form": "と共に",
  "reading": "トトモニ",
  "pronunciation": "トトモニ"
-}
+ }
 ]
 },
 // Rule #109.1
@@ -1630,7 +1642,7 @@ module.exports = [
  "basic_form": "無い",
  "reading": "ナイ",
  "pronunciation": "ナイ"
-}
+ }
 ]
 },
 // Rule #109.2
@@ -1649,7 +1661,7 @@ module.exports = [
  "basic_form": "無い",
  "reading": "ナカッ",
  "pronunciation": "ナカッ"
-}
+ }
 ]
 },
 // Rule #109.3
@@ -1668,7 +1680,7 @@ module.exports = [
  "basic_form": "無い",
  "reading": "ナク",
  "pronunciation": "ナク"
-}
+ }
 ]
 },
 // Rule #109.4
@@ -1687,7 +1699,7 @@ module.exports = [
  "basic_form": "無い",
  "reading": "ナケレ",
  "pronunciation": "ナケレ"
-}
+ }
 ]
 },
 // Rule #110.1
@@ -1706,7 +1718,7 @@ module.exports = [
  "basic_form": "成る",
  "reading": "ナル",
  "pronunciation": "ナル"
-}
+ }
 ]
 },
 // Rule #110.2
@@ -1725,7 +1737,7 @@ module.exports = [
  "basic_form": "成る",
  "reading": "ナラ",
  "pronunciation": "ナラ"
-}
+ }
 ]
 },
 // Rule #110.3
@@ -1744,7 +1756,7 @@ module.exports = [
  "basic_form": "成る",
  "reading": "ナリ",
  "pronunciation": "ナリ"
-}
+ }
 ]
 },
 // Rule #110.4
@@ -1763,7 +1775,7 @@ module.exports = [
  "basic_form": "成る",
  "reading": "ナッ",
  "pronunciation": "ナッ"
-}
+ }
 ]
 },
 // Rule #110.5
@@ -1782,7 +1794,7 @@ module.exports = [
  "basic_form": "成る",
  "reading": "ナレ",
  "pronunciation": "ナレ"
-}
+ }
 ]
 },
 // Rule #110.6
@@ -1801,7 +1813,7 @@ module.exports = [
  "basic_form": "成る",
  "reading": "ナロ",
  "pronunciation": "ナロ"
-}
+ }
 ]
 },
 // Rule #111
@@ -1820,7 +1832,7 @@ module.exports = [
  "basic_form": "他",
  "reading": "ホカ",
  "pronunciation": "ホカ"
-}
+ }
 ]
 },
 // Rule #112
@@ -1839,7 +1851,7 @@ module.exports = [
  "basic_form": "物",
  "reading": "モノ",
  "pronunciation": "モノ"
-}
+ }
 ]
 },
 // Rule #113
@@ -1858,7 +1870,7 @@ module.exports = [
  "basic_form": "故",
  "reading": "ユエ",
  "pronunciation": "ユエ"
-}
+ }
 ]
 },
 // Rule #114
@@ -1877,7 +1889,7 @@ module.exports = [
  "basic_form": "訳",
  "reading": "ワケ",
  "pronunciation": "ワケ"
-}
+ }
 ]
 },
 // Rule #131
@@ -1896,7 +1908,7 @@ module.exports = [
  "basic_form": "明け渡し",
  "reading": "アケワタシ",
  "pronunciation": "アケワタシ"
-}
+ }
 ]
 },
 // Rule #133
@@ -1915,7 +1927,7 @@ module.exports = [
  "basic_form": "言い渡し",
  "reading": "イイワタシ",
  "pronunciation": "イーワタシ"
-}
+ }
 ]
 },
 // Rule #134
@@ -1934,7 +1946,7 @@ module.exports = [
  "basic_form": "入れ替え",
  "reading": "イレカエ",
  "pronunciation": "イレカエ"
-}
+ }
 ]
 },
 // Rule #135
@@ -1953,7 +1965,7 @@ module.exports = [
  "basic_form": "植え付け",
  "reading": "ウエツケ",
  "pronunciation": "ウエツケ"
-}
+ }
 ]
 },
 // Rule #137
@@ -1972,7 +1984,7 @@ module.exports = [
  "basic_form": "受け入れ",
  "reading": "ウケイレ",
  "pronunciation": "ウケイレ"
-}
+ }
 ]
 },
 // Rule #140
@@ -1991,7 +2003,7 @@ module.exports = [
  "basic_form": "受け渡し",
  "reading": "ウケワタシ",
  "pronunciation": "ウケワタシ"
-}
+ }
 ]
 },
 // Rule #141
@@ -2010,7 +2022,7 @@ module.exports = [
  "basic_form": "渦巻き",
  "reading": "ウズマキ",
  "pronunciation": "ウズマキ"
-}
+ }
 ]
 },
 // Rule #142.2
@@ -2029,7 +2041,7 @@ module.exports = [
  "basic_form": "打ち合わせ",
  "reading": "ウチアワセ",
  "pronunciation": "ウチアワセ"
-}
+ }
 ]
 },
 // Rule #144
@@ -2048,7 +2060,7 @@ module.exports = [
  "basic_form": "打ち切り",
  "reading": "ウチキリ",
  "pronunciation": "ウチキリ"
-}
+ }
 ]
 },
 // Rule #145
@@ -2067,7 +2079,7 @@ module.exports = [
  "basic_form": "内払い",
  "reading": "ウチバライ",
  "pronunciation": "ウチバライ"
-}
+ }
 ]
 },
 // Rule #146
@@ -2086,7 +2098,19 @@ module.exports = [
  "basic_form": "移し",
  "reading": "ウツシ",
  "pronunciation": "ウツシ"
-}
+ },
+ {
+ "surface_form": "替え",
+ "pos": "名詞",
+ "pos_detail_1": "接尾",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "替え",
+ "reading": "ガエ",
+ "pronunciation": "ガエ"
+ }
 ]
 },
 // Rule #147
@@ -2105,7 +2129,7 @@ module.exports = [
  "basic_form": "埋め立て",
  "reading": "ウメタテ",
  "pronunciation": "ウメタテ"
-}
+ }
 ]
 },
 // Rule #148
@@ -2124,7 +2148,7 @@ module.exports = [
  "basic_form": "売り上げ",
  "reading": "ウリアゲ",
  "pronunciation": "ウリアゲ"
-}
+ }
 ]
 },
 // Rule #149
@@ -2143,7 +2167,7 @@ module.exports = [
  "basic_form": "売り惜しみ",
  "reading": "ウリオシミ",
  "pronunciation": "ウリオシミ"
-}
+ }
 ]
 },
 // Rule #150
@@ -2162,7 +2186,7 @@ module.exports = [
  "basic_form": "売り出し",
  "reading": "ウリダシ",
  "pronunciation": "ウリダシ"
-}
+ }
 ]
 },
 // Rule #151
@@ -2181,7 +2205,7 @@ module.exports = [
  "basic_form": "売り場",
  "reading": "ウリバ",
  "pronunciation": "ウリバ"
-}
+ }
 ]
 },
 // Rule #153
@@ -2200,7 +2224,7 @@ module.exports = [
  "basic_form": "売り渡し",
  "reading": "ウリワタシ",
  "pronunciation": "ウリワタシ"
-}
+ }
 ]
 },
 // Rule #154
@@ -2219,7 +2243,7 @@ module.exports = [
  "basic_form": "売れ行き",
  "reading": "ウレユキ",
  "pronunciation": "ウレユキ"
-}
+ }
 ]
 },
 // Rule #155
@@ -2238,7 +2262,7 @@ module.exports = [
  "basic_form": "縁組み",
  "reading": "エングミ",
  "pronunciation": "エングミ"
-}
+ }
 ]
 },
 // Rule #156
@@ -2257,7 +2281,7 @@ module.exports = [
  "basic_form": "追い越し",
  "reading": "オイコシ",
  "pronunciation": "オイコシ"
-}
+ }
 ]
 },
 // Rule #161
@@ -2276,7 +2300,7 @@ module.exports = [
  "basic_form": "買い上げ",
  "reading": "カイアゲ",
  "pronunciation": "カイアゲ"
-}
+ }
 ]
 },
 // Rule #162
@@ -2295,7 +2319,7 @@ module.exports = [
  "basic_form": "買い入れ",
  "reading": "カイイレ",
  "pronunciation": "カイイレ"
-}
+ }
 ]
 },
 // Rule #163
@@ -2314,7 +2338,7 @@ module.exports = [
  "basic_form": "買い受ける",
  "reading": "カイウケ",
  "pronunciation": "カイウケ"
-}
+ }
 ]
 },
 // Rule #164
@@ -2333,7 +2357,7 @@ module.exports = [
  "basic_form": "買い換える",
  "reading": "カイカエ",
  "pronunciation": "カイカエ"
-}
+ }
 ]
 },
 // Rule #165
@@ -2352,7 +2376,7 @@ module.exports = [
  "basic_form": "買い占め",
  "reading": "カイシメ",
  "pronunciation": "カイシメ"
-}
+ }
 ]
 },
 // Rule #166
@@ -2371,7 +2395,7 @@ module.exports = [
  "basic_form": "買い取り",
  "reading": "カイトリ",
  "pronunciation": "カイトリ"
-}
+ }
 ]
 },
 // Rule #167
@@ -2390,7 +2414,7 @@ module.exports = [
  "basic_form": "買い戻す",
  "reading": "カイモドシ",
  "pronunciation": "カイモドシ"
-}
+ }
 ]
 },
 // Rule #169
@@ -2409,7 +2433,7 @@ module.exports = [
  "basic_form": "書き換え",
  "reading": "カキカエ",
  "pronunciation": "カキカエ"
-}
+ }
 ]
 },
 // Rule #170
@@ -2428,7 +2452,7 @@ module.exports = [
  "basic_form": "格付け",
  "reading": "カクヅケ",
  "pronunciation": "カクズケ"
-}
+ }
 ]
 },
 // Rule #171
@@ -2447,7 +2471,7 @@ module.exports = [
  "basic_form": "掛け金",
  "reading": "カケキン",
  "pronunciation": "カケキン"
-}
+ }
 ]
 },
 // Rule #172
@@ -2466,7 +2490,7 @@ module.exports = [
  "basic_form": "貸し切り",
  "reading": "カシキリ",
  "pronunciation": "カシキリ"
-}
+ }
 ]
 },
 // Rule #173
@@ -2485,7 +2509,7 @@ module.exports = [
  "basic_form": "貸し金",
  "reading": "カシキン",
  "pronunciation": "カシキン"
-}
+ }
 ]
 },
 // Rule #174
@@ -2504,7 +2528,7 @@ module.exports = [
  "basic_form": "貸し越す",
  "reading": "カシコシ",
  "pronunciation": "カシコシ"
-}
+ }
 ]
 },
 // Rule #175
@@ -2523,7 +2547,7 @@ module.exports = [
  "basic_form": "貸し倒れ",
  "reading": "カシダオレ",
  "pronunciation": "カシダオレ"
-}
+ }
 ]
 },
 // Rule #176
@@ -2542,7 +2566,7 @@ module.exports = [
  "basic_form": "貸し出し",
  "reading": "カシダシ",
  "pronunciation": "カシダシ"
-}
+ }
 ]
 },
 // Rule #177
@@ -2561,7 +2585,7 @@ module.exports = [
  "basic_form": "貸し付け",
  "reading": "カシツケ",
  "pronunciation": "カシツケ"
-}
+ }
 ]
 },
 // Rule #178
@@ -2580,7 +2604,7 @@ module.exports = [
  "basic_form": "借り入れ",
  "reading": "カリイレ",
  "pronunciation": "カリイレ"
-}
+ }
 ]
 },
 // Rule #179
@@ -2599,7 +2623,7 @@ module.exports = [
  "basic_form": "借り受ける",
  "reading": "カリウケ",
  "pronunciation": "カリウケ"
-}
+ }
 ]
 },
 // Rule #180
@@ -2618,7 +2642,7 @@ module.exports = [
  "basic_form": "借り換え",
  "reading": "カリカエ",
  "pronunciation": "カリカエ"
-}
+ }
 ]
 },
 // Rule #181
@@ -2637,7 +2661,7 @@ module.exports = [
  "basic_form": "刈り取り",
  "reading": "カリトリ",
  "pronunciation": "カリトリ"
-}
+ }
 ]
 },
 // Rule #184
@@ -2656,7 +2680,7 @@ module.exports = [
  "basic_form": "切り上げ",
  "reading": "キリアゲ",
  "pronunciation": "キリアゲ"
-}
+ }
 ]
 },
 // Rule #185
@@ -2675,7 +2699,7 @@ module.exports = [
  "basic_form": "切り替え",
  "reading": "キリカエ",
  "pronunciation": "キリカエ"
-}
+ }
 ]
 },
 // Rule #186
@@ -2694,7 +2718,7 @@ module.exports = [
  "basic_form": "切り下げ",
  "reading": "キリサゲ",
  "pronunciation": "キリサゲ"
-}
+ }
 ]
 },
 // Rule #187
@@ -2713,7 +2737,7 @@ module.exports = [
  "basic_form": "切り捨て",
  "reading": "キリステ",
  "pronunciation": "キリステ"
-}
+ }
 ]
 },
 // Rule #189
@@ -2732,7 +2756,7 @@ module.exports = [
  "basic_form": "切り取り",
  "reading": "キリトリ",
  "pronunciation": "キリトリ"
-}
+ }
 ]
 },
 // Rule #190
@@ -2751,7 +2775,7 @@ module.exports = [
  "basic_form": "切り離し",
  "reading": "キリハナシ",
  "pronunciation": "キリハナシ"
-}
+ }
 ]
 },
 // Rule #192
@@ -2770,7 +2794,7 @@ module.exports = [
  "basic_form": "組み合わせ",
  "reading": "クミアワセ",
  "pronunciation": "クミアワセ"
-}
+ }
 ]
 },
 // Rule #193
@@ -2789,7 +2813,19 @@ module.exports = [
  "basic_form": "組み",
  "reading": "クミ",
  "pronunciation": "クミ"
-}
+ },
+ {
+ "surface_form": "入れ",
+ "pos": "名詞",
+ "pos_detail_1": "接尾",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "入れ",
+ "reading": "イレ",
+ "pronunciation": "イレ"
+ }
 ]
 },
 // Rule #194
@@ -2808,7 +2844,7 @@ module.exports = [
  "basic_form": "組み替え",
  "reading": "クミカエ",
  "pronunciation": "クミカエ"
-}
+ }
 ]
 },
 // Rule #195
@@ -2827,7 +2863,7 @@ module.exports = [
  "basic_form": "組み立て",
  "reading": "クミタテ",
  "pronunciation": "クミタテ"
-}
+ }
 ]
 },
 // Rule #197
@@ -2846,7 +2882,7 @@ module.exports = [
  "basic_form": "繰り上げる",
  "reading": "クリアゲ",
  "pronunciation": "クリアゲ"
-}
+ }
 ]
 },
 // Rule #198
@@ -2865,7 +2901,7 @@ module.exports = [
  "basic_form": "繰り入れ",
  "reading": "クリイレ",
  "pronunciation": "クリイレ"
-}
+ }
 ]
 },
 // Rule #199
@@ -2884,7 +2920,7 @@ module.exports = [
  "basic_form": "繰り替える",
  "reading": "クリカエ",
  "pronunciation": "クリカエ"
-}
+ }
 ]
 },
 // Rule #200
@@ -2903,7 +2939,7 @@ module.exports = [
  "basic_form": "繰り越し",
  "reading": "クリコシ",
  "pronunciation": "クリコシ"
-}
+ }
 ]
 },
 // Rule #201
@@ -2922,7 +2958,7 @@ module.exports = [
  "basic_form": "繰り下げる",
  "reading": "クリサゲ",
  "pronunciation": "クリサゲ"
-}
+ }
 ]
 },
 // Rule #202
@@ -2941,7 +2977,7 @@ module.exports = [
  "basic_form": "繰り延べ",
  "reading": "クリノベ",
  "pronunciation": "クリノベ"
-}
+ }
 ]
 },
 // Rule #204
@@ -2960,7 +2996,7 @@ module.exports = [
  "basic_form": "差し押える",
  "reading": "サシオサエ",
  "pronunciation": "サシオサエ"
-}
+ }
 ]
 },
 // Rule #205
@@ -2979,7 +3015,7 @@ module.exports = [
  "basic_form": "差し止め",
  "reading": "サシトメ",
  "pronunciation": "サシトメ"
-}
+ }
 ]
 },
 // Rule #206
@@ -2998,7 +3034,7 @@ module.exports = [
  "basic_form": "差し引き",
  "reading": "サシヒキ",
  "pronunciation": "サシヒキ"
-}
+ }
 ]
 },
 // Rule #207
@@ -3017,7 +3053,7 @@ module.exports = [
  "basic_form": "差し戻し",
  "reading": "サシモドシ",
  "pronunciation": "サシモドシ"
-}
+ }
 ]
 },
 // Rule #210
@@ -3036,7 +3072,7 @@ module.exports = [
  "basic_form": "締め切り",
  "reading": "シメキリ",
  "pronunciation": "シメキリ"
-}
+ }
 ]
 },
 // Rule #212
@@ -3055,7 +3091,7 @@ module.exports = [
  "basic_form": "仕分け",
  "reading": "シワケ",
  "pronunciation": "シワケ"
-}
+ }
 ]
 },
 // Rule #213
@@ -3074,7 +3110,7 @@ module.exports = [
  "basic_form": "据え置き",
  "reading": "スエオキ",
  "pronunciation": "スエオキ"
-}
+ }
 ]
 },
 // Rule #214
@@ -3093,7 +3129,7 @@ module.exports = [
  "basic_form": "据え付け",
  "reading": "スエツケ",
  "pronunciation": "スエツケ"
-}
+ }
 ]
 },
 // Rule #216
@@ -3112,7 +3148,7 @@ module.exports = [
  "basic_form": "座り込み",
  "reading": "スワリコミ",
  "pronunciation": "スワリコミ"
-}
+ }
 ]
 },
 // Rule #219
@@ -3131,7 +3167,7 @@ module.exports = [
  "basic_form": "備え付け",
  "reading": "ソナエツケ",
  "pronunciation": "ソナエツケ"
-}
+ }
 ]
 },
 // Rule #222
@@ -3150,7 +3186,7 @@ module.exports = [
  "basic_form": "立ち会い",
  "reading": "タチアイ",
  "pronunciation": "タチアイ"
-}
+ }
 ]
 },
 // Rule #223
@@ -3169,7 +3205,7 @@ module.exports = [
  "basic_form": "立ち入り",
  "reading": "タチイリ",
  "pronunciation": "タチイリ"
-}
+ }
 ]
 },
 // Rule #224
@@ -3188,7 +3224,7 @@ module.exports = [
  "basic_form": "立て替える",
  "reading": "タテカエ",
  "pronunciation": "タテカエ"
-}
+ }
 ]
 },
 // Rule #227
@@ -3207,7 +3243,7 @@ module.exports = [
  "basic_form": "付き添い",
  "reading": "ツキソイ",
  "pronunciation": "ツキソイ"
-}
+ }
 ]
 },
 // Rule #230
@@ -3226,7 +3262,7 @@ module.exports = [
  "basic_form": "積み替え",
  "reading": "ツミカエ",
  "pronunciation": "ツミカエ"
-}
+ }
 ]
 },
 // Rule #231
@@ -3245,7 +3281,7 @@ module.exports = [
  "basic_form": "積み込み",
  "reading": "ツミコミ",
  "pronunciation": "ツミコミ"
-}
+ }
 ]
 },
 // Rule #232
@@ -3264,7 +3300,7 @@ module.exports = [
  "basic_form": "積み出す",
  "reading": "ツミダシ",
  "pronunciation": "ツミダシ"
-}
+ }
 ]
 },
 // Rule #233
@@ -3283,7 +3319,7 @@ module.exports = [
  "basic_form": "積み立て",
  "reading": "ツミタテ",
  "pronunciation": "ツミタテ"
-}
+ }
 ]
 },
 // Rule #234
@@ -3302,7 +3338,19 @@ module.exports = [
  "basic_form": "積む",
  "reading": "ツミ",
  "pronunciation": "ツミ"
-}
+ },
+ {
+ "surface_form": "付け",
+ "pos": "名詞",
+ "pos_detail_1": "接尾",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "付け",
+ "reading": "ヅケ",
+ "pronunciation": "ズケ"
+ }
 ]
 },
 // Rule #235
@@ -3321,7 +3369,7 @@ module.exports = [
  "basic_form": "釣り合い",
  "reading": "ツリアイ",
  "pronunciation": "ツリアイ"
-}
+ }
 ]
 },
 // Rule #240
@@ -3340,7 +3388,7 @@ module.exports = [
  "basic_form": "届け出",
  "reading": "トドケデ",
  "pronunciation": "トドケデ"
-}
+ }
 ]
 },
 // Rule #241
@@ -3359,7 +3407,7 @@ module.exports = [
  "basic_form": "取り上げ",
  "reading": "トリアゲ",
  "pronunciation": "トリアゲ"
-}
+ }
 ]
 },
 // Rule #242
@@ -3378,7 +3426,7 @@ module.exports = [
  "basic_form": "取り扱い",
  "reading": "トリアツカイ",
  "pronunciation": "トリアツカイ"
-}
+ }
 ]
 },
 // Rule #244
@@ -3397,7 +3445,7 @@ module.exports = [
  "basic_form": "取り替える",
  "reading": "トリカエ",
  "pronunciation": "トリカエ"
-}
+ }
 ]
 },
 // Rule #245
@@ -3416,7 +3464,7 @@ module.exports = [
  "basic_form": "取り決め",
  "reading": "トリキメ",
  "pronunciation": "トリキメ"
-}
+ }
 ]
 },
 // Rule #246
@@ -3435,7 +3483,7 @@ module.exports = [
  "basic_form": "取り崩す",
  "reading": "トリクズシ",
  "pronunciation": "トリクズシ"
-}
+ }
 ]
 },
 // Rule #247
@@ -3454,7 +3502,7 @@ module.exports = [
  "basic_form": "取り消し",
  "reading": "トリケシ",
  "pronunciation": "トリケシ"
-}
+ }
 ]
 },
 // Rule #248
@@ -3473,7 +3521,7 @@ module.exports = [
  "basic_form": "取り壊し",
  "reading": "トリコワシ",
  "pronunciation": "トリコワシ"
-}
+ }
 ]
 },
 // Rule #249
@@ -3492,7 +3540,7 @@ module.exports = [
  "basic_form": "取り下げ",
  "reading": "トリサゲ",
  "pronunciation": "トリサゲ"
-}
+ }
 ]
 },
 // Rule #250
@@ -3511,7 +3559,7 @@ module.exports = [
  "basic_form": "取り締る",
  "reading": "トリシマリ",
  "pronunciation": "トリシマリ"
-}
+ }
 ]
 },
 // Rule #251
@@ -3530,7 +3578,7 @@ module.exports = [
  "basic_form": "取り調べ",
  "reading": "トリシラベ",
  "pronunciation": "トリシラベ"
-}
+ }
 ]
 },
 // Rule #252
@@ -3549,7 +3597,7 @@ module.exports = [
  "basic_form": "取り立て",
  "reading": "トリタテ",
  "pronunciation": "トリタテ"
-}
+ }
 ]
 },
 // Rule #253
@@ -3568,7 +3616,7 @@ module.exports = [
  "basic_form": "取り次ぎ",
  "reading": "トリツギ",
  "pronunciation": "トリツギ"
-}
+ }
 ]
 },
 // Rule #254
@@ -3587,7 +3635,7 @@ module.exports = [
  "basic_form": "取り付け",
  "reading": "トリツケ",
  "pronunciation": "トリツケ"
-}
+ }
 ]
 },
 // Rule #255
@@ -3606,7 +3654,7 @@ module.exports = [
  "basic_form": "取り戻す",
  "reading": "トリモドシ",
  "pronunciation": "トリモドシ"
-}
+ }
 ]
 },
 // Rule #256
@@ -3625,7 +3673,7 @@ module.exports = [
  "basic_form": "投げ売り",
  "reading": "ナゲウリ",
  "pronunciation": "ナゲウリ"
-}
+ }
 ]
 },
 // Rule #257
@@ -3644,7 +3692,7 @@ module.exports = [
  "basic_form": "抜き取り",
  "reading": "ヌキトリ",
  "pronunciation": "ヌキトリ"
-}
+ }
 ]
 },
 // Rule #259
@@ -3663,7 +3711,7 @@ module.exports = [
  "basic_form": "乗り換え",
  "reading": "ノリカエ",
  "pronunciation": "ノリカエ"
-}
+ }
 ]
 },
 // Rule #260
@@ -3682,7 +3730,7 @@ module.exports = [
  "basic_form": "乗り組む",
  "reading": "ノリクミ",
  "pronunciation": "ノリクミ"
-}
+ }
 ]
 },
 // Rule #261
@@ -3701,7 +3749,7 @@ module.exports = [
  "basic_form": "話し合い",
  "reading": "ハナシアイ",
  "pronunciation": "ハナシアイ"
-}
+ }
 ]
 },
 // Rule #262
@@ -3720,7 +3768,7 @@ module.exports = [
  "basic_form": "払い込み",
  "reading": "ハライコミ",
  "pronunciation": "ハライコミ"
-}
+ }
 ]
 },
 // Rule #263
@@ -3739,7 +3787,7 @@ module.exports = [
  "basic_form": "払い下げ",
  "reading": "ハライサゲ",
  "pronunciation": "ハライサゲ"
-}
+ }
 ]
 },
 // Rule #264
@@ -3758,7 +3806,7 @@ module.exports = [
  "basic_form": "払い出し",
  "reading": "ハライダシ",
  "pronunciation": "ハライダシ"
-}
+ }
 ]
 },
 // Rule #265
@@ -3777,7 +3825,7 @@ module.exports = [
  "basic_form": "払い戻し",
  "reading": "ハライモドシ",
  "pronunciation": "ハライモドシ"
-}
+ }
 ]
 },
 // Rule #266
@@ -3796,7 +3844,19 @@ module.exports = [
  "basic_form": "払う",
  "reading": "ハライ",
  "pronunciation": "ハライ"
-}
+ },
+ {
+ "surface_form": "渡し",
+ "pos": "名詞",
+ "pos_detail_1": "一般",
+ "pos_detail_2": "*",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "渡し",
+ "reading": "ワタシ",
+ "pronunciation": "ワタシ"
+ }
 ]
 },
 // Rule #268
@@ -3815,7 +3875,7 @@ module.exports = [
  "basic_form": "引き上げ",
  "reading": "ヒキアゲ",
  "pronunciation": "ヒキアゲ"
-}
+ }
 ]
 },
 // Rule #269
@@ -3834,7 +3894,7 @@ module.exports = [
  "basic_form": "引き揚げ",
  "reading": "ヒキアゲ",
  "pronunciation": "ヒキアゲ"
-}
+ }
 ]
 },
 // Rule #270
@@ -3853,7 +3913,7 @@ module.exports = [
  "basic_form": "引き受け",
  "reading": "ヒキウケ",
  "pronunciation": "ヒキウケ"
-}
+ }
 ]
 },
 // Rule #271
@@ -3872,7 +3932,7 @@ module.exports = [
  "basic_form": "引き起す",
  "reading": "ヒキオコシ",
  "pronunciation": "ヒキオコシ"
-}
+ }
 ]
 },
 // Rule #272
@@ -3891,7 +3951,7 @@ module.exports = [
  "basic_form": "引き換え",
  "reading": "ヒキカエ",
  "pronunciation": "ヒキカエ"
-}
+ }
 ]
 },
 // Rule #273
@@ -3910,7 +3970,7 @@ module.exports = [
  "basic_form": "引き込む",
  "reading": "ヒキコミ",
  "pronunciation": "ヒキコミ"
-}
+ }
 ]
 },
 // Rule #274
@@ -3929,7 +3989,7 @@ module.exports = [
  "basic_form": "引き下げ",
  "reading": "ヒキサゲ",
  "pronunciation": "ヒキサゲ"
-}
+ }
 ]
 },
 // Rule #275
@@ -3948,7 +4008,7 @@ module.exports = [
  "basic_form": "引き締め",
  "reading": "ヒキシメ",
  "pronunciation": "ヒキシメ"
-}
+ }
 ]
 },
 // Rule #276
@@ -3967,7 +4027,7 @@ module.exports = [
  "basic_form": "引き継ぎ",
  "reading": "ヒキツギ",
  "pronunciation": "ヒキツギ"
-}
+ }
 ]
 },
 // Rule #277
@@ -3986,7 +4046,7 @@ module.exports = [
  "basic_form": "引き取る",
  "reading": "ヒキトリ",
  "pronunciation": "ヒキトリ"
-}
+ }
 ]
 },
 // Rule #278
@@ -4005,7 +4065,7 @@ module.exports = [
  "basic_form": "引き渡し",
  "reading": "ヒキワタシ",
  "pronunciation": "ヒキワタシ"
-}
+ }
 ]
 },
 // Rule #284
@@ -4024,7 +4084,7 @@ module.exports = [
  "basic_form": "振り出し",
  "reading": "フリダシ",
  "pronunciation": "フリダシ"
-}
+ }
 ]
 },
 // Rule #286
@@ -4043,7 +4103,7 @@ module.exports = [
  "basic_form": "巻き付ける",
  "reading": "マキツケ",
  "pronunciation": "マキツケ"
-}
+ }
 ]
 },
 // Rule #287
@@ -4062,7 +4122,19 @@ module.exports = [
  "basic_form": "巻く",
  "reading": "マキ",
  "pronunciation": "マキ"
-}
+ },
+ {
+ "surface_form": "取り",
+ "pos": "名詞",
+ "pos_detail_1": "接尾",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "取り",
+ "reading": "トリ",
+ "pronunciation": "トリ"
+ }
 ]
 },
 // Rule #288
@@ -4081,7 +4153,7 @@ module.exports = [
  "basic_form": "見合わせ",
  "reading": "ミアワセ",
  "pronunciation": "ミアワセ"
-}
+ }
 ]
 },
 // Rule #289
@@ -4100,7 +4172,7 @@ module.exports = [
  "basic_form": "見積もり",
  "reading": "ミツモリ",
  "pronunciation": "ミツモリ"
-}
+ }
 ]
 },
 // Rule #290
@@ -4119,7 +4191,7 @@ module.exports = [
  "basic_form": "見習い",
  "reading": "ミナライ",
  "pronunciation": "ミナライ"
-}
+ }
 ]
 },
 // Rule #292
@@ -4138,7 +4210,7 @@ module.exports = [
  "basic_form": "申し合わせ",
  "reading": "モウシアワセ",
  "pronunciation": "モーシアワセ"
-}
+ }
 ]
 },
 // Rule #294
@@ -4157,7 +4229,7 @@ module.exports = [
  "basic_form": "申し入れ",
  "reading": "モウシイレ",
  "pronunciation": "モーシイレ"
-}
+ }
 ]
 },
 // Rule #295
@@ -4176,7 +4248,7 @@ module.exports = [
  "basic_form": "申し込み",
  "reading": "モウシコミ",
  "pronunciation": "モーシコ"
-}
+ }
 ]
 },
 // Rule #296
@@ -4195,7 +4267,7 @@ module.exports = [
  "basic_form": "申し立て",
  "reading": "モウシタテ",
  "pronunciation": "モーシタテ"
-}
+ }
 ]
 },
 // Rule #297
@@ -4214,7 +4286,7 @@ module.exports = [
  "basic_form": "申し出",
  "reading": "モウシデ",
  "pronunciation": "モーシデ"
-}
+ }
 ]
 },
 // Rule #299
@@ -4233,7 +4305,7 @@ module.exports = [
  "basic_form": "持ち込み",
  "reading": "モチコミ",
  "pronunciation": "モチコミ"
-}
+ }
 ]
 },
 // Rule #302
@@ -4252,7 +4324,19 @@ module.exports = [
  "basic_form": "戻す",
  "reading": "モドシ",
  "pronunciation": "モドシ"
-}
+ },
+ {
+ "surface_form": "入れ",
+ "pos": "名詞",
+ "pos_detail_1": "接尾",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "入れ",
+ "reading": "イレ",
+ "pronunciation": "イレ"
+ }
 ]
 },
 // Rule #305
@@ -4271,7 +4355,7 @@ module.exports = [
  "basic_form": "焼き付け",
  "reading": "ヤキツケ",
  "pronunciation": "ヤキツケ"
-}
+ }
 ]
 },
 // Rule #306
@@ -4290,7 +4374,19 @@ module.exports = [
  "basic_form": "雇う",
  "reading": "ヤトイ",
  "pronunciation": "ヤトイ"
-}
+ },
+ {
+ "surface_form": "入れ",
+ "pos": "名詞",
+ "pos_detail_1": "接尾",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "入れ",
+ "reading": "イレ",
+ "pronunciation": "イレ"
+ }
 ]
 },
 // Rule #308
@@ -4309,7 +4405,7 @@ module.exports = [
  "basic_form": "譲り受ける",
  "reading": "ユズリウケ",
  "pronunciation": "ユズリウケ"
-}
+ }
 ]
 },
 // Rule #309
@@ -4328,7 +4424,7 @@ module.exports = [
  "basic_form": "譲り渡す",
  "reading": "ユズリワタシ",
  "pronunciation": "ユズリワタシ"
-}
+ }
 ]
 },
 // Rule #310
@@ -4347,7 +4443,7 @@ module.exports = [
  "basic_form": "呼び出し",
  "reading": "ヨビダシ",
  "pronunciation": "ヨビダシ"
-}
+ }
 ]
 },
 // Rule #311
@@ -4366,7 +4462,7 @@ module.exports = [
  "basic_form": "読み替える",
  "reading": "ヨミカエ",
  "pronunciation": "ヨミカエ"
-}
+ }
 ]
 },
 // Rule #312
@@ -4385,7 +4481,7 @@ module.exports = [
  "basic_form": "割り当て",
  "reading": "ワリアテ",
  "pronunciation": "ワリアテ"
-}
+ }
 ]
 },
 // Rule #313
@@ -4404,7 +4500,7 @@ module.exports = [
  "basic_form": "割り増し",
  "reading": "ワリマシ",
  "pronunciation": "ワリマシ"
-}
+ }
 ]
 },
 // Rule #314
@@ -4423,7 +4519,7 @@ module.exports = [
  "basic_form": "割り戻す",
  "reading": "ワリモドシ",
  "pronunciation": "ワリモドシ"
-}
+ }
 ]
 },
 // Rule #403
@@ -4442,7 +4538,7 @@ module.exports = [
  "basic_form": "いす",
  "reading": "イス",
  "pronunciation": "イス"
-}
+ }
 ]
 },
 // Rule #406
@@ -4461,7 +4557,7 @@ module.exports = [
  "basic_form": "かぎ",
  "reading": "カギ",
  "pronunciation": "カギ"
-}
+ }
 ]
 },
 // Rule #408
@@ -4480,7 +4576,7 @@ module.exports = [
  "basic_form": "がけ",
  "reading": "ガケ",
  "pronunciation": "ガ"
-}
+ }
 ]
 },
 // Rule #415
@@ -4499,7 +4595,7 @@ module.exports = [
  "basic_form": "さく",
  "reading": "サク",
  "pronunciation": "サク"
-}
+ }
 ]
 },
 // Rule #443
@@ -4518,7 +4614,7 @@ module.exports = [
  "basic_form": "かかわる",
  "reading": "カカワル",
  "pronunciation": "カカワル"
-}
+ }
 ]
 },
 // Rule #444
@@ -4537,7 +4633,7 @@ module.exports = [
  "basic_form": "かかわる",
  "reading": "カカワラ",
  "pronunciation": "カカワラ"
-}
+ }
 ]
 },
 // Rule #445
@@ -4556,7 +4652,7 @@ module.exports = [
  "basic_form": "かかわる",
  "reading": "カカワッ",
  "pronunciation": "カカワッ"
-}
+ }
 ]
 },
 // Rule #446
@@ -4575,7 +4671,7 @@ module.exports = [
  "basic_form": "かかわる",
  "reading": "カカワリ",
  "pronunciation": "カカワリ"
-}
+ }
 ]
 },
 // Rule #447
@@ -4594,7 +4690,7 @@ module.exports = [
  "basic_form": "かかわる",
  "reading": "カカワレ",
  "pronunciation": "カカワレ"
-}
+ }
 ]
 },
 // Rule #448
@@ -4613,7 +4709,7 @@ module.exports = [
  "basic_form": "かかわる",
  "reading": "カカワロ",
  "pronunciation": "カカワロ"
-}
+ }
 ]
 },
 // Rule #463
@@ -4632,7 +4728,7 @@ module.exports = [
  "basic_form": "虞",
  "reading": "オソレ",
  "pronunciation": "オソ"
-}
+ }
 ]
 },
 // Rule #464
@@ -4651,7 +4747,7 @@ module.exports = [
  "basic_form": "恐れ",
  "reading": "オソレ",
  "pronunciation": "オソレ"
-}
+ }
 ]
 },
 // Rule #466
@@ -4670,7 +4766,7 @@ module.exports = [
  "basic_form": "因る",
  "reading": "ヨル",
  "pronunciation": "ヨル"
-}
+ }
 ]
 },
 // Rule #467
@@ -4689,7 +4785,7 @@ module.exports = [
  "basic_form": "因る",
  "reading": "ヨラ",
  "pronunciation": "ヨラ"
-}
+ }
 ]
 },
 // Rule #468
@@ -4708,7 +4804,7 @@ module.exports = [
  "basic_form": "因る",
  "reading": "ヨッ",
  "pronunciation": "ヨッ"
-}
+ }
 ]
 },
 // Rule #469
@@ -4727,7 +4823,7 @@ module.exports = [
  "basic_form": "因る",
  "reading": "ヨリ",
  "pronunciation": "ヨリ"
-}
+ }
 ]
 },
 // Rule #470
@@ -4746,7 +4842,7 @@ module.exports = [
  "basic_form": "因る",
  "reading": "ヨレ",
  "pronunciation": "ヨレ"
-}
+ }
 ]
 },
 // Rule #471
@@ -4765,7 +4861,7 @@ module.exports = [
  "basic_form": "因る",
  "reading": "ヨロ",
  "pronunciation": "ヨロ"
-}
+ }
 ]
 },
 // Rule #482
@@ -4784,7 +4880,7 @@ module.exports = [
  "basic_form": "*",
  "reading": "",
  "pronunciation": ""
-}
+ }
 ]
 },
 // Rule #483
@@ -4803,7 +4899,7 @@ module.exports = [
  "basic_form": "之",
  "reading": "コレ",
  "pronunciation": "コレ"
-}
+ }
 ]
 },
 // Rule #484
@@ -4822,7 +4918,7 @@ module.exports = [
  "basic_form": "其の",
  "reading": "ソノ",
  "pronunciation": "ソノ"
-}
+ }
 ]
 },
 // Rule #486
@@ -4841,7 +4937,7 @@ module.exports = [
  "basic_form": "為",
  "reading": "タメ",
  "pronunciation": "タメ"
-}
+ }
 ]
 },
 // Rule #488.1
@@ -4860,7 +4956,7 @@ module.exports = [
  "basic_form": "彼等",
  "reading": "カレラ",
  "pronunciation": "カレラ"
-}
+ }
 ]
 },
 // Rule #488.2
@@ -4879,7 +4975,7 @@ module.exports = [
  "basic_form": "彼等",
  "reading": "カレラ",
  "pronunciation": "カレラ"
-}
+ }
 ]
 },
 // Rule #1044
@@ -4898,7 +4994,7 @@ module.exports = [
  "basic_form": "ぬ",
  "reading": "ヌ",
  "pronunciation": "ヌ"
-}
+ }
 ]
 },
 // Rule #1046
@@ -4917,7 +5013,7 @@ module.exports = [
  "basic_form": "なり",
  "reading": "ナル",
  "pronunciation": "ナル"
-}
+ }
 ]
 },
 // Rule #1047
@@ -4936,7 +5032,7 @@ module.exports = [
  "basic_form": "べし",
  "reading": "ベク",
  "pronunciation": "ベク"
-}
+ }
 ]
 },
 // Rule #1048
@@ -4955,7 +5051,7 @@ module.exports = [
  "basic_form": "べし",
  "reading": "ベシ",
  "pronunciation": "ベシ"
-}
+ }
 ]
 },
 // Rule #10013
@@ -4974,7 +5070,7 @@ module.exports = [
  "basic_form": "あたる",
  "reading": "アタッ",
  "pronunciation": "アタッ"
-}
+ }
 ]
 },
 // Rule #10015
@@ -4993,7 +5089,7 @@ module.exports = [
  "basic_form": "あたる",
  "reading": "アタロ",
  "pronunciation": "アタロ"
-}
+ }
 ]
 },
 // Rule #10016
@@ -5012,7 +5108,7 @@ module.exports = [
  "basic_form": "あたる",
  "reading": "アタレ",
  "pronunciation": "アタレ"
-}
+ }
 ]
 },
 // Rule #10017
@@ -5031,7 +5127,7 @@ module.exports = [
  "basic_form": "あたる",
  "reading": "アタル",
  "pronunciation": "アタル"
-}
+ }
 ]
 },
 // Rule #10018
@@ -5050,7 +5146,7 @@ module.exports = [
  "basic_form": "あたり",
  "reading": "アタリ",
  "pronunciation": "アタリ"
-}
+ }
 ]
 },
 // Rule #10019
@@ -5069,7 +5165,7 @@ module.exports = [
  "basic_form": "にあたり",
  "reading": "ニアタリ",
  "pronunciation": "ニアタリ"
-}
+ }
 ]
 },
 // Rule #10020
@@ -5088,7 +5184,7 @@ module.exports = [
  "basic_form": "にあたって",
  "reading": "ニアタッテ",
  "pronunciation": "ニアタッテ"
-}
+ }
 ]
 },
 // Rule #10021
@@ -5107,7 +5203,7 @@ module.exports = [
  "basic_form": "あたる",
  "reading": "アタラ",
  "pronunciation": "アタラ"
-}
+ }
 ]
 },
 // Rule #10023
@@ -5126,7 +5222,7 @@ module.exports = [
  "basic_form": "あて",
  "reading": "アテ",
  "pronunciation": "アテ"
-}
+ }
 ]
 },
 // Rule #10049
@@ -5145,7 +5241,7 @@ module.exports = [
  "basic_form": "いくつ",
  "reading": "イクツ",
  "pronunciation": "イクツ"
-}
+ }
 ]
 },
 // Rule #10050
@@ -5164,7 +5260,7 @@ module.exports = [
  "basic_form": "いくら",
  "reading": "イクラ",
  "pronunciation": "イクラ"
-}
+ }
 ]
 },
 // Rule #10079
@@ -5183,10 +5279,10 @@ module.exports = [
  "basic_form": "うえ",
  "reading": "ウエ",
  "pronunciation": "ウエ"
-}
+ }
 ]
 },
-// Rule #10126
+// Rule #10127
 {
  "message": "鈎->かぎ ",
  "expected": "かぎ",
@@ -5202,10 +5298,10 @@ module.exports = [
  "basic_form": "鈎",
  "reading": "カギ",
  "pronunciation": "カギ"
-}
+ }
 ]
 },
-// Rule #10132
+// Rule #10133
 {
  "message": "かっこ->括弧 ",
  "expected": "括弧",
@@ -5221,10 +5317,10 @@ module.exports = [
  "basic_form": "かっこ",
  "reading": "カッコ",
  "pronunciation": "カッコ"
-}
+ }
 ]
 },
-// Rule #10145
+// Rule #10146
 {
  "message": "かわら->瓦 「瓦」は常用漢字（H22年～）",
  "expected": "瓦",
@@ -5240,10 +5336,10 @@ module.exports = [
  "basic_form": "かわら",
  "reading": "カワラ",
  "pronunciation": "カワラ"
-}
+ }
 ]
 },
-// Rule #10164
+// Rule #10165
 {
  "message": "極->ごく ",
  "expected": "ごく",
@@ -5259,10 +5355,10 @@ module.exports = [
  "basic_form": "極",
  "reading": "ゴク",
  "pronunciation": "ゴク"
-}
+ }
 ]
 },
-// Rule #10180
+// Rule #10181
 {
  "message": "ころ->頃 「頃」は常用漢字（H22年～）",
  "expected": "頃",
@@ -5278,10 +5374,10 @@ module.exports = [
  "basic_form": "ころ",
  "reading": "コロ",
  "pronunciation": "コロ"
-}
+ }
 ]
 },
-// Rule #10181
+// Rule #10182
 {
  "message": "ごろ->頃 「頃」は常用漢字（H22年～）",
  "expected": "頃",
@@ -5297,10 +5393,10 @@ module.exports = [
  "basic_form": "ごろ",
  "reading": "ゴロ",
  "pronunciation": "ゴロ"
-}
+ }
 ]
 },
-// Rule #10201
+// Rule #10202
 {
  "message": "しかた->仕方 ",
  "expected": "仕方",
@@ -5316,10 +5412,10 @@ module.exports = [
  "basic_form": "しかた",
  "reading": "シカタ",
  "pronunciation": "シカタ"
-}
+ }
 ]
 },
-// Rule #10265
+// Rule #10266
 {
  "message": "だめ->駄目 ",
  "expected": "駄目",
@@ -5335,10 +5431,10 @@ module.exports = [
  "basic_form": "だめ",
  "reading": "ダメ",
  "pronunciation": "ダメ"
-}
+ }
 ]
 },
-// Rule #10291
+// Rule #10292
 {
  "message": "つど->都度 ",
  "expected": "都度",
@@ -5354,10 +5450,10 @@ module.exports = [
  "basic_form": "つど",
  "reading": "ツド",
  "pronunciation": "ツド"
-}
+ }
 ]
 },
-// Rule #10318
+// Rule #10319
 {
  "message": "なか->中 ",
  "expected": "中",
@@ -5373,10 +5469,10 @@ module.exports = [
  "basic_form": "なか",
  "reading": "ナカ",
  "pronunciation": "ナカ"
-}
+ }
 ]
 },
-// Rule #10510
+// Rule #10511
 {
  "message": "わりに->割に ",
  "expected": "割に",
@@ -5392,7 +5488,7 @@ module.exports = [
  "basic_form": "わりに",
  "reading": "ワリニ",
  "pronunciation": "ワリニ"
-}
+ }
 ]
 },
 // Rule #20008
@@ -5411,7 +5507,7 @@ module.exports = [
  "basic_form": "問い合わせ",
  "reading": "トイアワセ",
  "pronunciation": "トイアワセ"
-}
+ }
 ]
 },
 // Rule #20009
@@ -5430,45 +5526,19 @@ module.exports = [
  "basic_form": "問",
  "reading": "トイ",
  "pronunciation": "トイ"
-}
-]
-},
-// Rule #
-{
- "message": "-> ",
- "expected": "",
- "tokens": [
+ },
  {
- "surface_form": "",
- "pos": "",
- "pos_detail_1": "",
- "pos_detail_2": "",
- "pos_detail_3": "",
- "conjugated_type": "",
- "conjugated_form": "",
- "basic_form": "",
- "reading": "",
- "pronunciation": ""
-}
-]
-},
-// Rule #
-{
- "message": "-> ",
- "expected": "",
- "tokens": [
- {
- "surface_form": "",
- "pos": "",
- "pos_detail_1": "",
- "pos_detail_2": "",
- "pos_detail_3": "",
- "conjugated_type": "",
- "conjugated_form": "",
- "basic_form": "",
- "reading": "",
- "pronunciation": ""
-}
+ "surface_form": "合わせ",
+ "pos": "名詞",
+ "pos_detail_1": "接尾",
+ "pos_detail_2": "一般",
+ "pos_detail_3": "*",
+ "conjugated_type": "*",
+ "conjugated_form": "*",
+ "basic_form": "合わせ",
+ "reading": "アワセ",
+ "pronunciation": "アワセ"
+ }
 ]
 }
 ];
