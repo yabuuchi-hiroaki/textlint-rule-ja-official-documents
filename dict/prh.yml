@@ -1480,6 +1480,9 @@ rules:
    patterns: やむをえ
  - expected: うんぬん
    patterns: 云々
+ - expected: お願い
+   patterns: 御願い
+   prh: 「御」の読みは、オン・ゴ。
  - expected: おいて
    patterns: 於いて
  - expected: おいて
@@ -2008,8 +2011,8 @@ rules:
    patterns: 惹き起こす
  - expected: 日ごと
    patterns: 日毎
- - expected: 日ごろ
-   patterns: 日頃
+ - expected: 日頃
+   patterns: 日ごろ
    prh: 「頃」は常用漢字（H22年～）
  - expected: ひたすら
    patterns: 只管
