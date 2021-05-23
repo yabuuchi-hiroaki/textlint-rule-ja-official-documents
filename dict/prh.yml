@@ -30,11 +30,11 @@ rules:
  - expected: ついては
    patterns: 就いては
    prh: 接続詞は仮名。
- - expected: ところが、
-   patterns: 所が、
+ - expected: ところが，
+   patterns: 所が，
    prh: 接続詞は仮名。
- - expected: ところで、
-   patterns: 所で、
+ - expected: ところで，
+   patterns: 所で，
    prh: 接続詞は仮名。
  - expected: だけ
    patterns: 已
@@ -46,77 +46,77 @@ rules:
    patterns: かも知れ
  - expected: てあげ
    patterns: て上げ
-   prh: ただし、「～（物）を上げる」は漢字。
+   prh: ただし，「～（物）を上げる」は漢字。
  - expected: ていく
    patterns: て行く
-   prh: ただし、「～（場所）へ行く」は漢字。
+   prh: ただし，「～（場所）へ行く」は漢字。
  - expected: ていか
    patterns: て行か
-   prh: ただし、「～（場所）へ行く」は漢字。
+   prh: ただし，「～（場所）へ行く」は漢字。
  - expected: ていき
    patterns: て行き
-   prh: ただし、「～（場所）へ行く」は漢字。
+   prh: ただし，「～（場所）へ行く」は漢字。
  - expected: ていけ
    patterns: て行け
-   prh: ただし、「～（場所）へ行く」は漢字。
+   prh: ただし，「～（場所）へ行く」は漢字。
  - expected: ていこ
    patterns: て行こ
-   prh: ただし、「～（場所）へ行く」は漢字。
+   prh: ただし，「～（場所）へ行く」は漢字。
  - expected: ていただく
    patterns: て頂く
-   prh: ただし、「～（物）を頂く」は漢字。
+   prh: ただし，「～（物）を頂く」は漢字。
  - expected: ていただか
    patterns: て頂か
-   prh: ただし、「～（物）を頂く」は漢字。
+   prh: ただし，「～（物）を頂く」は漢字。
  - expected: ていただい
    patterns: て頂い
-   prh: ただし、「～（物）を頂く」は漢字。
+   prh: ただし，「～（物）を頂く」は漢字。
  - expected: ていただき
    patterns: て頂き
-   prh: ただし、「～（物）を頂く」は漢字。
+   prh: ただし，「～（物）を頂く」は漢字。
  - expected: ていただけ
    patterns: て頂け
-   prh: ただし、「～（物）を頂く」は漢字。
+   prh: ただし，「～（物）を頂く」は漢字。
  - expected: ていただこ
    patterns: て頂こ
-   prh: ただし、「～（物）を頂く」は漢字。
+   prh: ただし，「～（物）を頂く」は漢字。
  - expected: ておく
    patterns: て置く
-   prh: ただし、「～（物）を置く」は漢字。
+   prh: ただし，「～（物）を置く」は漢字。
  - expected: ておか
    patterns: て置か
-   prh: ただし、「～（物）を置く」は漢字。
+   prh: ただし，「～（物）を置く」は漢字。
  - expected: ておき
    patterns: て置き
-   prh: ただし、「～（物）を置く」は漢字。
+   prh: ただし，「～（物）を置く」は漢字。
  - expected: ておけ
    patterns: て置け
-   prh: ただし、「～（物）を置く」は漢字。
+   prh: ただし，「～（物）を置く」は漢字。
  - expected: ておこ
    patterns: て置こ
-   prh: ただし、「～（物）を置く」は漢字。
+   prh: ただし，「～（物）を置く」は漢字。
  - expected: てくださ
    patterns: て下さ
-   prh: ただし、「～（物）を下さい」は漢字。
+   prh: ただし，「～（物）を下さい」は漢字。
  - expected: てく
    patterns: て来
-   prh: ただし、「～（人）が来る」は漢字。
+   prh: ただし，「～（人）が来る」は漢字。
  - expected: てしま
    patterns: て仕舞
  - expected: てしまう
    patterns: て終う
  - expected: てみる
    patterns: て見る
-   prh: ただし、「～（物）を(見/診)る」は漢字。
+   prh: ただし，「～（物）を(見/診)る」は漢字。
  - expected: てよい
    patterns: て良い
-   prh: ただし、「～（物）が良い」は漢字。
+   prh: ただし，「～（物）が良い」は漢字。
  - expected: にすぎない
    patterns: に過ぎない
-   prh: ただし、「～が過ぎる」等は漢字。
+   prh: ただし，「～が過ぎる」等は漢字。
  - expected: にすぎず
    patterns: に過ぎず
-   prh: ただし、「～が過ぎる」等は漢字。
+   prh: ただし，「～が過ぎる」等は漢字。
  - expected: について
    patterns: に就いて
  - expected: について
@@ -1227,9 +1227,9 @@ rules:
    patterns: 稟請
  - expected: 〔お願い〕
    patterns: 懇請
- - expected: 〔周旋、あっせん〕
+ - expected: 〔周旋，あっせん〕
    patterns: 牙保
- - expected: 〔模様、色模様〕
+ - expected: 〔模様，色模様〕
    patterns: 彩紋
  - expected: 〔橋〕
    patterns: 橋梁
@@ -1338,7 +1338,7 @@ rules:
    patterns: 相まって
  - expected: あいまって
    patterns: 相俟って
- - expected: 〔支障、困難、障害〕
+ - expected: 〔支障，困難，障害〕
    patterns: 隘路
  - expected: あえて
    patterns: 敢えて
@@ -1468,8 +1468,8 @@ rules:
    patterns: 況や
  - expected: うたう
    patterns: 謳う
- - expected: のうち、
-   patterns: の内、
+ - expected: のうち，
+   patterns: の内，
  - expected: 恭し
    patterns: うやうやし
  - expected: 得るところ
@@ -1482,7 +1482,7 @@ rules:
    patterns: 云々
  - expected: お願い
    patterns: 御願い
-   prh: 「御」の読みは、オン・ゴ。
+   prh: 「御」の読みは，オン・ゴ。
  - expected: おいて
    patterns: 於いて
  - expected: おいて
@@ -1701,7 +1701,7 @@ rules:
    patterns: さまざま
  - expected: 強いて
    patterns: しいて
- - expected: 〔この方面、この社会〕
+ - expected: 〔この方面，この社会〕
    patterns: 斯界
  - expected: 〔そうでない〕
    patterns: 然らざる
@@ -1733,19 +1733,19 @@ rules:
    patterns: 充分
  - expected: しゅん工
    patterns: 竣工
- - expected: 〔その他、そのほか〕
+ - expected: 〔その他，そのほか〕
    patterns: 自余
  - expected: 〔証拠〕
    patterns: 証憑
- - expected: 〔以後、その後〕
+ - expected: 〔以後，その後〕
    patterns: 爾来
  - expected: 退ける
    patterns: 斥ける
  - expected: 記す
    patterns: 印す
- - expected: 〔真剣、熱心、まじめ〕
+ - expected: 〔真剣，熱心，まじめ〕
    patterns: 真摯
- - expected: 〔手加減、手心、取捨選択、遠慮〕
+ - expected: 〔手加減，手心，取捨選択，遠慮〕
    patterns: 斟酌
  - expected: 浸食
    patterns: 浸蝕
@@ -1753,7 +1753,7 @@ rules:
    patterns: 訊問
  - expected: 随分
    patterns: ずいぶん
- - expected: 〔成り行き、大勢、形勢、傾向〕
+ - expected: 〔成り行き，大勢，形勢，傾向〕
    patterns: 趨勢
  - expected: すぐに
    patterns: 直ぐに
@@ -1779,19 +1779,19 @@ rules:
    patterns: 折角
  - expected: 是非
    patterns: ぜひ
- - expected: 〔配慮、選考、審議〕
+ - expected: 〔配慮，選考，審議〕
    patterns: 詮議
  - expected: 選考
    patterns: 詮衡
  - expected: 扇動
    patterns: 煽動
- - expected: 〔全容、全体〕
+ - expected: 〔全容，全体〕
    patterns: 全貌
  - expected: 総合
    patterns: 綜合
  - expected: 装丁
    patterns: 装幀
- - expected: 〔賢明、賢い〕
+ - expected: 〔賢明，賢い〕
    patterns: 聡明
  - expected: そもそも
    patterns: 抑々
@@ -1848,7 +1848,7 @@ rules:
    patterns: 因ま
  - expected: ちなむ
    patterns: 因む
- - expected: 〔周密、密集〕
+ - expected: 〔周密，密集〕
    patterns: 稠密
  - expected: 注
    patterns: 註
@@ -1856,7 +1856,7 @@ rules:
    patterns: 帳尻
  - expected: ちょうど
    patterns: 丁度
- - expected: 〔はる、はり付ける〕
+ - expected: 〔はる，はり付ける〕
    patterns: 貼付
  - expected: 沈殿
    patterns: 沈澱
@@ -2016,7 +2016,7 @@ rules:
    prh: 「頃」は常用漢字（H22年～）
  - expected: ひたすら
    patterns: 只管
- - expected: 〔つまり、つまるところ〕
+ - expected: 〔つまり，つまるところ〕
    patterns: 畢竟
  - expected: 〔必要〕
    patterns: 必須
@@ -2052,7 +2052,7 @@ rules:
    patterns: 普段
  - expected: 符丁
    patterns: 符牒
- - expected: 〔一掃、除去、取り去る〕
+ - expected: 〔一掃，除去，取り去る〕
    patterns: 払拭
  - expected: 振り仮名
    patterns: ふりがな
@@ -2064,7 +2064,7 @@ rules:
    patterns: す可き
  - expected: へき地
    patterns: 僻地
- - expected: 〔激励、励ます〕
+ - expected: 〔激励，励ます〕
    patterns: 鞭撻
  - expected: 〔つづる〕
    patterns: 編綴
@@ -2078,7 +2078,7 @@ rules:
    patterns: ほまれ
  - expected: 本当
    patterns: ほんとう
- - expected: 〔突進、突き進む〕
+ - expected: 〔突進，突き進む〕
    patterns: 邁進
  - expected: 間際
    patterns: まぎわ
@@ -2267,7 +2267,7 @@ rules:
    patterns: 忽せ
  - expected: 〔要点〕
    patterns: 要訣
- - expected: よう人〔雇人、使用人〕
+ - expected: よう人〔雇人，使用人〕
    patterns: 傭人
  - expected: ようやく
    patterns: 漸く
@@ -2283,7 +2283,7 @@ rules:
    patterns: 輿論
  - expected: 〔はじまり〕
    patterns: 濫觴
- - expected: りゅうちょう〔すらすらと、よどみなく〕
+ - expected: りゅうちょう〔すらすらと，よどみなく〕
    patterns: 流暢
  - expected: 了解
    patterns: 諒解
@@ -2317,8 +2317,8 @@ rules:
    patterns: 亘って
  - expected: わびる
    patterns: 詫る
- - expected: 、
-   patterns: ，
+ - expected: ，
+   patterns: 、
  - expected: 。
    patterns: ．
  - expected: 生かさ
